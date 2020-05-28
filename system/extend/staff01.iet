@@ -1,0 +1,46 @@
+//------------------------------
+*staffroll
+[uitrans 500]
+[wt]
+
+// 初期化
+[calllua function="staffroll_start" left="0"]
+[uitrans 500]
+[wt]
+
+[calllua function="staffroll_bgm"]
+[edwait]
+
+[lyprop id="staff.r.bg" visible="1"]
+[lyprop id="staff.r.pg" visible="1"]
+//[wt]
+//[edwait]
+
+// スクロール開始
+[calllua function="staffroll_scroll" page="1"]
+[calllua function="staffroll_scroll" page="2"]
+[uitrans 3000]
+[edwait]
+[edwait]
+
+// 背景白
+[lyc id="staff.r.bg" file=":bg/white"]
+[uitrans 3000]
+[edwait]
+
+// おわり
+[lyprop id="staff.r.bg" visible="0"]
+[lyprop id="staff.r.pg" visible="0"]
+[uitrans 5000]
+[edwait]
+
+[wait time="2000"]
+
+*staffroll_exit
+[calllua function="staffroll_exit"]
+[sestop id="0"]
+[bgm stop="1" time="3000"]
+[lydel id="staff"][uitrans 3000]
+[wait time="2000"]
+[return]
+//------------------------------

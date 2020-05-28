@@ -1,0 +1,26 @@
+// タイトル画面アニメーション
+[lyprop id="500.ch" visible="0" anchorx="640" anchory="0"]
+[lyprop id="500.lo" visible="0" anchorx="340" anchory="59"]
+[lyprop id="500.d"  visible="0"]
+[uitrans 1000]
+
+// bgm開始
+[calllua function="title_bgm"]
+
+[lyprop id="500.ch" visible="1"]
+[tween id="500.ch" y="-1600,0" time="2000"]
+[tween id="500.ch" zoom="200,100" time="2000"]
+[uitrans 1000]
+
+[lyprop id="500.lo"  visible="1"]
+[tween id="500.lo" y="660,450,465,460" time="1000,1000,1000" ease="inout"]
+[uitrans 1000]
+
+[calllua function="titlecall"]
+
+[lyprop id="500.d"  visible="1"]
+[tween id="500.d" y="100,0" time="1000"]
+[flip]
+[wait time="1000"]
+
+[return]

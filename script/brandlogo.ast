@@ -1,0 +1,14 @@
+ast = {
+{
+{"brandlogo",mode="white",time=1000,wait=2000},
+{"brandlogo",file="logo"},
+{"brandlogo",file="attention"},
+{"brandlogo"},
+crc ="d86d76b2",
+lang="lang_00000",
+},
+text={
+},
+label={
+},
+}

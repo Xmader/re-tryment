@@ -1,0 +1,22 @@
+// タイトル画面アニメーション
+[lyprop id="500.brlo" alpha="0"]
+[lyprop id="500.d" alpha="0"]
+[video file="movie/hd/title.ogv" id="ttl"]
+[flip]
+[calllua function="title_bgm"]
+[wait time="7000"]
+[lydel id="ttl"]
+[trans time="1000"]
+[lytween id="500.bg" param="xscale" from="100" to="96" time="9000"]
+[lytween id="500.bg" param="yscale" from="100" to="96" time="9000"]
+[lytween id="500.brlo" param="alpha" from="0" to="255" time="1000" delay="333"]
+[lytween id="500.d" param="alpha" from="0" to="255" time="1000" delay="333"]
+[wait time="333"]
+[video file="movie/hd/sakura.ogv" id="500.z" loop="-1"]
+[trans time="1000"]
+
+// bgm開始
+
+[calllua function="titlecall"]
+[wait time="1000"]
+[return]
