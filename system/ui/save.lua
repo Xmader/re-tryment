@@ -187,7 +187,9 @@ function saveload_init()
 			tttx = string.sub(tttx,0,init.save_message_max*3)
 			tttl = tttl:gsub("{_}"," ") 
 			lydel2(id..'.-1')
-			local ttlfile = game.path.ui.."save/title/"..string.sub(t.scfile,0,5)..".png" -- ファイル名を5文字に変更
+			local sc_file = split(t.scfile,"_")
+			sc_file =sc_file[1].."_"..sc_file[2]
+			local ttlfile = game.path.ui.."save/title/"..sc_file..".png" -- ファイル名を5文字に変更
 			local tickerfile = game.path.ui.."save/title/"..t.scfile.."@t.png"
 			-- タイトルファイルがあったら配置しておく
 			if e:isFileExists(ttlfile) then

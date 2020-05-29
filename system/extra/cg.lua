@@ -67,7 +67,7 @@ function exf.cgpage()
 		end
 
 		local m = #px
-		for i=1, m do
+		for i=1, 3 do
 			local name = "page"..string.format("%02d", i)
 			if i == char then
 				setBtnStat(name, 'c')

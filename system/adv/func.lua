@@ -79,6 +79,13 @@ end
 function set_caption(n)
 	if game.trueos == "windows" then
 		local tx = getTrial() and init.game_trialtitle or init.game_title
+		e:tag{"callnative",result="t.locale",module="get_system_default_lang.dll",method="getSystemLocale",param=""}
+		local s = e:var("t.locale")
+		local lang = s:sub(0,2)
+		if lang == "zh" then if s:sub(-2) == "tw" or s:sub(-2) == "TW" then lang = "tw" else lang = "cn" end end
+		init.game_title_cn = "TrymenT 献给渴望改变的你 AlphA"
+		init.game_title_tw = "TrymenT 獻給渴望改變的你 AlphA"
+		if lang ~= "ja" and init["game_title_"..lang] then tx = init["game_title_"..lang] end
 		if init.game_ver == "on" and init.game_ver_windows then tx = tx.." - Ver"..init.game_ver_windows end
 
 		local tt = scr and scr.adv and scr.adv.title

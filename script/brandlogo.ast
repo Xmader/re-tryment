@@ -2,9 +2,11 @@ ast = {
 {
 {"brandlogo",mode="white",time=1000,wait=2000},
 {"brandlogo",file="logo"},
+{"brandlogo",file="logo_hf"},
 {"brandlogo",file="attention"},
+{"keyskip"},
 {"brandlogo"},
-crc ="d86d76b2",
+crc ="e65477e9",
 lang="lang_00000",
 },
 text={

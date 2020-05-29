@@ -16,14 +16,14 @@ function exf.bginit()
 	-- 曲名取得 / 番号順に並べる
 --	local path = game.path.ui.."extra/bgmnm01"
 	local tbl = {}
-	local flag = init.extrabgm_flag == "all" and 1
+	local flag = init.extrabgm_flag == "all" and false
 	for i, v in pairs(csv.extra_bgm) do
 		local no = tn(v[1])
 		if no and no > 0 then
-			appex.bgmd[no] = { file=i, no=(no), text=(v[3]), flag=(flag or gscr.bgm[i]) }
+			appex.bgmd[no] = { file=i, no=(no), text=(v[3]), flag=(gscr.bgm[i]) }
 				
 			-- title
-			if flag or gscr.bgm[i] then
+			if gscr.bgm[i] then
 				tttl = v[3]
 			end
 		end
@@ -75,14 +75,15 @@ end
 function exf.musicpage()
 	local pg = appex.bgmd.pg
 	local max = init.ex_bgm_num_max or 30
-	local max_page = math.ceil(#appex.bgmd/max) 
-	local flag = true
+	local max_page = 2
+	local flag = false
 	if appex.bgmd.no then
 	-- 現在再生中のボタンを通常状態へ変更
-		local nm = "bgm"..string.format("%02d", appex.bgmd.no)
-		local v  = getBtnInfo(nm)
-		tag{"lyprop", id=(v.idx..".0"), clip=(v["clip"])}
-		exf.musictitle()
+		for i=1,max do
+			local nm = "bgm"..string.format("%02d", i)
+			local v  = getBtnInfo(nm)
+			tag{"lyprop", id=(v.idx..".0"), clip=(v["clip"])}
+		end
 	end
 	local path = game.path.ui.."extra/music/list/"
 	for i=1,max_page do
@@ -92,31 +93,36 @@ function exf.musicpage()
 			setBtnStat(("page"..string.format("%02d", i)))
 		end
 	end
-	for i=max_page+1,10 do
-		local btn = getBtnInfo(("page"..string.format("%02d", i)))
-		e:tag{"lydel",id=(btn.idx)}
-	end
+	-- for i=max_page+1,10 do
+	-- 	local btn = getBtnInfo(("page"..string.format("%02d", i)))
+	-- 	e:tag{"lydel",id=(btn.idx)}
+	-- end
 	for i=1, max do
 		local no = i + (pg-1)*max
 		local id = getBtnID("bgm"..string.format("%02d", i))
 		tag{"lydel",id=(id..'.23')}
-		if flag or gscr.bgm[no] then
-			local tttl  = "track"..string.format("%02d", no)
-			if e:isFileExists(path..tttl..".png") then lyc2{id=(id..'.23'),file=(path..tttl),x=(22),y=(15)} end
+		if appex.bgmd[no] and appex.bgmd[no].flag then
+			local tttl = appex.bgmd[no].file
+			local track = split(tttl,"_")  
+			setBtnStat("bgm"..string.format("%02d", i),nil)
+			if e:isFileExists(path..track[1]..".png") then lyc2{id=(id..'.23'),file=(path..track[1]),x=(22),y=(15)} end
+		else
+			setBtnStat("bgm"..string.format("%02d", i),"d")
 		end
 	end
 	
+	if appex.bgmd.no then exf.musictitle() end
 	uitrans(500)
 end
 ----------------------------------------
 -- 再生停止
 function exf.musicreset()
-	local p  = appex.bgmd
-	local no = p.no
-	if no then
-		local nm = "bgm"..string.format("%02d", no)
-		--setBtnStat(nm, nil)
-	end
+	-- local p  = appex.bgmd
+	-- local no = p.no
+	-- if no then
+	-- 	local nm = "bgm"..string.format("%02d", no)
+	-- 	setBtnStat(nm, nil)
+	-- end
 end
 ----------------------------------------
 -- 曲名
@@ -129,10 +135,12 @@ function exf.musictitle(flag)
 	if p.no > max then bid = p.no - max * (pg - 1) end
 	local fl = getplaybgmfile()
 	-- 再生中ボタン
-	local nm = "bgm"..string.format("%02d", no)
-	local v  = getBtnInfo(nm)
-	local bx = not appex.bgmd.play and "clip_a" or flag and "clip_d" or "clip_c"
-	if pg * max >= no and no > (pg-1)*max then tag{"lyprop", id=(v.idx..".0"), clip=(v[bx])} end
+	if pg * max >= no and no > (pg-1)*max then 
+		local nm = "bgm"..string.format("%02d", bid)
+		local v  = getBtnInfo(nm)
+		local bx = not appex.bgmd.play and "clip_a" or flag and "clip_d" or "clip_c"
+		tag{"lyprop", id=(v.idx..".0"), clip=(v[bx])} 
+	end
 --[[
 	if fl then
 		local nm = "bgm"..string.format("%02d", no)
@@ -175,8 +183,9 @@ function extra_btmbtn_over(e, p)
 	local v  = getBtnInfo(bt)
 	local p  = appex.bgmd
 	local no = p.no
-	if appex.bgmd.play and no == tn(v.p2) then
-		e:tag{"lyprop", id=(v.idx..".0"), clip=(v.clip_d)}
+	local num = no - 30 * (p.pg - 1)
+	if appex.bgmd.play and num == tn(v.p2) then
+		e:tag{"lyprop", id=(v.idx..".0"), clip=(v.clip_c)}
 	else
 	--	tween{id=(v.idx), time="250",alpha="255,165"}
 	end
@@ -188,7 +197,8 @@ function extra_btmbtn_out(e, p)
 	local v  = getBtnInfo(bt)
 	local p  = appex.bgmd
 	local no = p.no
-	if appex.bgmd.play and no == tn(v.p2) then
+	local num = no - 30 * (p.pg - 1)
+	if appex.bgmd.play and num == tn(v.p2) then
 		e:tag{"lyprop", id=(v.idx..".0"), clip=(v.clip_c)}
 	else
 	--	tween{id=(v.idx), time="250",alpha="165,255"}
@@ -204,12 +214,14 @@ function exf.clickbgm(num)
 	local max = p.max
 	local pg  = p.pg
 	local no  = (pg - 1)* 30 + num
-	if no > max then no = max end
 
 	-- 現在再生中のボタンを通常状態へ変更
-	local nm = "bgm"..string.format("%02d", appex.bgmd.no)
-	local v  = getBtnInfo(nm)
-	tag{"lyprop", id=(v.idx..".0"), clip=(v["clip"])}
+	for i=1,30 do
+		local nm = "bgm"..string.format("%02d", i)
+		local v  = getBtnInfo(nm)
+		tag{"lyprop", id=(v.idx..".0"), clip=(v["clip"])}
+	end
+
 
 	se_ok()
 	exf.musicreset()

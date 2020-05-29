@@ -1328,6 +1328,9 @@ function config_default()
 
 	-- バッファクリア
 	local def = conf and conf.dlg_reset
+	local lng = nil
+	if conf then lng = conf.language end 
+	if not lng then lng = init.config_language end
 	conf = {}
 	config_dialogreset()
 	conf.keys = {}		-- keyconfig [key] = name
@@ -1402,7 +1405,7 @@ function config_default()
 	conf.fl_bgv		= init.config_on_bgv			-- on/off 
 	conf.fl_bgmvo	= init.config_on_bgmvo			-- on/off 
 	conf.fl_movie	= init.config_on_movie			-- on/off Movie
-	conf.language   = init.config_language			-- ja / en / cn language
+	conf.language   = lng							-- ja / en / cn language
 	conf.voiceskip	= init.config_voiceskip			-- クリックで音声を停止する
 	conf.bgmvfade	= init.config_bgm_vfade			-- on/off ボイス再生時BGM音量制御
 	conf.bgmvoice	= init.config_bgm_voice			-- ボイス再生時のBGM音量

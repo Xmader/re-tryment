@@ -1,7 +1,17 @@
 // タイトル画面アニメーション
+[lua]
+function set_title_movie()
+    local name ="movie/hd/title"
+    if conf.language ~= "ja" then
+        name = name.."_"..conf.language
+    end 
+    e:tag{"video",id="ttl",file=(name..".ogv")}
+end
+[/lua]
 [lyprop id="500.brlo" alpha="0"]
 [lyprop id="500.d" alpha="0"]
-[video file="movie/hd/title.ogv" id="ttl"]
+[calllua function="set_title_movie"]
+//[video file="movie/hd/title.ogv" id="ttl"]
 [flip]
 [calllua function="title_bgm"]
 [wait time="7000"]

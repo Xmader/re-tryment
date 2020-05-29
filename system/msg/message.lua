@@ -338,6 +338,7 @@ end
 function exfont(p)
 	local sz = p.size
 	local co = p.color
+	local oco = p.outlinecolor
 	local h = nil
 	-- 閉じる
 	if not sz and not co then
@@ -349,7 +350,7 @@ function exfont(p)
 		local s = sz and sz:sub(1, 1) == 'f' and tn(sz:sub(2))
 		if s then sz = math.floor(getFontSize() * init.fontsize[s] / 100) end
 		if sz and conf.language == "ja" then h = 7 else h = 21 end
-		tag{"font", size=(sz), color=(co) ,rubysize=(h)}
+		tag{"font", size=(sz), color=(co),outlinecolor=(oco) ,rubysize=(h)}
 		if sz then scr.fsize = sz end
 	end
 end

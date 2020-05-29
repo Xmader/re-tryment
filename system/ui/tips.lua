@@ -5,12 +5,14 @@ function tips_init()
 	message("通知", "Library画面を開きました")
 	if not flg.tips then flg.tips = {page=1,viewer=false,btn={}} end
 	csvbtn3("tips", "500", csv.ui_tips)
-
+	local tips ={}
 	for name, v in pairs(csv.extra_tips) do
 		if gscr.tips[name] then
-			flg.tips.btn[tn(v[1])] = v[2]
+			table.insert(tips,{id=v[1],file=v[2]})
 		end
 	end
+	table.sort(tips,function(a,b) return a.id < b.id end)
+	flg.tips.btn = tips
 	tips_init_button()
 	uiopenanime()
 	uitrans()
@@ -39,12 +41,12 @@ function tips_init_button()
 	local path = game.path.ui.."tips/thum/"
 	-- 本文生成
 	for i=1, init.tips_column do
-		local no = pg + i
+		local no = get_tips_no(pg + i)
 		local t = flg.tips.btn[no]
 
 		-- tips開放済み
 		if t then
-			lyc2{id=(id..i..".char"),file=(path..t)}
+			lyc2{id=(id..i..".char"),file=(path..t.file)}
 		else
 			setBtnStat(("ch"..string.format("%02d", i)),"c")
 		end
@@ -131,6 +133,11 @@ end
 ------------------------------------------------
 -- viewer周辺動作
 ------------------------------------------------
+function get_tips_no(id)
+	for i,v in ipairs(flg.tips.btn) do 
+		if v.id == id then return i end
+	end
+end
 ------------------------------------------------
 -- 開く
 function tips_viewer_open(id)
@@ -140,12 +147,11 @@ function tips_viewer_open(id)
 	-- クリックしたTipsを展開しておく
 	local nb = flg.tips.page				-- ページ番号
 	local pg = (nb-1) * init.tips_column	-- ページ先頭を計算
-	local no = pg+id
+	local no = get_tips_no(pg+id)
 	local path =  game.path.ui.."tips/data/"
 	local img = csv.mw.tips
 	flg.tips.current_pos = no -- 現在見ているtipsの位置
-	message(path..flg.tips.btn[no])
-	lyc2{id=("501.img"),file=(path..flg.tips.btn[no])}
+	lyc2{id=("501.img"),file=(path..flg.tips.btn[no].file)}
 	uitrans()
 end
 ------------------------------------------------
@@ -159,30 +165,28 @@ end
 -----------------------------------------------
 --  次へ
 function tips_viewer_next()
-	local no = flg.tips.current_pos
-	local idx = next(flg.tips.btn,no)
+	local no = flg.tips.current_pos + 1
+	if no > #flg.tips.btn then no = 1 end
+	local t = flg.tips.btn[no]
 	local path =  game.path.ui.."tips/data/"
 	local img = csv.mw.tips
-	if idx then
-		flg.tips.current_pos = idx
-		lyc2{id=("501.img"),file=(path..flg.tips.btn[idx])}
+	if t then
+		flg.tips.current_pos = no
+		lyc2{id=("501.img"),file=(path..t.file)}
 		trans({time=500})
 	end
 end
 -----------------------------------------------
 --  前へ
 function tips_viewer_prev()
-	local no = flg.tips.current_pos
-	local max = table.maxn(flg.tips.btn)
-	local idx = nil 
-	for i=no-1,1,-1 do
-		if flg.tips.btn[i] then idx = i break end
-	end
+	local no = flg.tips.current_pos - 1
+	if no < 1 then no = #flg.tips.btn end
+	local t = flg.tips.btn[no]
 	local path =  game.path.ui.."tips/data/"
 	local img = csv.mw.tips
-	if idx then
-		flg.tips.current_pos = idx
-		lyc2{id=("501.img"),file=(path..flg.tips.btn[idx])}
+	if t then
+		flg.tips.current_pos = no
+		lyc2{id=("501.img"),file=(path..t.file)}
 		trans({time=500})
 	end
 end

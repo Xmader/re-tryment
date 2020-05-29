@@ -127,6 +127,7 @@ function system_loadinglua()
 		windows = { pa=1, sh=1 },
 		android = { pa=1 },
 		ios		= { pa=1 },
+		iphone		= { pa=1 },
 		vita	= { cs=1, sh=1, ps=1 },
 		ps4		= { cs=1, sh=1, ps=1 },
 		switch	= { cs=1 },

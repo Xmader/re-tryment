@@ -51,9 +51,10 @@ crc ="f4b4ff91",
 lang="lang_00006",
 },
 {
+{"fg",ch="織鶴",eb="b0001",ey="b0024",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=9,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=-280},
 {"fg",ch="翔",eb="b0001",ey="b0008",face="b0001",file="tkakeru_nob0100",head="tkakeru_nob",id=12,lv=3,mo="b0006",mode=3,path=":fg/kakeru/no/",x=230},
 {"text"},
-crc ="ff0894c8",
+crc ="3a015563",
 lang="lang_00007",
 },
 {
@@ -136,8 +137,9 @@ vl1={
 },
 },
 {
+{"fg",ch="翔",eb="c0004",ey="c0001",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/kakeru/no/",x=-320},
 {"text"},
-crc ="799cd8ab",
+crc ="6f7cd59f",
 lang="lang_00018",
 },
 {
@@ -160,8 +162,9 @@ vl1={
 },
 {
 {"fg",ch="翔",eb="c0004",ey="c0001",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0001",ey="b0002",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="a542260c",
+crc ="3ebdcf71",
 lang="lang_00021",
 },
 {
@@ -204,8 +207,9 @@ lang="lang_00026",
 },
 {
 {"fg",ch="翔",eb="c0004",ey="c0021",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0001",ey="b0005",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="c2bdcc6a",
+crc ="a08ae716",
 lang="lang_00027",
 },
 {
@@ -232,8 +236,9 @@ lang="lang_00029",
 },
 {
 {"fg",ch="翔",eb="c0005",ey="c0012",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0001",ey="b0002",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="ef8e24ce",
+crc ="5b5b6e40",
 lang="lang_00030",
 delay={
 vl1={
@@ -289,8 +294,9 @@ lang="lang_00035",
 },
 {
 {"fg",ch="翔",eb="c0001",ey="c0009",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0001",ey="b0009",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="acf4ac64",
+crc ="f2555ac",
 lang="lang_00036",
 },
 {
@@ -320,8 +326,9 @@ crc ="5f0d43e1",
 lang="lang_00040",
 },
 {
+{"fg",ch="翔",eb="c0001",ey="c0009",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/kakeru/no/",x=-320},
 {"text"},
-crc ="799cd8ab",
+crc ="29c6be90",
 lang="lang_00041",
 },
 {
@@ -407,8 +414,9 @@ vl1={
 },
 {
 {"fg",ch="翔",eb="c0001",ey="c0008",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0003",ey="b0009",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="501c7a09",
+crc ="3f301fcd",
 lang="lang_00051",
 },
 {
@@ -418,21 +426,19 @@ crc ="d9c6119f",
 lang="lang_00052",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",speed=20000,x=320,x2=220},
 {"se",file="cloth2",id=1},
 {"text"},
-crc ="c6337ddb",
+crc ="5a281b9",
 lang="lang_00053",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="bg_16_1c",path=":bg/",sync=0},
 {"fg",ch="織鶴",eb="b0001",ey="b0008",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0006",mode=3,mx=0,my=0,path=":fg/oritsuru/no/",size="no",sync=0,x=320},
 {"fg",ch="翔",eb="c0001",ey="c0027",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0001",mode=3,mx=0,my=0,path=":fg/kakeru/no/",size="no",sync=0,x=-320},
 {"extrans",time=500},
 {"text"},
-crc ="558e8454",
+crc ="856b9ae6",
 lang="lang_00054",
 },
 {
@@ -443,8 +449,9 @@ lang="lang_00055",
 },
 {
 {"fg",ch="翔",eb="c0001",ey="c0001",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0004",ey="b0002",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="b86fc4c6",
+crc ="75e69e0e",
 lang="lang_00056",
 },
 {
@@ -453,9 +460,9 @@ crc ="799cd8ab",
 lang="lang_00057",
 },
 {
-{"fg",ch="織鶴",eb="b0001",ey="b0002",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
+{"fg",ch="織鶴",eb="b0001",ey="b0005",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="937c4fd4",
+crc ="bf664fcf",
 lang="lang_00058",
 delay={
 vl1={
@@ -465,8 +472,9 @@ vl1={
 },
 {
 {"fg",ch="翔",eb="c0001",ey="c0008",face="c0001",file="tkakeru_noc0100",head="tkakeru_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/kakeru/no/",x=-320},
+{"fg",ch="織鶴",eb="b0003",ey="b0008",face="b0001",file="toritsuru_nob0100",head="toritsuru_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
-crc ="501c7a09",
+crc ="22fa6ad3",
 lang="lang_00059",
 },
 {
@@ -513,15 +521,14 @@ crc ="d3d1679e",
 lang="lang_00065",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=544,y2=720},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_14_1d",id=1,lv=1,path=":bg/",speed=96000,sync=0,x=-320,x2=320},
-{"extrans",time=500},
+{"extrans",time=1000},
 {"se",id=1,file="autodoor"},
 {"text"},
-crc ="237c382a",
+crc ="6f716a5",
 lang="lang_00066",
 },
 {
@@ -915,13 +922,12 @@ crc ="3bfdc7e7",
 lang="lang_00116",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"ex",time=1,func="wait"},
+{"bg",file="black",path=":bg/"},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_06_1a",path=":bg/",speed=64000,x=320,x2=-320},
 {"se",id=1,file="ft_room_fm1"},
 {"se",id=2,file="ft_whel_3"},
 {"text"},
-crc ="79bc48b9",
+crc ="c90e3175",
 lang="lang_00117",
 },
 {
@@ -942,9 +948,10 @@ crc ="54135212",
 lang="lang_00119",
 },
 {
+{"fg",ch="織鶴",eb="b0001",ey="b0011",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=11,lv=2,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=-170},
 {"fg",ch="喜羽",eb="b0001",ey="b0002",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0004",mode=3,path=":fg/kiba/no/",x=490},
 {"text"},
-crc ="5205505e",
+crc ="8c8f7ecf",
 lang="lang_00120",
 },
 {
@@ -1053,8 +1060,9 @@ lang="lang_00135",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ey="b0009",face="b0001",file="tayame_nob0030",head="tayame_nob",id=11,lv=3,mo="b0011",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="d9f85915",
+crc ="d88fc34f",
 lang="lang_00136",
 },
 {
@@ -1106,15 +1114,16 @@ lang="lang_00142",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0024",face="b0001",file="tayame_nob0030",head="tayame_nob",id=11,lv=3,mo="b0001",mode=3,path=":fg/ayame/no/",x=-190},
-{"fg",ch="喜羽",eb="b0005",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/kiba/no/",x=320},
+{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="5c6de53c",
+crc ="72890b3d",
 lang="lang_00143",
 },
 {
 {"fg",ch="あやめ",eb="b0004",ey="b0020",face="b0001",file="tayame_nob0030",head="tayame_nob",id=11,lv=3,mo="b0007",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="f84574cd",
+crc ="566173eb",
 lang="lang_00144",
 },
 {
@@ -1131,14 +1140,16 @@ vl1={
 },
 {
 {"fg",ch="あやめ",eb="b0004",ey="b0021",face="b0001",file="tayame_nob0030",head="tayame_nob",id=11,lv=3,mo="b0011",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/kiba/no/",x=320},
 {"se",file="cloth10",id=1},
 {"text"},
-crc ="9948d621",
+crc ="c83ea370",
 lang="lang_00146",
 },
 {
+{"fg",ch="あやめ",eb="b0004",ey="b0021",face="b0001",file="tayame_nob0030",head="tayame_nob",id=11,lv=3,mo="b0006",mode=3,path=":fg/ayame/no/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="fc650c0d",
 lang="lang_00147",
 },
 {
@@ -1148,24 +1159,24 @@ crc ="34303723",
 lang="lang_00148",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_06_1a",path=":bg/",speed=96000,x=-320,x2=320},
 {"se",file="ft_room_m4",id=1},
 {"text"},
-crc ="b2d4cbd6",
+crc ="819010ae",
 lang="lang_00149",
 },
 {
 {"bg",file="bg_06_1a",path=":bg/",sync=0},
-{"fg",ch="あやめ",eb="c0001",ey="c0001",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0006",mode=3,mx=0,my=0,path=":fg/ayame/no/",size="no",sync=0,x=-320},
+{"fg",ch="あやめ",eb="c0001",ey="c0001",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0007",mode=3,mx=0,my=0,path=":fg/ayame/no/",size="no",sync=0,x=-320},
 {"extrans",time=500},
 {"text"},
-crc ="69c7c4",
+crc ="6aac5293",
 lang="lang_00150",
 },
 {
+{"fg",ch="あやめ",eb="c0001",ey="c0001",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/ayame/no/",x=-320},
 {"text"},
-crc ="799cd8ab",
+crc ="8d8d001",
 lang="lang_00151",
 },
 {
@@ -1333,14 +1344,16 @@ crc ="e3ceaf13",
 lang="lang_00175",
 },
 {
+{"fg",ch="あやめ",eb="b0004",ey="b0021",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0006",mode=3,path=":fg/ayame/no/",x=-190},
 {"fg",ch="喜羽",eb="b0003",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="e97e6067",
+crc ="2c338a5c",
 lang="lang_00176",
 },
 {
+{"fg",ch="喜羽",eb="b0003",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="799cd8ab",
+crc ="afac5503",
 lang="lang_00177",
 },
 {
@@ -1350,15 +1363,17 @@ crc ="352abd41",
 lang="lang_00178",
 },
 {
+{"fg",ch="あやめ",eb="b0001",ey="b0024",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0001",mode=3,path=":fg/ayame/no/",x=-190},
 {"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0002",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="ea0927d1",
+crc ="6e87a78d",
 lang="lang_00179",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0006",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0001",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="1be77786",
+crc ="894c7eab",
 lang="lang_00180",
 },
 {
@@ -1406,8 +1421,9 @@ crc ="2756e22f",
 lang="lang_00186",
 },
 {
+{"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="799cd8ab",
+crc ="5a1ca1c5",
 lang="lang_00187",
 },
 {
@@ -1417,20 +1433,23 @@ crc ="b5a32f22",
 lang="lang_00188",
 },
 {
+{"fg",ch="あやめ",eb="b0001",ey="b0006",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=-190},
 {"fg",ch="喜羽",eb="b0003",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="e97e6067",
+crc ="457e88ce",
 lang="lang_00189",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ey="b0009",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0011",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0003",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="4262e3fa",
+crc ="19cf38bb",
 lang="lang_00190",
 },
 {
+{"fg",ch="あやめ",eb="b0003",ey="b0009",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="f50b7d6e",
 lang="lang_00191",
 },
 {
@@ -1441,19 +1460,19 @@ crc ="f8af2a7c",
 lang="lang_00192",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_06_1a",path=":bg/",sync=0},
 {"fg",ch="あやめ",eb="b0001",ey="b0006",face="b0001",file="tayame_z1b0000",head="tayame_z1b",id=11,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/ayame/z1/",resize=1,size="z1",sync=0,x=-190},
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_z1b0000",head="tkiba_z1b",id=12,lv=2,mo="b0003",mode=3,mx=0,my=0,path=":fg/kiba/z1/",resize=1,size="z1",sync=0,x=190},
 {"extrans",time=500},
 {"text"},
-crc ="790fa98b",
+crc ="1f30ecce",
 lang="lang_00193",
 },
 {
 {"fg",ch="あやめ",eb="b0005",ey="b0009",face="b0001",file="tayame_z1b0000",head="tayame_z1b",id=11,lv=4,mo="b0006",mode=3,path=":fg/ayame/z1/",x=-190},
+{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_z1b0000",head="tkiba_z1b",id=12,lv=2,mo="b0001",mode=3,path=":fg/kiba/z1/",x=190},
 {"text"},
-crc ="e23f3dfd",
+crc ="f1376eeb",
 lang="lang_00194",
 },
 {
@@ -1486,8 +1505,9 @@ crc ="78cc96e4",
 lang="lang_00199",
 },
 {
+{"fg",ch="喜羽",eb="b0004",ey="b0002",face="b0001",file="tkiba_z1b0000",head="tkiba_z1b",id=12,lv=2,mo="b0005",mode=3,path=":fg/kiba/z1/",x=190},
 {"text"},
-crc ="799cd8ab",
+crc ="3e1ea380",
 lang="lang_00200",
 },
 {
@@ -1522,14 +1542,14 @@ lang="lang_00204",
 },
 {
 {"fg",ch="あやめ",eb="b0004",ey="b0021",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0008",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="33153448",
+crc ="94637d33",
 lang="lang_00205",
 },
 {
-{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="b9945deb",
+crc ="799cd8ab",
 lang="lang_00206",
 },
 {
@@ -1577,8 +1597,9 @@ lang="lang_00213",
 },
 {
 {"fg",ch="あやめ",eb="b0004",ey="b0021",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0006",mode=3,path=":fg/ayame/no/",x=-190},
+{"fg",ch="喜羽",eb="b0003",ey="b0005",face="b0001",file="tkiba_nob0010",head="tkiba_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="67ffb6e2",
+crc ="c49944b7",
 lang="lang_00214",
 },
 {
@@ -1631,9 +1652,10 @@ crc ="d8ed5277",
 lang="lang_00221",
 },
 {
+{"fg",ch="あやめ",eb="b0001",ey="b0021",face="b0001",file="tayame_nob0000",head="tayame_nob",id=11,lv=3,mo="b0001",mode=3,path=":fg/ayame/no/",x=-190},
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=10,lv=3,mo="b0004",mode=3,path=":fg/kiba/no/",x=320},
 {"text"},
-crc ="8425b137",
+crc ="5756716c",
 lang="lang_00222",
 },
 {
@@ -1641,9 +1663,9 @@ lang="lang_00222",
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1,x=0,x2=0,y=544,y2=720},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_06_1a",id=1,lv=1,path=":bg/",sync=0},
-{"extrans",time=0},
+{"extrans",time=500},
 {"text"},
-crc ="f3e2c100",
+crc ="eaed7e68",
 lang="lang_00223",
 },
 {
@@ -1656,16 +1678,15 @@ crc ="c6c1f072",
 lang="lang_00224",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
 {"bg",file="bg_06_1a",path=":bg/",sync=0},
 {"fg",ch="あやめ",eb="b0001",ey="b0001",face="b0001",file="tayame_nob0000",head="tayame_nob",id=10,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/ayame/no/",size="no",sync=0,x=340},
 {"fg",ch="喜羽",eb="b0005",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=2,mo="b0005",mode=3,mx=0,my=0,path=":fg/kiba/no/",size="no",sync=0,x=490},
 {"fg",ch="織鶴",eb="c0001",ey="c0002",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=11,lv=2,mo="c0001",mode=3,mx=0,my=0,path=":fg/oritsuru/no/",size="no",sync=0,x=-220},
 {"fg",ch="翔",eb="c0001",ey="c0002",face="c0001",file="tkakeru_noc0000",head="tkakeru_noc",id=7,lv=3,mo="c0006",mode=3,mx=0,my=0,path=":fg/kakeru/no/",size="no",sync=0,x=-480},
-{"extrans",time=500},
+{"extrans",time=1000},
 {"text"},
-crc ="f26aba10",
+crc ="183ee0bd",
 lang="lang_00225",
 },
 {
@@ -1688,15 +1709,17 @@ lang="lang_00228",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ey="b0008",face="b0001",file="tayame_nob0000",head="tayame_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ayame/no/",x=340},
+{"fg",ch="喜羽",eb="b0003",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=2,mo="b0005",mode=3,path=":fg/kiba/no/",x=490},
 {"text"},
-crc ="9eebba17",
+crc ="e004bfbc",
 lang="lang_00229",
 },
 {
+{"fg",ch="あやめ",eb="b0003",ey="b0008",face="b0001",file="tayame_nob0000",head="tayame_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=340},
 {"fg",ch="翔",eb="c0001",ey="c0012",face="c0001",file="tkakeru_noc0010",head="tkakeru_noc",id=7,lv=3,mo="c0002",mode=3,path=":fg/kakeru/no/",x=-480},
 {"se",file="cloth2",id=1},
 {"text"},
-crc ="7d1dd800",
+crc ="437729f0",
 lang="lang_00230",
 },
 {
@@ -1764,8 +1787,9 @@ crc ="d6c3915b",
 lang="lang_00237",
 },
 {
+{"fg",ch="喜羽",eb="b0003",ey="b0008",face="b0001",file="tkiba_nob0010",head="tkiba_nob",id=8,lv=2,mo="b0005",mode=3,path=":fg/kiba/no/",x=490},
 {"text"},
-crc ="799cd8ab",
+crc ="e77a7436",
 lang="lang_00238",
 },
 {
@@ -1782,9 +1806,10 @@ vl1={
 },
 },
 {
+{"fg",ch="織鶴",eb="c0001",ey="c0011",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=11,lv=2,mo="c0001",mode=3,path=":fg/oritsuru/no/",x=-220},
 {"fg",ch="あやめ",eb="b0001",ey="b0005",face="b0001",file="tayame_nob0000",head="tayame_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ayame/no/",x=340},
 {"text"},
-crc ="27a4a04a",
+crc ="5b7b3f7c",
 lang="lang_00240",
 delay={
 vl1={
@@ -1840,8 +1865,9 @@ vl1={
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0013",face="b0001",file="tayame_nob0000",head="tayame_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ayame/no/",x=340},
+{"fg",ch="織鶴",eb="c0001",ey="c0011",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=11,lv=2,mo="c0001",mode=3,path=":fg/oritsuru/no/",x=-220},
 {"text"},
-crc ="a70845be",
+crc ="3e607aec",
 lang="lang_00247",
 },
 {
@@ -1878,16 +1904,11 @@ crc ="d4e29dc3",
 lang="lang_00252",
 },
 {
-{"text"},
-crc ="799cd8ab",
-lang="lang_00253",
-},
-{
 {"fg",mx=0,my=0,mode=-2},
 {"se",file="cloth6",id=1},
 {"text"},
 crc ="ecec2705",
-lang="lang_00254",
+lang="lang_00253",
 },
 {
 {"fg",ch="織鶴",eb="c0002",ey="c0009",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=13,lv=3,mo="c0002",mode=3,mx=0,my=0,path=":fg/oritsuru/no/",size="no",sync=0,x=0},
@@ -1896,19 +1917,19 @@ lang="lang_00254",
 {"extrans",time=500},
 {"text"},
 crc ="e15f07ae",
-lang="lang_00255",
+lang="lang_00254",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0011",face="b0001",file="tayame_nob0000",head="tayame_nob",id=10,lv=3,mo="b0002",mode=3,path=":fg/ayame/no/",x=340},
 {"text"},
 crc ="1ff6061b",
-lang="lang_00256",
+lang="lang_00255",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"text"},
 crc ="ab9941dc",
-lang="lang_00257",
+lang="lang_00256",
 },
 {
 {"fg",ch="織鶴",eb="b0001",ey="b0002",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0001",mode=3,mx=0,my=0,path=":fg/oritsuru/no/",size="no",sync=0,x=140},
@@ -1916,58 +1937,58 @@ lang="lang_00257",
 {"extrans",time=500},
 {"text"},
 crc ="e83a2b0c",
-lang="lang_00258",
+lang="lang_00257",
 },
 {
 {"fg",ch="織鶴",eb="b0005",ey="b0012",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0006",mode=3,path=":fg/oritsuru/no/",x=140},
 {"se",file="cloth10",id=1},
 {"text"},
 crc ="68a729ea",
-lang="lang_00259",
+lang="lang_00258",
 },
 {
 {"fg",ch="織鶴",eb="b0002",ey="b0008",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0003",mode=3,path=":fg/oritsuru/no/",x=140},
 {"text"},
 crc ="f42b6e25",
-lang="lang_00260",
+lang="lang_00259",
 },
 {
+{"fg",ch="織鶴",eb="b0002",ey="b0008",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=140},
 {"fg",ch="翔",eb="c0001",ey="c0008",face="c0001",file="tkakeru_noc0000",head="tkakeru_noc",id=7,lv=3,mo="c0009",mode=3,mx=-40,my=0,path=":fg/kakeru/no/",size="no",time=500,x=-480},
 {"se",file="ft_room_f3",id=1},
 {"text"},
-crc ="3875506f",
-lang="lang_00261",
+crc ="dbd1d588",
+lang="lang_00260",
 },
 {
 {"fg",ch="織鶴",eb="b0002",ey="b0002",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0008",mode=3,path=":fg/oritsuru/no/",x=140},
 {"fg",ch="翔",eb="c0001",ey="c0004",face="c0001",file="tkakeru_noc0000",head="tkakeru_noc",id=7,lv=3,mo="c0007",mode=3,path=":fg/kakeru/no/",x=-480},
 {"text"},
 crc ="4418acd8",
-lang="lang_00262",
+lang="lang_00261",
 },
 {
 {"fg",ch="織鶴",eb="b0002",ey="b0006",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0004",mode=3,path=":fg/oritsuru/no/",x=140},
 {"fg",ch="翔",eb="c0002",ey="c0006",face="c0001",file="tkakeru_noc0000",head="tkakeru_noc",id=7,lv=3,mo="c0008",mode=3,path=":fg/kakeru/no/",x=-480},
 {"text"},
 crc ="dda48e67",
-lang="lang_00263",
+lang="lang_00262",
 },
 {
 {"se",file="cloth3",id=1},
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=544,y2=720},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_15_1d",id=1,lv=1,path=":bg/",speed=64000,sync=0,x=320,x2=-320},
-{"extrans",time=500},
+{"extrans",time=1000},
 {"text"},
-crc ="72048f00",
-lang="lang_00264",
+crc ="a25a398e",
+lang="lang_00263",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00265",
+lang="lang_00264",
 },
 {
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-544},
@@ -1976,7 +1997,7 @@ lang="lang_00265",
 {"bg",file="bg_15_1d",path=":bg/",zone="night3"},
 {"text"},
 crc ="e0268f70",
-lang="lang_00266",
+lang="lang_00265",
 },
 {
 {"fg",ch="喜羽",eb="c0004",ey="c0002",face="c0001",file="tkiba_noc0000",head="tkiba_noc",id=7,lv=3,mo="c0008",mode=3,mx=0,my=0,path=":fg/kiba/no/",size="no",sync=0,x=-400},
@@ -1984,12 +2005,7 @@ lang="lang_00266",
 {"extrans",time=250},
 {"text"},
 crc ="e0fc367a",
-lang="lang_00267",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00268",
+lang="lang_00266",
 },
 {
 {"fg",ch="喜羽",eb="c0003",ey="c0012",face="c0001",file="tkiba_noc0000",head="tkiba_noc",id=7,lv=3,mo="c0005",mode=3,path=":fg/kiba/no/",x=-400},
@@ -1999,18 +2015,13 @@ lang="lang_00268",
 {"se",file="cloth8",id=1},
 {"text"},
 crc ="68a6b8c5",
-lang="lang_00269",
+lang="lang_00267",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"text"},
 crc ="ab9941dc",
-lang="lang_00270",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00271",
+lang="lang_00268",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0021",face="c0001",file="tayame_noc0010",head="tayame_noc",id=13,lv=2,mo="c0001",mode=3,mx=0,my=0,path=":fg/ayame/no/",size="no",sync=0,x=20},
@@ -2019,30 +2030,30 @@ lang="lang_00271",
 {"se",file="cloth3",id=1},
 {"text"},
 crc ="34bd0c1c",
-lang="lang_00272",
+lang="lang_00269",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00273",
+lang="lang_00270",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00274",
+lang="lang_00271",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0024",face="c0001",file="tayame_noc0000",head="tayame_noc",id=13,lv=2,mo="c0002",mode=3,path=":fg/ayame/no/",x=20},
 {"se",file="cloth11",id=1},
 {"text"},
 crc ="47b571bc",
-lang="lang_00275",
+lang="lang_00272",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"text"},
 crc ="ab9941dc",
-lang="lang_00276",
+lang="lang_00273",
 },
 {
 {"fg",ch="喜羽",eb="c0003",ey="c0012",face="c0001",file="tkiba_noc0000",head="tkiba_noc",id=11,lv=2,mo="c0005",mode=3,mx=0,my=0,path=":fg/kiba/no/",size="no",sync=0,x=-230},
@@ -2051,20 +2062,20 @@ lang="lang_00276",
 {"se",file="cloth8",id=1},
 {"text"},
 crc ="a87bbfa7",
-lang="lang_00277",
+lang="lang_00274",
 },
 {
 {"fg",ch="織鶴",eb="c0004",ey="c0002",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=7,lv=3,mo="c0010",mode=3,path=":fg/oritsuru/no/",x=-450},
 {"text"},
 crc ="d5993c1a",
-lang="lang_00278",
+lang="lang_00275",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"se",file="cloth10",id=1},
 {"text"},
 crc ="5dc4ce76",
-lang="lang_00279",
+lang="lang_00276",
 },
 {
 {"fg",ch="喜羽",eb="c0003",ey="c0012",face="c0001",file="tkiba_noc0000",head="tkiba_noc",id=7,lv=3,mo="c0005",mode=3,mx=0,my=0,path=":fg/kiba/no/",size="no",sync=0,x=-450},
@@ -2072,20 +2083,20 @@ lang="lang_00279",
 {"extrans",time=500},
 {"text"},
 crc ="c9264196",
-lang="lang_00280",
+lang="lang_00277",
 },
 {
 {"fg",ch="翔",eb="c0003",ey="c0013",face="c0001",file="tkakeru_noc0020",head="tkakeru_noc",id=11,lv=2,mo="c0009",mode=3,path=":fg/kakeru/no/",x=-190},
 {"fg",ch="喜羽",eb="c0002",ey="c0002",face="c0001",file="tkiba_noc0010",head="tkiba_noc",id=7,lv=3,mo="c0008",mode=3,path=":fg/kiba/no/",x=-450},
 {"text"},
 crc ="d5ea0ad4",
-lang="lang_00281",
+lang="lang_00278",
 },
 {
 {"fg",ch="翔",eb="c0002",ey="c0021",face="c0001",file="tkakeru_noc0020",head="tkakeru_noc",id=11,lv=2,mo="c0008",mode=3,path=":fg/kakeru/no/",x=-190},
 {"text"},
 crc ="3673ddd4",
-lang="lang_00282",
+lang="lang_00279",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2095,12 +2106,12 @@ lang="lang_00282",
 {"bg",file="bg_15_1a",path=":bg/"},
 {"text"},
 crc ="ac64f1ed",
-lang="lang_00283",
+lang="lang_00280",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00284",
+lang="lang_00281",
 },
 {
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-632,y2=-720},
@@ -2109,12 +2120,12 @@ lang="lang_00284",
 {"extrans",time=0},
 {"text"},
 crc ="ed6289ed",
-lang="lang_00285",
+lang="lang_00282",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00286",
+lang="lang_00283",
 },
 {
 {"bg",file="bg_15_1a",path=":bg/",sync=0},
@@ -2123,19 +2134,19 @@ lang="lang_00286",
 {"extrans",time=500},
 {"text"},
 crc ="d3a5d1f6",
-lang="lang_00287",
+lang="lang_00284",
 },
 {
 {"fg",ch="織鶴",eb="b0003",ey="b0009",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=10,lv=3,mo="b0010",mode=3,path=":fg/oritsuru/no/",x=320},
 {"text"},
 crc ="6f739c30",
-lang="lang_00288",
+lang="lang_00285",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0004",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/ayame/no/",x=-320},
 {"text"},
 crc ="b0801564",
-lang="lang_00289",
+lang="lang_00286",
 delay={
 vl1={
 {"fg",ch="あやめ",eb="c0004",ey="c0013",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/ayame/no/",x=-320},
@@ -2145,38 +2156,38 @@ vl1={
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00290",
+lang="lang_00287",
 },
 {
 {"fg",ch="あやめ",eb="c0003",ey="c0009",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0010",mode=3,path=":fg/ayame/no/",x=-320},
 {"text"},
 crc ="495bea11",
-lang="lang_00291",
+lang="lang_00288",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"se",file="cloth8",id=1},
 {"text"},
 crc ="f5146c62",
-lang="lang_00292",
+lang="lang_00289",
 },
 {
 {"bg",file="black",path=":bg/"},
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-632,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=632,y2=720},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_15_1a",id=1,lv=1,path=":bg/",speed=64000,sync=0,x=320,x2=-320},
-{"extrans",time=500},
+{"extrans",time=1000},
 {"bgm",file="bgm027"},
 {"text"},
-crc ="34dfec5e",
-lang="lang_00293",
+crc ="77afd592",
+lang="lang_00290",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_15_1a",id=1,lv=1,path=":bg/",x=320},
 {"se",file="plabag3",id=1},
 {"text"},
 crc ="932ed8b3",
-lang="lang_00294",
+lang="lang_00291",
 },
 {
 {"cgdel",id=-1},
@@ -2185,13 +2196,13 @@ lang="lang_00294",
 {"extrans",time=500},
 {"text"},
 crc ="223bd3c",
-lang="lang_00295",
+lang="lang_00292",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0021",face="c0001",file="tayame_noc0000",head="tayame_noc",id=13,lv=3,mo="c0011",mode=3,path=":fg/ayame/no/",x=0},
 {"text"},
 crc ="7b0bc073",
-lang="lang_00296",
+lang="lang_00293",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2201,7 +2212,7 @@ lang="lang_00296",
 {"extrans",time=0},
 {"text"},
 crc ="26f609c3",
-lang="lang_00297",
+lang="lang_00294",
 },
 {
 {"cgdel",id=-1},
@@ -2212,40 +2223,40 @@ lang="lang_00297",
 {"extrans",time=500},
 {"text"},
 crc ="e928f78f",
-lang="lang_00298",
+lang="lang_00295",
 },
 {
 {"fg",ch="翔",eb="b0001",ey="b0005",face="b0001",file="tkakeru_nob0000",head="tkakeru_nob",id=8,lv=3,mo="b0001",mode=3,path=":fg/kakeru/no/",x=450},
 {"text"},
 crc ="a90131cd",
-lang="lang_00299",
+lang="lang_00296",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0001",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/ayame/no/",x=-320},
 {"fg",ch="織鶴",eb="c0001",ey="c0024",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=11,lv=2,mo="c0006",mode=3,path=":fg/oritsuru/no/",x=-140},
 {"text"},
 crc ="1518495",
-lang="lang_00300",
+lang="lang_00297",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0001",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/ayame/no/",x=-320},
 {"text"},
 crc ="22ad9154",
-lang="lang_00301",
+lang="lang_00298",
 },
 {
 {"fg",ch="織鶴",eb="c0001",ey="c0005",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=11,lv=2,mo="c0006",mode=3,path=":fg/oritsuru/no/",x=-140},
 {"fg",ch="翔",eb="b0001",ey="b0008",face="b0001",file="tkakeru_nob0000",head="tkakeru_nob",id=8,lv=3,mo="b0002",mode=3,path=":fg/kakeru/no/",x=450},
 {"text"},
 crc ="26a90a01",
-lang="lang_00302",
+lang="lang_00299",
 },
 {
 {"fg",ch="翔",eb="b0001",ey="b0002",face="b0001",file="tkakeru_nob0000",head="tkakeru_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/kakeru/no/",x=450},
 {"fg",ch="織鶴",eb="c0001",ey="c0002",face="c0001",file="toritsuru_noc0000",head="toritsuru_noc",id=11,lv=2,mo="c0003",mode=3,path=":fg/oritsuru/no/",x=-140},
 {"text"},
 crc ="ad14f920",
-lang="lang_00303",
+lang="lang_00300",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2254,13 +2265,13 @@ lang="lang_00303",
 {"se",id=2,file="ft_slip_m1"},
 {"text"},
 crc ="bbf34bf8",
-lang="lang_00304",
+lang="lang_00301",
 },
 {
 {"fg",ch="喜羽",eb="a0005",ey="a0008",face="a0001",file="tkiba_noa0000",head="tkiba_noa",id=13,lv=3,mo="a0006",mode=3,path=":fg/kiba/no/",x=0},
 {"text"},
 crc ="672004",
-lang="lang_00305",
+lang="lang_00302",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2269,30 +2280,31 @@ lang="lang_00305",
 {"extrans",time=500},
 {"text"},
 crc ="fd390378",
-lang="lang_00306",
+lang="lang_00303",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00307",
+lang="lang_00304",
 },
 {
 {"fg",ch="喜羽",eb="b0005",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/kiba/no/",x=400},
 {"text"},
 crc ="a5caa6b9",
-lang="lang_00308",
+lang="lang_00305",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0024",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/ayame/no/",x=-320},
+{"fg",ch="喜羽",eb="b0005",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=400},
 {"text"},
-crc ="fbc52ef0",
-lang="lang_00309",
+crc ="1b949d8d",
+lang="lang_00306",
 },
 {
 {"fg",ch="あやめ",eb="c0003",ey="c0024",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/ayame/no/",x=-320},
 {"text"},
 crc ="9fcb4baf",
-lang="lang_00310",
+lang="lang_00307",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2301,7 +2313,7 @@ lang="lang_00310",
 {"extrans",time=500},
 {"text"},
 crc ="722fde81",
-lang="lang_00311",
+lang="lang_00308",
 },
 {
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-544},
@@ -2313,31 +2325,33 @@ lang="lang_00311",
 {"extrans",time=500},
 {"text"},
 crc ="bb23689e",
-lang="lang_00312",
+lang="lang_00309",
 },
 {
 {"fg",ch="あやめ",eb="c0004",ey="c0013",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0011",mode=3,path=":fg/ayame/no/",x=-320},
+{"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=400},
 {"text"},
-crc ="12f9c360",
-lang="lang_00313",
+crc ="c83bbb10",
+lang="lang_00310",
 },
 {
+{"fg",ch="あやめ",eb="c0004",ey="c0013",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/ayame/no/",x=-320},
 {"fg",ch="喜羽",eb="b0001",ey="b0012",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=400},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="be06c1fd",
-lang="lang_00314",
+crc ="31a9f17b",
+lang="lang_00311",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/kiba/no/",x=400},
 {"text"},
 crc ="236ff690",
-lang="lang_00315",
+lang="lang_00312",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00316",
+lang="lang_00313",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2348,13 +2362,13 @@ lang="lang_00316",
 {"se",file="cloth7",id=1},
 {"text"},
 crc ="3b03cd50",
-lang="lang_00317",
+lang="lang_00314",
 },
 {
 {"fg",ch="喜羽",eb="c0001",ey="c0012",face="c0001",file="tkiba_noc0000",head="tkiba_noc",id=7,lv=3,mo="c0001",mode=3,path=":fg/kiba/no/",x=-400},
 {"text"},
 crc ="6a6f6104",
-lang="lang_00318",
+lang="lang_00315",
 delay={
 vl1={
 {"fg",ch="喜羽",eb="c0001",ey="c0002",face="c0001",file="tkiba_noc0000",head="tkiba_noc",id=7,lv=3,mo="c0004",mode=3,path=":fg/kiba/no/",x=-400},
@@ -2369,13 +2383,13 @@ vl1={
 {"se",file="cloth2",id=1},
 {"text"},
 crc ="879600ba",
-lang="lang_00319",
+lang="lang_00316",
 },
 {
 {"fg",ch="喜羽",eb="b0005",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/kiba/no/",x=400},
 {"text"},
 crc ="9752312f",
-lang="lang_00320",
+lang="lang_00317",
 delay={
 vl1={
 {"fg",ch="喜羽",eb="b0005",ey="b0012",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=400},
@@ -2386,7 +2400,7 @@ vl1={
 {"fg",ch="喜羽",eb="b0001",ey="b0002",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/kiba/no/",x=400},
 {"text"},
 crc ="93370a06",
-lang="lang_00321",
+lang="lang_00318",
 delay={
 vl1={
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=400},
@@ -2396,25 +2410,25 @@ vl1={
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00322",
+lang="lang_00319",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00323",
+lang="lang_00320",
 },
 {
 {"fg",ch="あやめ",eb="c0003",ey="c0025",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/ayame/no/",x=-320},
 {"text"},
 crc ="6ffca8cb",
-lang="lang_00324",
+lang="lang_00321",
 },
 {
 {"fg",ch="あやめ",eb="c0001",ey="c0013",face="c0001",file="tayame_noc0000",head="tayame_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/ayame/no/",x=-320},
 {"se",file="cloth1",id=1},
 {"text"},
 crc ="b55df4c8",
-lang="lang_00325",
+lang="lang_00322",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2423,14 +2437,14 @@ lang="lang_00325",
 {"extrans",time=500},
 {"text"},
 crc ="f4ed569d",
-lang="lang_00326",
+lang="lang_00323",
 },
 {
 {"fg",ch="織鶴",eb="b0002",ey="b0027",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0003",mode=3,path=":fg/oritsuru/no/",x=190},
 {"se",file="cloth7",id=1},
 {"text"},
 crc ="aa41b8a2",
-lang="lang_00327",
+lang="lang_00324",
 delay={
 vl1={
 {"fg",ch="織鶴",eb="b0001",ey="b0011",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0001",mode=3,path=":fg/oritsuru/no/",x=190},
@@ -2442,20 +2456,20 @@ vl1={
 {"fg",ch="翔",eb="b0005",ey="b0008",face="b0001",file="tkakeru_nob0000",head="tkakeru_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/kakeru/no/",x=470},
 {"text"},
 crc ="3932a718",
-lang="lang_00328",
+lang="lang_00325",
 },
 {
 {"fg",ch="翔",eb="b0005",ey="b0012",face="b0001",file="tkakeru_nob0000",head="tkakeru_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kakeru/no/",x=470},
 {"se",file="cloth5",id=1},
 {"text"},
 crc ="a6ccced3",
-lang="lang_00329",
+lang="lang_00326",
 },
 {
 {"fg",ch="織鶴",eb="b0003",ey="b0012",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0009",mode=3,path=":fg/oritsuru/no/",x=190},
 {"text"},
 crc ="d9727700",
-lang="lang_00330",
+lang="lang_00327",
 delay={
 vl1={
 {"fg",ch="織鶴",eb="b0002",ey="b0024",face="b0001",file="toritsuru_nob0000",head="toritsuru_nob",id=12,lv=3,mo="b0008",mode=3,path=":fg/oritsuru/no/",x=190},
@@ -2463,74 +2477,74 @@ vl1={
 },
 },
 {
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"extrans",time=500},
-{"ex",time=1,func="wait"},
 {"bg",file="black",path=":bg/"},
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-632,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=632,y2=720},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_12_1a",id=1,lv=1,path=":bg/",speed=64000,sync=0,x=320,x2=-320},
-{"extrans",time=500},
+{"extrans",time=1000},
 {"se",id=1,file="ft_conc_m6"},
 {"se",id=2,file="ft_whel_14"},
 {"text"},
-crc ="f08fc64f",
-lang="lang_00331",
+crc ="b1268d1",
+lang="lang_00328",
 },
 {
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-632},
 {"bg",file="black",id=19,lv=19,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=720,y2=632},
 {"cgdel",id=-1},
 {"bg",file="bg_12_1a",path=":bg/",sync=0},
-{"fg",ch="あやめ",eb="b0001",ey="b0002",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,mx=40,my=0,path=":fg/ayame/no/",size="no",sync=0,time=500,x=50},
-{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,mx=40,my=0,path=":fg/kiba/no/",size="no",sync=0,time=500,x=450},
+{"fg",ch="あやめ",eb="b0001",ey="b0002",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,mx=40,my=0,path=":fg/ayame/no/",size="no",sync=0,time=750,x=50},
+{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,mx=40,my=0,path=":fg/kiba/no/",size="no",sync=0,time=750,x=450},
 {"extrans",time=500},
 {"text"},
-crc ="325ae9f2",
-lang="lang_00332",
+crc ="4985a0f0",
+lang="lang_00329",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0008",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0002",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="ecb3a15d",
-lang="lang_00333",
+lang="lang_00330",
 },
 {
+{"fg",ch="あやめ",eb="b0001",ey="b0008",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0001",mode=3,path=":fg/ayame/no/",x=50},
 {"fg",ch="喜羽",eb="b0001",ey="b0002",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
-crc ="6c932002",
-lang="lang_00334",
+crc ="58e49126",
+lang="lang_00331",
 },
 {
 {"fg",ch="あやめ",eb="b0004",ey="b0020",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0007",mode=3,path=":fg/ayame/no/",x=50},
+{"fg",ch="喜羽",eb="b0001",ey="b0002",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="b12dbfb6",
-lang="lang_00335",
+crc ="713a7988",
+lang="lang_00332",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0020",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="dbcbdbc",
-lang="lang_00336",
+lang="lang_00333",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0012",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="c6b3e9ae",
-lang="lang_00337",
+lang="lang_00334",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0002",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="30692b3f",
-lang="lang_00338",
+lang="lang_00335",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ey="b0028",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0007",mode=3,path=":fg/ayame/no/",x=50},
+{"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0001",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
-crc ="e09ce3b6",
-lang="lang_00339",
+crc ="4712ddaf",
+lang="lang_00336",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2540,7 +2554,7 @@ lang="lang_00339",
 {"extrans",time=0},
 {"text"},
 crc ="8c35dcba",
-lang="lang_00340",
+lang="lang_00337",
 },
 {
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-544},
@@ -2552,25 +2566,26 @@ lang="lang_00340",
 {"extrans",time=500},
 {"text"},
 crc ="d529fda8",
-lang="lang_00341",
+lang="lang_00338",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="117243ea",
-lang="lang_00342",
+lang="lang_00339",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0006",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0011",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="983cf97d",
-lang="lang_00343",
+lang="lang_00340",
 },
 {
+{"fg",ch="あやめ",eb="b0001",ey="b0006",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=50},
 {"fg",ch="喜羽",eb="b0001",ey="b0006",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
-crc ="788a7d19",
-lang="lang_00344",
+crc ="7790b174",
+lang="lang_00341",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
@@ -2579,17 +2594,17 @@ lang="lang_00344",
 {"se",id=2,file="ft_whel_14"},
 {"text"},
 crc ="c529d10d",
-lang="lang_00345",
+lang="lang_00342",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00346",
+lang="lang_00343",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00347",
+lang="lang_00344",
 },
 {
 {"bg",file="bg_12_1a",path=":bg/",sync=0},
@@ -2598,7 +2613,7 @@ lang="lang_00347",
 {"extrans",time=500},
 {"text"},
 crc ="5da489b9",
-lang="lang_00348",
+lang="lang_00345",
 delay={
 vl1={
 {"fg",ch="あやめ",eb="b0001",ey="b0006",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0002",mode=3,path=":fg/ayame/no/",sync=0,time=500,x=50},
@@ -2610,14 +2625,14 @@ vl1={
 {"fg",ch="喜羽",eb="b0004",ey="b0002",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="fa59f8b2",
-lang="lang_00349",
+lang="lang_00346",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"fg",ch="あやめ",eb="b0003",ey="b0024",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0011",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="d66621b8",
-lang="lang_00350",
+lang="lang_00347",
 delay={
 vl1={
 {"fg",ch="あやめ",eb="b0003",ey="b0009",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0011",mode=3,path=":fg/ayame/no/",time=500,x=50},
@@ -2629,32 +2644,32 @@ vl1={
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="152ab1a1",
-lang="lang_00351",
+lang="lang_00348",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0008",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="807cad2b",
-lang="lang_00352",
+lang="lang_00349",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0020",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0002",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="bda93ba8",
-lang="lang_00353",
+lang="lang_00350",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0020",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0001",mode=3,path=":fg/ayame/no/",x=50},
 {"fg",ch="喜羽",eb="b0005",ey="b0001",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="999f6219",
-lang="lang_00354",
+lang="lang_00351",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0005",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0007",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="cc685e01",
-lang="lang_00355",
+lang="lang_00352",
 delay={
 vl1={
 {"fg",ch="あやめ",eb="b0003",ey="b0009",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0006",mode=3,path=":fg/ayame/no/",x=50},
@@ -2666,76 +2681,76 @@ vl1={
 {"fg",ch="喜羽",eb="b0001",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="ff4786d8",
-lang="lang_00356",
+lang="lang_00353",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="57a0768e",
-lang="lang_00357",
+lang="lang_00354",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0009",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"fg",ch="あやめ",eb="b0004",ey="b0020",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0007",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="1f2222df",
-lang="lang_00358",
+lang="lang_00355",
 },
 {
 {"fg",ch="あやめ",eb="b0001",ey="b0020",face="b0001",file="tayame_nob0000",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="dbcbdbc",
-lang="lang_00359",
+lang="lang_00356",
 },
 {
 {"fg",ch="喜羽",eb="b0002",ey="b0002",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/kiba/no/",x=450},
 {"se",file="cloth14",id=1},
 {"text"},
 crc ="5b654aef",
-lang="lang_00360",
+lang="lang_00357",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0005",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0005",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="6b8b91a3",
-lang="lang_00361",
+lang="lang_00358",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ey="b0012",face="b0001",file="tayame_nob0010",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="6ffe2ea1",
-lang="lang_00362",
+lang="lang_00359",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ex01="b0080",ey="b0020",face="b0001",file="tayame_nob0010",head="tayame_nob",id=13,lv=3,mo="b0010",mode=3,path=":fg/ayame/no/",x=50},
 {"se",file="cloth3",id=1},
 {"text"},
 crc ="af74a960",
-lang="lang_00363",
+lang="lang_00360",
 },
 {
 {"fg",ch="あやめ",eb="b0003",ex01="b0080",ey="b0020",face="b0001",file="tayame_nob0010",head="tayame_nob",id=13,lv=3,mo="b0005",mode=3,path=":fg/ayame/no/",x=50},
 {"text"},
 crc ="7edf9003",
-lang="lang_00364",
+lang="lang_00361",
 },
 {
 {"fg",ch="喜羽",eb="b0001",ey="b0011",face="b0001",file="tkiba_nob0000",head="tkiba_nob",id=8,lv=3,mo="b0002",mode=3,path=":fg/kiba/no/",x=450},
 {"text"},
 crc ="1ec45ab8",
-lang="lang_00365",
+lang="lang_00362",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00366",
+lang="lang_00363",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"bgm",stop=1},
 {"excall",file="op1_3_4"},
 crc ="a4ebbff1",
-lang="lang_00367",
+lang="lang_00364",
 },
 text={
 [1]={
@@ -7088,7 +7103,7 @@ cn={
 [224]={
 ja={
 {
-"『貸出中：二上ゆう』",
+"『貸出中：二上ユウ』",
 },
 },
 tw={
@@ -7549,9 +7564,9 @@ vo={
 },
 ja={
 {
-"「いやだ！　私は知ってるよ、先輩はホラーが苦手！！　私は恐怖する",
+"「いやだ！　私は知ってるよ、先輩はホラーが苦手！！",
 {"rt2"},
-"先輩がみたい！！」",
+"私は恐怖する先輩がみたい！！」",
 },
 },
 tw={
@@ -7670,44 +7685,31 @@ cn={
 name={name="翔・喜羽"},
 vo={
 {"vo",file="kakeru_0355",ch="kakeru" },
-},
-ja={
-{
-"「ええーーーー」",
-},
-},
-tw={
-{
-"「哎哎————」",
-},
-},
-cn={
-{
-"「哎哎————」",
-},
-},
-},
-[254]={
-vo={
 {"vo",file="masaaki_0111",ch="kiba" },
 },
 ja={
 {
 "「ええーーーー」",
+{"rt2"},
+"「ええーーーー」",
 },
 },
 tw={
 {
+"「哎哎————」",
+{"rt2"},
 "「哎哎————」",
 },
 },
 cn={
 {
 "「哎哎————」",
+{"rt2"},
+"「哎哎————」",
 },
 },
 },
-[255]={
+[254]={
 ja={
 {
 "織鶴は手に持っていたパッケージをあやめに差し出す。",
@@ -7724,7 +7726,7 @@ cn={
 },
 },
 },
-[256]={
+[255]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0144",ch="oritsuru" },
@@ -7745,7 +7747,7 @@ cn={
 },
 },
 },
-[257]={
+[256]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0319",ch="ayame" },
@@ -7766,7 +7768,7 @@ cn={
 },
 },
 },
-[258]={
+[257]={
 ja={
 {
 "あやめがキリッとした表情で受け取る。",
@@ -7783,7 +7785,7 @@ cn={
 },
 },
 },
-[259]={
+[258]={
 ja={
 {
 "織鶴の背後でパッケージを大事そうに抱え、応援するような",
@@ -7802,7 +7804,7 @@ cn={
 },
 },
 },
-[260]={
+[259]={
 ja={
 {
 "織鶴は両腕をクロスさせて握り、内側へ捻って手の中を覗く。",
@@ -7819,7 +7821,7 @@ cn={
 },
 },
 },
-[261]={
+[260]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0145",ch="oritsuru" },
@@ -7840,7 +7842,7 @@ cn={
 },
 },
 },
-[262]={
+[261]={
 ja={
 {
 "翔がふらふらと前へ出て、右手を構えた。",
@@ -7857,7 +7859,7 @@ cn={
 },
 },
 },
-[263]={
+[262]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0146",ch="oritsuru" },
@@ -7878,7 +7880,7 @@ cn={
 },
 },
 },
-[264]={
+[263]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0147",ch="oritsuru" },
@@ -7899,7 +7901,7 @@ cn={
 },
 },
 },
-[265]={
+[264]={
 ja={
 {
 "カーテンは閉じられ、照明は消えていた。",
@@ -7916,7 +7918,7 @@ cn={
 },
 },
 },
-[266]={
+[265]={
 ja={
 {
 "暗闇の中、テレビ画面の光が横に並んだ四人の顔を照らす。",
@@ -7933,8 +7935,7 @@ cn={
 },
 },
 },
-[267]={
-name={name="怨霊"},
+[266]={
 vo={
 {"vo",file="wo4-2_0001",ch="mob" },
 },
@@ -7954,48 +7955,35 @@ cn={
 },
 },
 },
-[268]={
+[267]={
 name={name="翔・喜羽"},
 vo={
 {"vo",file="kakeru_0356",ch="kakeru" },
-},
-ja={
-{
-"「ウワーーーーーーーーーーーーーーー！！！」",
-},
-},
-tw={
-{
-"「嗚哇——————————————————！！！」",
-},
-},
-cn={
-{
-"「呜哇——————————————————！！！」",
-},
-},
-},
-[269]={
-vo={
 {"vo",file="masaaki_0112",ch="kiba" },
 },
 ja={
 {
 "「ウワーーーーーーーーーーーーーーー！！！」",
+{"rt2"},
+"「ウワーーーーーーーーーーーーーーー！！！」",
 },
 },
 tw={
 {
+"「嗚哇——————————————————！！！」",
+{"rt2"},
 "「嗚哇——————————————————！！！」",
 },
 },
 cn={
 {
 "「呜哇——————————————————！！！」",
+{"rt2"},
+"「呜哇——————————————————！！！」",
 },
 },
 },
-[270]={
+[268]={
 ja={
 {
 "翔と喜羽が涙を浮かべながらひしと強く抱き合った。",
@@ -8012,48 +8000,35 @@ cn={
 },
 },
 },
-[271]={
+[269]={
 name={name="あやめ・織鶴"},
 vo={
 {"vo",file="ayame_0320",ch="ayame" },
-},
-ja={
-{
-"「ちょ！」",
-},
-},
-tw={
-{
-"「喂！」",
-},
-},
-cn={
-{
-"「喂！」",
-},
-},
-},
-[272]={
-vo={
 {"vo",file="oritsuru_0148",ch="oritsuru" },
 },
 ja={
 {
 "「ちょ！」",
+{"rt2"},
+"「ちょ！」",
 },
 },
 tw={
 {
+"「喂！」",
+{"rt2"},
 "「喂！」",
 },
 },
 cn={
 {
 "「喂！」",
+{"rt2"},
+"「喂！」",
 },
 },
 },
-[273]={
+[270]={
 ja={
 {
 "翔の隣に座るあやめが上半身をひねって翔の肩を掴み、",
@@ -8072,7 +8047,7 @@ cn={
 },
 },
 },
-[274]={
+[271]={
 ja={
 {
 "翔はあやめに引かれるまま、あやめの上半身に抱きつく。",
@@ -8089,7 +8064,7 @@ cn={
 },
 },
 },
-[275]={
+[272]={
 ja={
 {
 "あやめが翔の髪を撫でる。",
@@ -8106,7 +8081,7 @@ cn={
 },
 },
 },
-[276]={
+[273]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0321",ch="ayame" },
@@ -8127,7 +8102,7 @@ cn={
 },
 },
 },
-[277]={
+[274]={
 ja={
 {
 "同じように、織鶴も喜羽を引きはがす。",
@@ -8144,7 +8119,7 @@ cn={
 },
 },
 },
-[278]={
+[275]={
 ja={
 {
 "そして喜羽も翔と同じように、織鶴に強く抱きついた。",
@@ -8161,7 +8136,7 @@ cn={
 },
 },
 },
-[279]={
+[276]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0149",ch="oritsuru" },
@@ -8182,7 +8157,7 @@ cn={
 },
 },
 },
-[280]={
+[277]={
 ja={
 {
 "上半身にしがみついた喜羽を織鶴は突き放す。",
@@ -8199,7 +8174,7 @@ cn={
 },
 },
 },
-[281]={
+[278]={
 name={name="翔"},
 vo={
 {"vo",file="kakeru_0357",ch="kakeru" },
@@ -8226,7 +8201,7 @@ cn={
 },
 },
 },
-[282]={
+[279]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0113",ch="kiba" },
@@ -8253,7 +8228,7 @@ cn={
 },
 },
 },
-[283]={
+[280]={
 name={name="翔"},
 vo={
 {"vo",file="kakeru_0358",ch="kakeru" },
@@ -8274,7 +8249,7 @@ cn={
 },
 },
 },
-[284]={
+[281]={
 ja={
 {
 "織鶴がカーテンを開ける。",
@@ -8291,7 +8266,7 @@ cn={
 },
 },
 },
-[285]={
+[282]={
 ja={
 {
 "陽の光が部屋に差し込んだ。",
@@ -8308,7 +8283,7 @@ cn={
 },
 },
 },
-[286]={
+[283]={
 ja={
 {
 "ぐったりと、屍のようになった翔と喜羽が並んでいた。",
@@ -8325,7 +8300,7 @@ cn={
 },
 },
 },
-[287]={
+[284]={
 ja={
 {
 "翔はあやめに膝枕されながら、放心したように床の一点を見つめていた。",
@@ -8342,7 +8317,7 @@ cn={
 },
 },
 },
-[288]={
+[285]={
 ja={
 {
 "ゲッソリとした織鶴が振り返り、あやめを見る。",
@@ -8359,7 +8334,7 @@ cn={
 },
 },
 },
-[289]={
+[286]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0150",ch="oritsuru" },
@@ -8380,7 +8355,7 @@ cn={
 },
 },
 },
-[290]={
+[287]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0322",ch="ayame" },
@@ -8401,7 +8376,7 @@ cn={
 },
 },
 },
-[291]={
+[288]={
 ja={
 {
 "織鶴の言葉をきき、あやめがはっと口に手をやった。",
@@ -8418,7 +8393,7 @@ cn={
 },
 },
 },
-[292]={
+[289]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0323",ch="ayame" },
@@ -8439,7 +8414,7 @@ cn={
 },
 },
 },
-[293]={
+[290]={
 ja={
 {
 "織鶴が膝をついて床に倒れこんだ。",
@@ -8456,7 +8431,7 @@ cn={
 },
 },
 },
-[294]={
+[291]={
 ja={
 {
 "食卓の椅子に織鶴と喜羽が向かい合って座っている。",
@@ -8473,7 +8448,7 @@ cn={
 },
 },
 },
-[295]={
+[292]={
 ja={
 {
 "空になった弁当箱を翔がまとめ、分別して捨てた。",
@@ -8490,7 +8465,7 @@ cn={
 },
 },
 },
-[296]={
+[293]={
 ja={
 {
 "あやめが壁の時計を見上げた。",
@@ -8507,7 +8482,7 @@ cn={
 },
 },
 },
-[297]={
+[294]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0324",ch="ayame" },
@@ -8528,7 +8503,7 @@ cn={
 },
 },
 },
-[298]={
+[295]={
 ja={
 {
 "あやめがそう言うと、みんなも時計を見上げた。",
@@ -8545,7 +8520,7 @@ cn={
 },
 },
 },
-[299]={
+[296]={
 name={name="翔"},
 vo={
 {"vo",file="kakeru_0359",ch="kakeru" },
@@ -8566,7 +8541,7 @@ cn={
 },
 },
 },
-[300]={
+[297]={
 ja={
 {
 "翔が言った。",
@@ -8583,7 +8558,7 @@ cn={
 },
 },
 },
-[301]={
+[298]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0325",ch="ayame" },
@@ -8604,7 +8579,7 @@ cn={
 },
 },
 },
-[302]={
+[299]={
 ja={
 {
 "微笑んだあやめがこたえた。",
@@ -8621,7 +8596,7 @@ cn={
 },
 },
 },
-[303]={
+[300]={
 name={name="翔"},
 vo={
 {"vo",file="kakeru_0360",ch="kakeru" },
@@ -8642,7 +8617,7 @@ cn={
 },
 },
 },
-[304]={
+[301]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0151",ch="oritsuru" },
@@ -8663,7 +8638,7 @@ cn={
 },
 },
 },
-[305]={
+[302]={
 ja={
 {
 "喜羽が黙ったまま立ち上がる。",
@@ -8680,7 +8655,7 @@ cn={
 },
 },
 },
-[306]={
+[303]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0114",ch="kiba" },
@@ -8701,7 +8676,7 @@ cn={
 },
 },
 },
-[307]={
+[304]={
 ja={
 {
 "あやめが喜羽を見上げる。",
@@ -8718,7 +8693,7 @@ cn={
 },
 },
 },
-[308]={
+[305]={
 ja={
 {
 "喜羽もあやめを見下ろしていた。",
@@ -8735,7 +8710,7 @@ cn={
 },
 },
 },
-[309]={
+[306]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0115",ch="kiba" },
@@ -8756,7 +8731,7 @@ cn={
 },
 },
 },
-[310]={
+[307]={
 ja={
 {
 "喜羽の視線から逃げるようにあやめは目を逸らした。",
@@ -8773,7 +8748,7 @@ cn={
 },
 },
 },
-[311]={
+[308]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0326",ch="ayame" },
@@ -8794,7 +8769,7 @@ cn={
 },
 },
 },
-[312]={
+[309]={
 ja={
 {
 "翔と織鶴は言葉を挟まずに、二人の様子を見守っていた。",
@@ -8811,7 +8786,7 @@ cn={
 },
 },
 },
-[313]={
+[310]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0116",ch="kiba" },
@@ -8832,7 +8807,7 @@ cn={
 },
 },
 },
-[314]={
+[311]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0327",ch="ayame" },
@@ -8853,7 +8828,7 @@ cn={
 },
 },
 },
-[315]={
+[312]={
 ja={
 {
 "喜羽がうなずく。",
@@ -8870,7 +8845,7 @@ cn={
 },
 },
 },
-[316]={
+[313]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0117",ch="kiba" },
@@ -8891,7 +8866,7 @@ cn={
 },
 },
 },
-[317]={
+[314]={
 name={name="翔"},
 vo={
 {"vo",file="kakeru_0361",ch="kakeru" },
@@ -8912,7 +8887,7 @@ cn={
 },
 },
 },
-[318]={
+[315]={
 ja={
 {
 "喜羽が翔と織鶴のほうを向いた。",
@@ -8929,7 +8904,7 @@ cn={
 },
 },
 },
-[319]={
+[316]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0118",ch="kiba" },
@@ -8950,7 +8925,7 @@ cn={
 },
 },
 },
-[320]={
+[317]={
 ja={
 {
 "ふたたびあやめに視線をもどして、喜羽が続ける。",
@@ -8967,7 +8942,7 @@ cn={
 },
 },
 },
-[321]={
+[318]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0119",ch="kiba" },
@@ -8998,7 +8973,7 @@ cn={
 },
 },
 },
-[322]={
+[319]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0120",ch="kiba" },
@@ -9019,7 +8994,7 @@ cn={
 },
 },
 },
-[323]={
+[320]={
 ja={
 {
 "あやめは黙ったまま、しばらく喜羽を見上げる。",
@@ -9036,7 +9011,7 @@ cn={
 },
 },
 },
-[324]={
+[321]={
 ja={
 {
 "喜羽も黙ってその視線を受けとめた。",
@@ -9053,7 +9028,7 @@ cn={
 },
 },
 },
-[325]={
+[322]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0328",ch="ayame" },
@@ -9074,7 +9049,7 @@ cn={
 },
 },
 },
-[326]={
+[323]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0329",ch="ayame" },
@@ -9095,7 +9070,7 @@ cn={
 },
 },
 },
-[327]={
+[324]={
 ja={
 {
 "翔と織鶴が微笑んだ。",
@@ -9112,7 +9087,7 @@ cn={
 },
 },
 },
-[328]={
+[325]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0152",ch="oritsuru" },
@@ -9133,7 +9108,7 @@ cn={
 },
 },
 },
-[329]={
+[326]={
 ja={
 {
 "織鶴が伸びをして、翔を見やりながら言った。",
@@ -9150,7 +9125,7 @@ cn={
 },
 },
 },
-[330]={
+[327]={
 ja={
 {
 "翔は織鶴のサイドテールを引っ張った。",
@@ -9167,7 +9142,7 @@ cn={
 },
 },
 },
-[331]={
+[328]={
 name={name="織鶴"},
 vo={
 {"vo",file="oritsuru_0153",ch="oritsuru" },
@@ -9188,7 +9163,7 @@ cn={
 },
 },
 },
-[332]={
+[329]={
 ja={
 {
 "寮と学園を繋ぐ通学路を、あやめの乗る車椅子が進んでいく。",
@@ -9205,7 +9180,7 @@ cn={
 },
 },
 },
-[333]={
+[330]={
 ja={
 {
 "中腰になった喜羽がゆっくりと車椅子を押していた。",
@@ -9222,7 +9197,7 @@ cn={
 },
 },
 },
-[334]={
+[331]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0330",ch="ayame" },
@@ -9243,7 +9218,7 @@ cn={
 },
 },
 },
-[335]={
+[332]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0121",ch="kiba" },
@@ -9264,7 +9239,7 @@ cn={
 },
 },
 },
-[336]={
+[333]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0331",ch="ayame" },
@@ -9285,7 +9260,7 @@ cn={
 },
 },
 },
-[337]={
+[334]={
 ja={
 {
 "あやめが喜羽のほうを振り返った。",
@@ -9302,7 +9277,7 @@ cn={
 },
 },
 },
-[338]={
+[335]={
 ja={
 {
 "喜羽は小さくうなずいた。",
@@ -9319,7 +9294,7 @@ cn={
 },
 },
 },
-[339]={
+[336]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0122",ch="kiba" },
@@ -9340,7 +9315,7 @@ cn={
 },
 },
 },
-[340]={
+[337]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0332",ch="ayame" },
@@ -9361,7 +9336,7 @@ cn={
 },
 },
 },
-[341]={
+[338]={
 ja={
 {
 "あやめたちとは反対に学園から寮へ流れていく人々が、あやめと喜羽に",
@@ -9384,7 +9359,7 @@ cn={
 },
 },
 },
-[342]={
+[339]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0123",ch="kiba" },
@@ -9405,7 +9380,7 @@ cn={
 },
 },
 },
-[343]={
+[340]={
 ja={
 {
 "あやめを見下ろしながら喜羽が聞いた。",
@@ -9422,7 +9397,7 @@ cn={
 },
 },
 },
-[344]={
+[341]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0333",ch="ayame" },
@@ -9443,7 +9418,7 @@ cn={
 },
 },
 },
-[345]={
+[342]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0124",ch="kiba" },
@@ -9464,7 +9439,7 @@ cn={
 },
 },
 },
-[346]={
+[343]={
 ja={
 {
 "車椅子のタイヤが地面にわずかな跡をつけていく。",
@@ -9481,7 +9456,7 @@ cn={
 },
 },
 },
-[347]={
+[344]={
 ja={
 {
 "散った桜が地面に敷かれていた。",
@@ -9498,7 +9473,7 @@ cn={
 },
 },
 },
-[348]={
+[345]={
 ja={
 {
 "乱れない速度ですすむ車椅子から、あやめが地面を眺める。",
@@ -9515,7 +9490,7 @@ cn={
 },
 },
 },
-[349]={
+[346]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0334",ch="ayame" },
@@ -9536,7 +9511,7 @@ cn={
 },
 },
 },
-[350]={
+[347]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0125",ch="kiba" },
@@ -9557,7 +9532,7 @@ cn={
 },
 },
 },
-[351]={
+[348]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0335",ch="ayame" },
@@ -9584,7 +9559,7 @@ cn={
 },
 },
 },
-[352]={
+[349]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0126",ch="kiba" },
@@ -9605,7 +9580,7 @@ cn={
 },
 },
 },
-[353]={
+[350]={
 ja={
 {
 "喜羽は表情を変えずに言った。",
@@ -9622,7 +9597,7 @@ cn={
 },
 },
 },
-[354]={
+[351]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0336",ch="ayame" },
@@ -9649,7 +9624,7 @@ cn={
 },
 },
 },
-[355]={
+[352]={
 ja={
 {
 "喜羽の口元は何度かもごもごと動いたが、言葉は出てこなかった。",
@@ -9666,7 +9641,7 @@ cn={
 },
 },
 },
-[356]={
+[353]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0337",ch="ayame" },
@@ -9687,7 +9662,7 @@ cn={
 },
 },
 },
-[357]={
+[354]={
 ja={
 {
 "喜羽は前を向いたあやめの後頭部を見下ろした。",
@@ -9704,7 +9679,7 @@ cn={
 },
 },
 },
-[358]={
+[355]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0127",ch="kiba" },
@@ -9725,7 +9700,7 @@ cn={
 },
 },
 },
-[359]={
+[356]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0338",ch="ayame" },
@@ -9746,7 +9721,7 @@ cn={
 },
 },
 },
-[360]={
+[357]={
 ja={
 {
 "あやめが振り返り喜羽を見上げた。",
@@ -9763,7 +9738,7 @@ cn={
 },
 },
 },
-[361]={
+[358]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0128",ch="kiba" },
@@ -9784,7 +9759,7 @@ cn={
 },
 },
 },
-[362]={
+[359]={
 ja={
 {
 "そう言って喜羽があやめの頭をぐしゃぐしゃと撫でる。",
@@ -9801,7 +9776,7 @@ cn={
 },
 },
 },
-[363]={
+[360]={
 ja={
 {
 "驚いたあやめが、やや前のめりになって抵抗する。",
@@ -9818,7 +9793,7 @@ cn={
 },
 },
 },
-[364]={
+[361]={
 name={name="あやめ"},
 vo={
 {"vo",file="ayame_0339",ch="ayame" },
@@ -9839,7 +9814,7 @@ cn={
 },
 },
 },
-[365]={
+[362]={
 ja={
 {
 "もう一度振り返ったあやめの頬は赤くなっていた。",
@@ -9856,7 +9831,7 @@ cn={
 },
 },
 },
-[366]={
+[363]={
 name={name="喜羽"},
 vo={
 {"vo",file="masaaki_0129",ch="kiba" },
@@ -9877,7 +9852,7 @@ cn={
 },
 },
 },
-[367]={
+[364]={
 ja={
 {
 "紅潮したあやめに睨まれながら、喜羽は笑った。",

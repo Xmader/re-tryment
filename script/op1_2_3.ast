@@ -1,15 +1,15 @@
 ast = {
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_36_1b",path=":bg/",speed=5000,sync=0,y=50,y2=0,zone="evening"},
-{"extrans",time=500},
+{"bg",file="black",path=":bg/"},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_36_1b",path=":bg/",speed=5000,y=50,y2=0,zone="evening"},
 {"text"},
-crc ="177f2a4d",
+crc ="942f3cbf",
 lang="lang_00000",
 },
 {
-{"bg",file="bg_36_1b",path=":bg/",zone="evening"},
+{"bg",file="bg_36_1b",path=":bg/",time=750,zone="evening"},
 {"text"},
-crc ="4935546b",
+crc ="860e9711",
 lang="lang_00001",
 },
 {
@@ -38,55 +38,60 @@ lang="lang_00004",
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-632},
 {"bg",file="black",id=19,lv=19,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=720,y2=632},
 {"cgdel",id=-1},
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="bg_36_1b",path=":bg/",zone="evening"},
 {"se",file="ft_gras_f6",id=1},
 {"text"},
-crc ="3085ca6a",
+crc ="aa678aec",
 lang="lang_00005",
 },
 {
 {"bg",file="black",path=":bg/"},
-{"bg",file="bg_16_1c",path=":bg/"},
+{"ex",time=500,func="wait"},
 {"bgm",file="bgm043"},
-{"fg",ch="日向子",eb="c0001",ey="c0003",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0005",mode=3,mx=-40,my=0,path=":fg/hinako/no/",resize=1,size="no",time=500,x=-270},
+{"bg",file="bg_16_1c",path=":bg/",sync=0},
+{"fg",ch="日向子",eb="c0001",ey="c0003",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0005",mode=3,mx=-40,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,time=750,x=-270},
+{"extrans",time=1000},
 {"text"},
-crc ="9395fd4e",
+crc ="7461fad",
 lang="lang_00006",
 delay={
 [750]={
-{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",time=500,x=-270},
 },
 },
 },
 {
 {"bg",file="mob_tablet",id=1,lv=1,path=":cg/mob/",sync=0},
-{"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0000",head="ttoto_noa",id=13,lv=3,mo="a0001",mode=3,mx=0,my=0,path=":fg/toto/no/",size="no",sync=0,x=410,y=64},
+{"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0000",head="ttoto_noa",id=13,lv=3,mo="a0003",mode=3,mx=0,my=0,path=":fg/toto/no/",size="no",sync=0,x=410,y=64},
 {"extrans",time=500},
 {"text"},
-crc ="e15d2167",
+crc ="27bac758",
 lang="lang_00007",
 },
 {
+{"fg",ch="トト",eb="a0001",ey="a0012",face="a0001",file="ttoto_noa0000",head="ttoto_noa",id=13,lv=3,mo="a0001",mode=3,path=":fg/toto/no/",x=410,y=64},
 {"text"},
-crc ="799cd8ab",
+crc ="966946a8",
 lang="lang_00008",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0000",head="ttoto_noa",id=13,lv=3,mo="a0001",mode=3,path=":fg/toto/no/",x=410,y=64},
 {"text"},
-crc ="799cd8ab",
+crc ="d40a3a12",
 lang="lang_00009",
 },
 {
-{"fg",ch="日向子",eb="c0001",ey="c0011",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="日向子",eb="c0001",ey="c0011",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-270},
 {"text"},
-crc ="1e91b4d0",
+crc ="519d55b7",
 lang="lang_00010",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0011",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
 {"fg",ch="トト",eb="a0004",ey="a0011",face="a0001",file="ttoto_noa0000",head="ttoto_noa",id=13,lv=3,mo="a0001",mode=3,path=":fg/toto/no/",x=410,y=64},
 {"text"},
-crc ="7b48c2a4",
+crc ="248aac88",
 lang="lang_00011",
 },
 {
@@ -96,14 +101,16 @@ crc ="6066f397",
 lang="lang_00012",
 },
 {
-{"fg",ch="日向子",eb="c0004",ey="c0003",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="日向子",eb="c0004",ey="c0003",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="トト",eb="a0003",ey="a0009",face="a0001",file="ttoto_noa0000",head="ttoto_noa",id=13,lv=3,mo="a0005",mode=3,path=":fg/toto/no/",x=410,y=64},
 {"text"},
-crc ="c3f62a1b",
+crc ="69b6539",
 lang="lang_00013",
 },
 {
+{"fg",ch="日向子",eb="c0004",ey="c0003",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-270},
 {"text"},
-crc ="799cd8ab",
+crc ="c3f62a1b",
 lang="lang_00014",
 },
 {
@@ -168,9 +175,9 @@ lang="lang_00024",
 },
 {
 {"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0010",head="ttoto_noa",id=13,lv=3,mo="a0005",mode=3,path=":fg/toto/no/",x=410,y=64},
-{"fg",ch="日向子",eb="c0001",ey="c0011",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="日向子",eb="c0001",ey="c0011",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-270},
 {"text"},
-crc ="6df8fc1a",
+crc ="22f41d7d",
 lang="lang_00025",
 },
 {
@@ -181,14 +188,15 @@ crc ="7d90f545",
 lang="lang_00026",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
 {"text"},
-crc ="799cd8ab",
+crc ="a7eceb8f",
 lang="lang_00027",
 },
 {
-{"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0010",head="ttoto_noa",id=13,lv=3,mo="a0001",mode=3,path=":fg/toto/no/",x=410,y=64},
+{"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0010",head="ttoto_noa",id=13,lv=3,mo="a0002",mode=3,path=":fg/toto/no/",x=410,y=64},
 {"text"},
-crc ="3b4f8adc",
+crc ="b8265a1f",
 lang="lang_00028",
 },
 {
@@ -198,49 +206,48 @@ crc ="34456f5c",
 lang="lang_00029",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0011",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
 {"text"},
-crc ="799cd8ab",
+crc ="1e91b4d0",
 lang="lang_00030",
 },
 {
 {"fg",ch="トト",eb="a0001",ey="a0002",face="a0001",file="ttoto_noa0010",head="ttoto_noa",id=13,lv=3,mo="a0006",mode=3,path=":fg/toto/no/",x=410,y=64},
-{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-270},
+{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_noc0000",head="thinako_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-270},
 {"text"},
-crc ="25e93d60",
+crc ="6ae5dc07",
 lang="lang_00031",
 },
 {
-{"cgdel",id=-1,sync=0},
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"extrans",time=500},
-{"fg",ch="日向子",eb="a0001",ey="a0002",face="a0001",file="thinako_noa0000",head="thinako_noa",id=13,lv=3,mo="a0001",mode=3,mx=0,my=0,path=":fg/hinako/no/",size="no",x=0},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_16_1c",path=":bg/",sync=0},
+{"fg",ch="日向子",eb="a0001",ey="a0002",face="a0001",file="thinako_z1a0000",head="thinako_z1a",id=13,lv=4,mo="a0001",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=0},
+{"extrans",time=750},
 {"text"},
-crc ="8727acc0",
+crc ="abb9d9a1",
 lang="lang_00032",
 },
 {
 {"bgm",stop=1},
-{"fg",ch="日向子",eb="a0001",ey="a0002",face="a0001",file="thinako_noa0000",head="thinako_noa",id=13,lv=3,mo="a0004",mode=3,path=":fg/hinako/no/",x=0},
+{"fg",ch="日向子",eb="a0001",ey="a0005",face="a0001",file="thinako_z1a0000",head="thinako_z1a",id=13,lv=4,mo="a0004",mode=3,path=":fg/hinako/z1/",x=0},
 {"text"},
-crc ="d81d3c9c",
+crc ="e5685131",
 lang="lang_00033",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
 {"bg",file="bg_13_2c",path=":bg/"},
 {"se",file="cooking1",id=1},
 {"text"},
-crc ="bad1e71c",
+crc ="45533c04",
 lang="lang_00034",
 },
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",speed=5000,sync=0,x=-50,x2=-110},
-{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=-190},
-{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0006",mode=3,path=":fg/hinako/z1/",speed=5000,sync=0,x=-240,x2=-320},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",speed=5000,sync=0,x=-50,x2=-70},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-190},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0006",mode=3,path=":fg/hinako/z1/",speed=5000,sync=0,x=-240,x2=-270},
 {"extrans",time=500},
 {"text"},
-crc ="c0dc00da",
+crc ="d59ef5c4",
 lang="lang_00035",
 },
 {
@@ -271,15 +278,16 @@ crc ="2dc1db4c",
 lang="lang_00040",
 },
 {
+{"fg",ch="日向子",eb="b0005",ey="b0006",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0005",mode=3,path=":fg/hinako/z1/",x=-240},
 {"se",file="pinpon",id=1},
 {"text"},
-crc ="c05f0868",
+crc ="b691e5c",
 lang="lang_00041",
 },
 {
-{"fg",ch="日向子",eb="b0004",ey="b0010",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0006",mode=3,path=":fg/hinako/z1/",x=-240},
+{"fg",ch="日向子",eb="b0004",ey="b0021",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=11,lv=4,mo="b0006",mode=3,path=":fg/hinako/z1/",x=-240},
 {"text"},
-crc ="f5fcba83",
+crc ="dd56ead4",
 lang="lang_00042",
 },
 {
@@ -288,11 +296,10 @@ crc ="799cd8ab",
 lang="lang_00043",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="bg_13_2c",path=":bg/"},
+{"bg",file="bg_13_2c",path=":bg/",time=750},
 {"se",id=1,file="cooking3"},
 {"text"},
-crc ="7a4202b6",
+crc ="fd06159e",
 lang="lang_00044",
 delay={
 [800]={
@@ -318,9 +325,9 @@ lang="lang_00046",
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1,x=0,x2=0,y=632,y2=720},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_16_1c",id=1,lv=1,path=":bg/",sync=0},
 {"fg",ch="三国",eb="a0001",ey="a0005",face="a0001",file="tmikuni_z1a0000",head="tmikuni_z1a",id=13,lv=4,mo="a0005",mode=3,mx=0,my=0,path=":fg/mikuni/z1/",resize=1,size="z1",sync=0,x=0,y=88},
-{"extrans",time=0},
+{"extrans",time=500},
 {"text"},
-crc ="ebdabea2",
+crc ="b666d496",
 lang="lang_00047",
 },
 {
@@ -329,21 +336,19 @@ crc ="799cd8ab",
 lang="lang_00048",
 },
 {
-{"cgdel",id=-1},
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
 {"bg",file="bg_13_2c",path=":bg/",sync=0},
 {"fg",ch="日向子",eb="c0001",ey="c0004",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,mx=-40,my=0,path=":fg/hinako/no/",size="no",sync=0,time=500,x=-190},
-{"extrans",time=500},
+{"extrans",time=1000},
 {"text"},
-crc ="91fcb1a5",
+crc ="ebaac019",
 lang="lang_00049",
 },
 {
 {"se",file="door4",id=1},
-{"fg",ch="三国",eb="b0001",ey="b0005",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,mx=40,my=0,path=":fg/mikuni/no/",resize=1,size="no",time=500,x=370},
+{"fg",ch="三国",eb="b0001",ey="b0005",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,mx=40,my=0,path=":fg/mikuni/no/",resize=1,size="no",time=750,x=370},
 {"text"},
-crc ="d34ac6e",
+crc ="ae47e2cb",
 lang="lang_00050",
 },
 {
@@ -354,8 +359,9 @@ lang="lang_00051",
 },
 {
 {"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="三国",eb="b0001",ey="b0002",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="31706c8c",
+crc ="fc1197f8",
 lang="lang_00052",
 },
 {
@@ -391,9 +397,10 @@ crc ="35d75455",
 lang="lang_00056",
 },
 {
-{"fg",ch="日向子",eb="c0001",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0008",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="日向子",eb="c0001",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="三国",eb="b0001",ey="b0002",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="416007e4",
+crc ="ae70e0a3",
 lang="lang_00057",
 },
 {
@@ -430,13 +437,15 @@ lang="lang_00061",
 },
 {
 {"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0007",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="三国",eb="b0001",ey="b0002",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="af69ae42",
+crc ="6f95b2a9",
 lang="lang_00062",
 },
 {
+{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="65575dd1",
 lang="lang_00063",
 },
 {
@@ -446,20 +455,22 @@ crc ="2d738d2d",
 lang="lang_00064",
 },
 {
+{"fg",ch="日向子",eb="c0003",ey="c0027",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="f573d463",
 lang="lang_00065",
 },
 {
-{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="日向子",eb="c0003",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-190},
 {"text"},
-crc ="a3e3a366",
+crc ="e72f262b",
 lang="lang_00066",
 },
 {
+{"fg",ch="日向子",eb="c0003",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-190},
 {"fg",ch="三国",eb="b0001",ey="b0005",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="7dcd4836",
+crc ="96c1ca18",
 lang="lang_00067",
 },
 {
@@ -499,18 +510,18 @@ crc ="c8964424",
 lang="lang_00073",
 },
 {
+{"fg",ch="日向子",eb="c0004",ey="c0003",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="2a8b7b7",
 lang="lang_00074",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",speed=1500,sync=0,y=-180,y2=-30},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",speed=1000,sync=0,y=-180,y2=-30},
+{"extrans",time=250},
 {"se",id=1,file="cloth10"},
 {"se",id=2,file="ft_slip_f2"},
 {"text"},
-crc ="178eab93",
+crc ="802ba6d9",
 lang="lang_00075",
 },
 {
@@ -524,14 +535,14 @@ crc ="799cd8ab",
 lang="lang_00077",
 },
 {
+{"bg",file="ev_kyo_22a",path=":ev/ev_kyo_22/",set="ev_kyo_22",speed=10000,z2=105,zoom=100},
 {"text"},
-crc ="799cd8ab",
+crc ="961e6fe5",
 lang="lang_00078",
 },
 {
-{"bg",file="ev_kyo_22a",path=":ev/ev_kyo_22/",set="ev_kyo_22"},
 {"text"},
-crc ="e4bb5649",
+crc ="799cd8ab",
 lang="lang_00079",
 },
 {
@@ -541,32 +552,33 @@ lang="lang_00080",
 },
 {
 {"se",file="cloth5",id=1},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",sync=0,y=-180},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",time=500,y=-180},
 {"text"},
-crc ="9376a5d2",
+crc ="3c976baa",
 lang="lang_00081",
 },
 {
 {"se",file="cloth2",id=1},
 {"bg",file="bg_13_2c",path=":bg/",sync=0},
 {"fg",ch="日向子",eb="c0004",ey="c0006",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/no/",size="no",sync=0,x=-190},
+{"fg",ch="日向子",eb="c0004",ey="c0006",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",speed=1000,sync=0,x=-190,x2=-180,y=0,y2=20},
 {"fg",ch="三国",eb="b0001",ey="b0002",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/mikuni/no/",size="no",sync=0,x=370},
 {"extrans",time=500},
-{"fg",ch="日向子",eb="c0001",ey="c0004",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",time=500,x=-190},
+{"fg",ch="日向子",eb="c0001",ey="c0004",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",time=500,x=-190,y=0},
 {"text"},
-crc ="9546a726",
+crc ="60a0c5f9",
 lang="lang_00082",
 },
 {
+{"fg",ch="三国",eb="b0001",ey="b0012",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="799cd8ab",
+crc ="d53b94c5",
 lang="lang_00083",
 },
 {
-{"fg",ch="三国",eb="b0004",ey="b0005",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/mikuni/no/",x=370},
+{"fg",ch="三国",eb="b0001",ey="b0005",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="d7893468",
+crc ="9a2531",
 lang="lang_00084",
 },
 {
@@ -576,32 +588,35 @@ crc ="19c44d53",
 lang="lang_00085",
 },
 {
-{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-190,y=0},
+{"fg",ch="三国",eb="b0001",ey="b0008",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="65575dd1",
+crc ="d61f5f8b",
 lang="lang_00086",
 },
 {
-{"fg",ch="日向子",eb="c0003",ey="c0009",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="日向子",eb="c0003",ey="c0009",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0007",mode=3,path=":fg/hinako/no/",x=-190,y=0},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="a4a7ce14",
+crc ="ba320fa5",
 lang="lang_00087",
 },
 {
+{"fg",ch="日向子",eb="c0003",ey="c0012",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",x=-190,y=0},
 {"text"},
-crc ="799cd8ab",
+crc ="c86ec30b",
 lang="lang_00088",
 },
 {
+{"fg",ch="日向子",eb="c0003",ey="c0009",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",x=-190,y=0},
 {"text"},
-crc ="799cd8ab",
+crc ="fc2e427",
 lang="lang_00089",
 },
 {
-{"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-190,y=0},
 {"text"},
-crc ="31574284",
+crc ="626692f4",
 lang="lang_00090",
 },
 {
@@ -617,44 +632,50 @@ crc ="b1e64da4",
 lang="lang_00092",
 },
 {
-{"fg",ch="日向子",eb="c0001",ey="c0006",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",x=-190},
+{"fg",ch="日向子",eb="c0001",ey="c0006",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/hinako/no/",x=-190,y=0},
+{"fg",ch="三国",eb="b0001",ey="b0002",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="69fa7efd",
+crc ="a2319a0e",
 lang="lang_00093",
 },
 {
-{"fg",ch="三国",eb="b0001",ey="b0006",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/mikuni/no/",x=370},
+{"fg",ch="三国",eb="b0001",ey="b0006",face="b0001",file="tmikuni_nob0000",head="tmikuni_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/mikuni/no/",x=370},
 {"text"},
-crc ="a38534c0",
+crc ="70960163",
 lang="lang_00094",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_13_2c",path=":bg/",speed=5000,sync=0,x=-320,x2=-300},
+{"fg",ch="三国",eb="c0001",ey="c0005",face="c0001",file="tmikuni_z1c0000",head="tmikuni_z1c",id=12,lv=4,mo="c0005",mode=3,mx=0,my=0,path=":fg/mikuni/z1/",resize=1,size="z1",sync=0,x=190},
+{"fg",ch="三国",eb="c0001",ey="c0005",face="c0001",file="tmikuni_z1c0000",head="tmikuni_z1c",id=12,lv=4,mo="c0005",mode=3,path=":fg/mikuni/z1/",speed=5000,sync=0,x=190,x2=160},
+{"extrans",time=500},
 {"se",id=1,file="ft_room_m3"},
-{"fg",mx=0,my=0,mode=-2},
 {"text"},
-crc ="cd077d26",
+crc ="5d10ccb8",
 lang="lang_00095",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",speed=5000,sync=0,x=0,x2=-20},
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=-190},
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",speed=5000,sync=0,x=-190,x2=-220},
+{"extrans",time=500},
 {"text"},
-crc ="799cd8ab",
+crc ="cb3184d6",
 lang="lang_00096",
 },
 {
+{"bg",file="bg_13_2c",path=":bg/",time=500},
 {"se",id=2,file="door5"},
 {"text"},
-crc ="624ec5ae",
+crc ="c2438b73",
 lang="lang_00097",
 },
 {
-{"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-632,y2=-720},
-{"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=632,y2=720},
-{"extrans",time=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_13_2c",id=1,lv=1,path=":bg/",sync=0,x=-100},
-{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=320,y=10},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_13_2c",path=":bg/",sync=0},
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-190},
 {"extrans",time=500},
 {"text"},
-crc ="31ac0ef6",
+crc ="7117624a",
 lang="lang_00098",
 },
 {
@@ -663,34 +684,32 @@ crc ="799cd8ab",
 lang="lang_00099",
 },
 {
-{"fg",ch="日向子",eb="c0005",ey="c0009",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0007",mode=3,path=":fg/hinako/z1/",x=320,y=10},
+{"fg",ch="日向子",eb="c0005",ey="c0009",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0007",mode=3,path=":fg/hinako/z1/",x=-190},
 {"text"},
-crc ="7fefb390",
+crc ="5464a640",
 lang="lang_00100",
 },
 {
-{"fg",ch="日向子",eb="c0003",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=320,y=10},
+{"fg",ch="日向子",eb="c0003",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=-190},
 {"text"},
-crc ="913b5262",
+crc ="96b82b8",
 lang="lang_00101",
 },
 {
-{"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=500,x=0,x2=0,y=-720,y2=-632},
-{"bg",file="black",id=19,lv=19,notrans=1,path=":ev/cg_kyo_00/",set="black",time=500,x=0,x2=0,y=720,y2=632},
-{"cgdel",id=-1},
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="bg_13_2c",path=":bg/"},
+{"bg",file="bg_13_2c",path=":bg/",time=250},
 {"se",file="pinpon",id=1},
 {"text"},
-crc ="b58cbadb",
+crc ="1778e7e0",
 lang="lang_00102",
 },
 {
-{"fg",ch="日向子",eb="a0004",ey="a0002",face="a0001",file="thinako_noa0100",head="thinako_noa",id=13,lv=3,mo="a0007",mode=3,mx=0,my=0,path=":fg/hinako/no/",resize=1,size="no",x=0},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",sync=0,x=190},
+{"fg",ch="日向子",eb="a0004",ey="a0002",face="a0001",file="thinako_z1a0100",head="thinako_z1a",id=13,lv=4,mo="a0007",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=0},
+{"extrans",time=250},
 {"se",id=1,file="cloth7"},
 {"se",id=2,file="hit1"},
 {"text"},
-crc ="e17da441",
+crc ="3a764952",
 lang="lang_00103",
 },
 {
@@ -699,24 +718,24 @@ crc ="799cd8ab",
 lang="lang_00104",
 },
 {
-{"fg",ch="日向子",eb="a0005",ey="a0012",face="a0001",file="thinako_noa0100",head="thinako_noa",id=13,lv=3,mo="a0005",mode=3,path=":fg/hinako/no/",x=0},
+{"fg",ch="日向子",eb="a0005",ey="a0012",face="a0001",file="thinako_z1a0100",head="thinako_z1a",id=13,lv=4,mo="a0005",mode=3,path=":fg/hinako/z1/",x=0},
 {"text"},
-crc ="6f11a473",
+crc ="64f0e2cb",
 lang="lang_00105",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
+{"bg",file="bg_13_2c",path=":bg/"},
 {"text"},
-crc ="ab9941dc",
+crc ="be63cf7c",
 lang="lang_00106",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",id=1,lv=1,path=":bg/",sync=0,x=-320},
-{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,mx=-40,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,time=500,x=320},
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,mx=-40,my=0,path=":fg/hinako/z1/",size="z1",sync=0,time=500,x=320},
 {"extrans",time=500},
 {"se",file="ft_slip_f3",id=1},
 {"text"},
-crc ="1b17aae4",
+crc ="bf12f7fa",
 lang="lang_00107",
 },
 {
@@ -726,8 +745,9 @@ crc ="87b61c8b",
 lang="lang_00108",
 },
 {
+{"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=320},
 {"text"},
-crc ="799cd8ab",
+crc ="387057a",
 lang="lang_00109",
 },
 {
@@ -736,14 +756,15 @@ crc ="799cd8ab",
 lang="lang_00110",
 },
 {
-{"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=320},
+{"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0007",mode=3,path=":fg/hinako/z1/",x=320},
 {"text"},
-crc ="d4941423",
+crc ="50a50dd2",
 lang="lang_00111",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=320},
 {"text"},
-crc ="799cd8ab",
+crc ="d4941423",
 lang="lang_00112",
 },
 {
@@ -791,8 +812,9 @@ crc ="50a50dd2",
 lang="lang_00120",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",x=320},
 {"text"},
-crc ="799cd8ab",
+crc ="83b63871",
 lang="lang_00121",
 },
 {
@@ -802,18 +824,17 @@ crc ="ad4042da",
 lang="lang_00122",
 },
 {
+{"fg",ch="日向子",eb="c0003",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=10,lv=4,mo="c0001",mode=3,path=":fg/hinako/z1/",x=320},
 {"text"},
-crc ="799cd8ab",
+crc ="7e537779",
 lang="lang_00123",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",speed=32000,sync=0,x=320,x2=-320},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",speed=32000,x=320,x2=-320},
 {"se",file="ft_room_f4",id=1},
 {"text"},
-crc ="8afd60dd",
+crc ="c2a2e6c8",
 lang="lang_00124",
 },
 {
@@ -844,8 +865,9 @@ crc ="1ed561fe",
 lang="lang_00128",
 },
 {
+{"fg",ch="司",eb="c0005",ey="c0009",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=11,lv=3,mo="c0005",mode=3,path=":fg/tsukasa/no/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="7dbe8515",
 lang="lang_00129",
 },
 {
@@ -918,7 +940,6 @@ crc ="fdd08e5d",
 lang="lang_00141",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",speed=2500,sync=0,x=-100,y2="-130,-180"},
 {"extrans",time=500},
 {"bg",file="bg_16_1c",path=":bg/",sync=0},
@@ -929,7 +950,7 @@ lang="lang_00141",
 {"se",id=1,file="ft_room_f1"},
 {"se",id=2,file="cloth10"},
 {"text"},
-crc ="bf59c099",
+crc ="440534ef",
 lang="lang_00142",
 },
 {
@@ -952,8 +973,9 @@ lang="lang_00145",
 },
 {
 {"fg",ch="司",eb="c0003",ey="c0027",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/tsukasa/no/",x=-190},
+{"fg",ch="日向子",eb="b0003",ey="b0001",face="b0001",file="thinako_nob0100",head="thinako_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/hinako/no/",x=450},
 {"text"},
-crc ="e5dab3ea",
+crc ="af0e76c9",
 lang="lang_00146",
 },
 {
@@ -967,26 +989,26 @@ crc ="799cd8ab",
 lang="lang_00148",
 },
 {
-{"fg",ch="司",eb="c0004",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=11,lv=3,mo="c0002",mode=3,path=":fg/tsukasa/no/",x=-190},
+{"fg",ch="司",eb="c0001",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=11,lv=3,mo="c0002",mode=3,path=":fg/tsukasa/no/",x=-190},
 {"text"},
-crc ="ead4428b",
+crc ="386dcd01",
 lang="lang_00149",
 },
 {
-{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=8,lv=3,mo="b0006",mode=3,path=":fg/hinako/no/",x=450},
+{"fg",ch="司",eb="c0001",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/tsukasa/no/",x=-190},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=8,lv=3,mo="b0007",mode=3,path=":fg/hinako/no/",x=450},
 {"text"},
-crc ="2a962380",
+crc ="78147e2d",
 lang="lang_00150",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=-320},
 {"fg",ch="ミリャ",eb="c0003",ey="c0012",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=9,lv=4,mo="c0001",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",resize=1,size="z1",sync=0,x=-300},
 {"fg",ch="日向子",eb="b0001",ey="b0008",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=12,lv=4,mo="b0001",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=240},
-{"extrans",time=1000},
+{"extrans",time=750},
 {"se",file="cloth2",id=1},
 {"text"},
-crc ="9edd2e2c",
+crc ="646d6041",
 lang="lang_00151",
 },
 {
@@ -1003,9 +1025,10 @@ lang="lang_00153",
 {
 {"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=9,lv=4,mo="c0005",mode=3,path=":fg/mhlia/z1/",x=-300},
 {"fgact",ch="ミリャ",act="いいえ",lv=4,id=9},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=12,lv=4,mo="b0001",mode=3,path=":fg/hinako/z1/",x=240},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="78dd838a",
+crc ="f729d8ab",
 lang="lang_00154",
 },
 {
@@ -1033,16 +1056,17 @@ crc ="799cd8ab",
 lang="lang_00158",
 },
 {
-{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=12,lv=4,mo="b0008",mode=3,path=":fg/hinako/z1/",x=240},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=12,lv=4,mo="b0003",mode=3,path=":fg/hinako/z1/",x=240},
 {"text"},
-crc ="83896820",
+crc ="2e059e7c",
 lang="lang_00159",
 },
 {
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=12,lv=4,mo="b0001",mode=3,path=":fg/hinako/z1/",x=240},
 {"fgact",ch="ミリャ",act="うんうん",time=500,lv=4,id=9},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="ecaade35",
+crc ="1a822bf3",
 lang="lang_00160",
 },
 {
@@ -1051,100 +1075,113 @@ crc ="799cd8ab",
 lang="lang_00161",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=320},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_16_1c",path=":bg/",speed=5000,sync=0,x=320,x2=300},
 {"fg",ch="司",eb="c0001",ey="c0002",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",resize=1,size="z1",sync=0,x=-320},
+{"fg",ch="司",eb="c0001",ey="c0002",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0001",mode=3,path=":fg/tsukasa/z1/",speed=5000,sync=0,x=-320,x2=-350},
 {"extrans",time=500},
 {"text"},
-crc ="247b94c1",
+crc ="f8b16313",
 lang="lang_00162",
 },
 {
-{"fg",ch="日向子",eb="b0001",ey="b0008",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=10,lv=4,mo="b0001",mode=3,mx=40,my=0,path=":fg/hinako/z1/",size="z1",sync=0,time=500,x=270},
+{"bg",file="bg_16_1c",path=":bg/",sync=0},
+{"fg",ch="司",eb="c0001",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0001",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",resize=1,size="no",sync=0,x=-320},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0001",mode=3,mx=40,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,time=750,x=320},
 {"extrans",time=500},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/hinako/no/",x=320},
 {"text"},
-crc ="237ab90a",
+crc ="809b8a3f",
 lang="lang_00163",
 },
 {
-{"fg",ch="司",eb="c0004",ey="c0005",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0002",mode=3,path=":fg/tsukasa/z1/",x=-320},
+{"fg",ch="司",eb="c0001",ey="c0005",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/tsukasa/no/",x=-320},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/hinako/no/",x=320},
 {"text"},
-crc ="2a4f4522",
+crc ="162e2325",
 lang="lang_00164",
 },
 {
-{"fg",ch="司",eb="c0004",ey="c0008",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0001",mode=3,path=":fg/tsukasa/z1/",x=-320},
+{"fg",ch="司",eb="c0001",ey="c0008",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/tsukasa/no/",x=-320},
 {"se",file="paper1",id=1},
 {"text"},
-crc ="50550388",
+crc ="52af723d",
 lang="lang_00165",
 },
 {
-{"fg",ch="司",eb="c0005",ey="c0002",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0007",mode=3,path=":fg/tsukasa/z1/",x=-320},
+{"fg",ch="司",eb="c0003",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/tsukasa/no/",x=-320},
 {"text"},
-crc ="6c964cba",
+crc ="dcd4256b",
 lang="lang_00166",
 },
 {
-{"fg",ch="日向子",eb="b0004",ey="b0011",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=10,lv=4,mo="b0001",mode=3,path=":fg/hinako/z1/",x=270},
+{"fg",ch="司",eb="c0003",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/tsukasa/no/",x=-320},
+{"fg",ch="日向子",eb="b0004",ey="b0002",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/hinako/no/",x=320},
 {"text"},
-crc ="9763d377",
+crc ="b0c37c04",
 lang="lang_00167",
 },
 {
+{"fg",ch="司",eb="c0003",ey="c0002",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/tsukasa/no/",x=-320},
+{"fg",ch="日向子",eb="b0001",ey="b0011",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/hinako/no/",x=320},
 {"se",file="key",id=1},
 {"text"},
-crc ="9c444e80",
+crc ="f6dcc6af",
 lang="lang_00168",
 },
 {
-{"fg",ch="司",eb="c0003",ey="c0005",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0006",mode=3,path=":fg/tsukasa/z1/",x=-320},
+{"fg",ch="司",eb="c0003",ey="c0005",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0002",mode=3,path=":fg/tsukasa/no/",x=-320},
 {"text"},
-crc ="c7b3a6d8",
+crc ="656f9e87",
 lang="lang_00169",
 },
 {
-{"fg",ch="日向子",eb="b0001",ey="b0002",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=10,lv=4,mo="b0008",mode=3,path=":fg/hinako/z1/",x=270},
+{"fg",ch="司",eb="c0003",ey="c0005",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/tsukasa/no/",x=-320},
+{"fg",ch="日向子",eb="b0001",ey="b0002",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0004",mode=3,path=":fg/hinako/no/",x=320},
 {"text"},
-crc ="d3588814",
+crc ="271680a4",
 lang="lang_00170",
 },
 {
-{"fg",ch="司",eb="c0004",ey="c0011",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=9,lv=4,mo="c0004",mode=3,path=":fg/tsukasa/z1/",x=-320},
+{"fg",ch="司",eb="c0001",ey="c0011",face="c0001",file="ttsukasa_noc0100",head="ttsukasa_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/tsukasa/no/",x=-320},
+{"fg",ch="日向子",eb="b0001",ey="b0002",face="b0001",file="thinako_nob0100",head="thinako_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/hinako/no/",x=320},
 {"text"},
-crc ="181abb2",
+crc ="41882b39",
 lang="lang_00171",
 },
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",speed=4000,sync=0,time=0,x=320,y=50,y2=0},
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"extrans",time=500},
-{"bg",file="bg_16_1c",path=":bg/"},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",speed=1000,sync=0,x=320,x2=300,y=0,y2=-10},
+{"fg",ch="司",eb="c0001",ey="c0005",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=11,lv=4,mo="c0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",resize=1,size="z1",sync=0,x=-190},
+{"fg",ch="司",eb="c0001",ey="c0005",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=11,lv=4,mo="c0001",mode=3,path=":fg/tsukasa/z1/",speed=1000,sync=0,x=-190,x2=-220,y=0,y2=20},
+{"extrans",time=750},
+{"fg",ch="司",eb="c0001",ey="c0005",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=11,lv=4,mo="c0002",mode=3,path=":fg/tsukasa/z1/",x=-190,y=0},
 {"text"},
-crc ="b313df54",
+crc ="882f66b6",
 lang="lang_00172",
 },
 {
+{"fg",ch="司",eb="c0001",ey="c0005",face="c0001",file="ttsukasa_z1c0100",head="ttsukasa_z1c",id=11,lv=4,mo="c0001",mode=3,path=":fg/tsukasa/z1/",x=-190,y=0},
 {"text"},
-crc ="799cd8ab",
+crc ="7e16b0f3",
 lang="lang_00173",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
+{"bg",file="black",path=":bg/"},
+{"ex",time=500,func="wait"},
 {"bg",file="bg_32_1c",path=":bg/",zone="night1"},
 {"se",file="car_lock",id=1},
 {"text"},
-crc ="9b41f6b8",
+crc ="c56a549d",
 lang="lang_00174",
 },
 {
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-632,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=632,y2=720},
 {"extrans",time=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_111_1c",id=1,lv=1,noese=1,path=":bg/",speed=2500,sync=0,y=120,y2=20},
+{"bg",file="bg_32_1c",id=1,lv=5,path=":bg/",sync=0},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_111_1c",id=2,lv=5,noese=1,path=":bg/",speed=10000,sync=0,y=120,y2=20},
 {"extrans",time=500},
 {"text"},
-crc ="3aef490c",
+crc ="737feb5a",
 lang="lang_00175",
 },
 {
@@ -1186,11 +1223,12 @@ lang="lang_00182",
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-632},
 {"bg",file="black",id=19,lv=19,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=720,y2=632},
 {"cgdel",id=-1},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_32_1c",path=":bg/",sync=0,zone="night1"},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_32_1c",path=":bg/",speed=5000,sync=0,x=0,x2=-20,zone="night1"},
 {"fg",ch="司",eb="b0005",ey="b0004",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=9,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=-320},
+{"fg",ch="司",eb="b0005",ey="b0004",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=9,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",speed=5000,sync=0,x=-320,x2=-350},
 {"extrans",time=500},
 {"text"},
-crc ="155299ae",
+crc ="972f56fe",
 lang="lang_00183",
 },
 {
@@ -1203,10 +1241,9 @@ lang="lang_00184",
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=544,y2=720},
 {"extrans",time=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_32_1c",id=1,lv=1,path=":bg/",speed=2500,sync=0,x=250,x2=200},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_32_1c",id=1,lv=5,path=":bg/",speed=2500,time=500,x=250,x2=200},
 {"text"},
-crc ="a12d892",
+crc ="c71eb2e7",
 lang="lang_00185",
 },
 {
@@ -1214,54 +1251,59 @@ lang="lang_00185",
 {"bg",file="black",id=19,lv=19,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=720,y2=544},
 {"cgdel",id=-1},
 {"bg",file="bg_32_1c",path=":bg/",sync=0,zone="night1"},
-{"fg",ch="司",eb="b0001",ey="b0010",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=7,lv=3,mo="b0004",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",resize=1,size="no",sync=0,x=-350},
+{"fg",ch="司",eb="b0001",ey="b0024",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=7,lv=3,mo="b0004",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",resize=1,size="no",sync=0,x=-350},
 {"extrans",time=500},
 {"text"},
-crc ="d7ad2d1d",
+crc ="ab343884",
 lang="lang_00186",
 },
 {
+{"fg",ch="司",eb="b0001",ey="b0024",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=7,lv=3,mo="b0001",mode=3,path=":fg/tsukasa/no/",x=-350},
 {"text"},
-crc ="799cd8ab",
+crc ="64f79c7e",
 lang="lang_00187",
 },
 {
-{"fg",ch="司",eb="b0001",ey="b0010",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=7,lv=3,mo="b0001",mode=3,path=":fg/tsukasa/no/",x=-350},
-{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_nob0100",head="trihito_nob",id=11,lv=3,mo="b0003",mode=3,mx=40,my=0,path=":fg/rihito/no/",size="no",time=500,x=-90},
+{"fg",ch="司",eb="b0001",ey="b0024",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=7,lv=3,mo="b0001",mode=3,path=":fg/tsukasa/no/",x=-350},
+{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_nob0100",head="trihito_nob",id=11,lv=3,mo="b0003",mode=3,mx=40,my=0,path=":fg/rihito/no/",size="no",time=750,x=-90},
 {"text"},
-crc ="e5a7df74",
+crc ="d00ea850",
 lang="lang_00188",
+},
+{
+{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_nob0100",head="trihito_nob",id=11,lv=3,mo="b0001",mode=3,path=":fg/rihito/no/",x=-90},
+{"text"},
+crc ="8ffcc6a2",
+lang="lang_00189",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00189",
-},
-{
-{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=8,lv=3,mo="b0004",mode=3,mx=40,my=0,path=":fg/hinako/no/",resize=1,size="no",time=500,x=450},
-{"text"},
-crc ="d1bfafe8",
 lang="lang_00190",
 },
 {
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=8,lv=3,mo="b0001",mode=3,mx=40,my=0,path=":fg/hinako/no/",size="no",time=750,x=450},
 {"se",file="ft_conc_fm1",id=1},
 {"text"},
-crc ="4e8f83dd",
+crc ="c59bcc58",
 lang="lang_00191",
 },
 {
-{"fg",ch="司",time=500,mx=-40,my=0,mode=-1,lv=3,id=7,sync=0},
-{"fg",ch="理人",time=500,mx=-40,my=0,mode=-1,lv=3,id=11,sync=0},
-{"ex",time=250,func="wait"},
-{"fg",ch="日向子",time=500,mx=-40,my=0,mode=-1,lv=3,id=8,sync=0},
-{"extrans",time=500},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_32_1c",path=":bg/",speed=5000,sync=0,x=0,x2=60,zone="night1"},
-{"fg",ch="ミリャ",eb="b0001",ey="b0002",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=10,lv=4,mo="b0007",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=320},
-{"fg",ch="ミリャ",eb="b0001",ey="b0002",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=10,lv=4,mo="b0007",mode=3,path=":fg/mhlia/z1/",speed=5000,sync=0,x=320,x2=400},
+{"fg",ch="司",time=750,mx=-40,my=0,mode=-1,lv=3,id=7},
+{"fg",ch="理人",time=750,mx=-40,my=0,mode=-1,lv=3,id=11},
+{"ex",time=1,func="wait"},
+{"fg",ch="日向子",time=750,mx=-40,my=0,mode=-1,lv=3,id=8},
 {"extrans",time=500},
 {"text"},
-crc ="3ddd3ce3",
+crc ="df9b10a6",
 lang="lang_00192",
+delay={
+[250]={
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_32_1c",path=":bg/",speed=10000,sync=0,time=500,x=-320,x2=-280,zone="night1"},
+{"fg",ch="ミリャ",eb="b0001",ey="b0002",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=10,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,time=500,x=320},
+{"fg",ch="ミリャ",eb="b0001",ey="b0002",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=10,lv=4,mo="b0006",mode=3,path=":fg/mhlia/z1/",speed=10000,sync=0,time=500,x=320,x2=380},
+},
+},
 },
 {
 {"fg",ch="ミリャ",eb="b0005",ey="b0005",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=10,lv=4,mo="b0006",mode=3,path=":fg/mhlia/z1/",x=320},
@@ -1270,88 +1312,87 @@ crc ="ef89b4ba",
 lang="lang_00193",
 },
 {
+{"fg",ch="ミリャ",time=500,mx=-40,my=0,mode=-1,lv=4,id=10},
+{"se",file="ft_conc_f3",id=1},
+{"ex",time=1,func="wait"},
+{"bg",file="bg_32_1c",path=":bg/",zone="night1"},
 {"text"},
-crc ="799cd8ab",
+crc ="b88ad141",
 lang="lang_00194",
 },
 {
-{"se",file="ft_conc_f3",id=1},
-{"fg",ch="ミリャ",time=500,mx=-40,my=0,mode=-1,lv=4,id=10},
-{"ex",time=1,func="wait"},
 {"bg",file="black",path=":bg/"},
 {"bg",file="bg_35_1c",path=":bg/"},
 {"bgm",file="bgm026"},
 {"se",file="chair11",id=1},
 {"text"},
-crc ="3a1a6d1c",
+crc ="7b73b8a6",
 lang="lang_00195",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0},
-{"fg",ch="理人",eb="b0004",ey="b0010",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0006",mode=3,mx=0,my=0,path=":fg/rihito/z1/",resize=1,size="z1",sync=0,x=90},
+{"fg",ch="理人",eb="b0004",ey="b0021",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0006",mode=3,mx=0,my=0,path=":fg/rihito/z1/",resize=1,size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0001",ey="b0006",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",resize=1,size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="6de3a149",
+crc ="fcbd573a",
 lang="lang_00196",
 },
 {
+{"fg",ch="理人",eb="b0004",ey="b0021",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0005",mode=3,path=":fg/rihito/z1/",x=90},
 {"fg",ch="司",eb="b0005",ey="b0027",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="f368836",
+crc ="c0130984",
 lang="lang_00197",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
 {"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0007",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="452271b6",
+crc ="656b600c",
 lang="lang_00198",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=0},
 {"fg",ch="理人",eb="b0004",ey="b0021",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0002",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0001",ey="b0006",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="8f039a4c",
+crc ="abd5fd4",
 lang="lang_00199",
 },
 {
 {"fg",ch="理人",eb="b0004",ey="b0021",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,path=":fg/rihito/z1/",x=90},
-{"fg",ch="司",eb="b0004",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=3,mo="b0003",mode=3,path=":fg/tsukasa/z1/",x=400},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="48cca0e5",
+crc ="e31654e5",
 lang="lang_00200",
 },
 {
 {"fg",ch="理人",eb="b0005",ey="b0008",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0007",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="14420b2f",
+crc ="17c46aa7",
 lang="lang_00201",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
 {"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0003",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="c5f3f04c",
+crc ="2d81b76c",
 lang="lang_00202",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=0},
 {"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0002",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0001",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="69f3638f",
+crc ="ec4da617",
 lang="lang_00203",
 },
 {
@@ -1361,33 +1402,30 @@ crc ="c8e86c79",
 lang="lang_00204",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=5000,sync=0,x=200,x2=160},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=5000,sync=0,x=200,x2=180},
 {"fg",ch="ミリャ",eb="c0005",ey="c0001",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=9,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-320},
-{"fg",ch="ミリャ",eb="c0005",ey="c0001",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=9,lv=4,mo="c0006",mode=3,path=":fg/mhlia/z1/",speed=5000,sync=0,x=-270,x2=-330},
+{"fg",ch="ミリャ",eb="c0005",ey="c0001",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=9,lv=4,mo="c0006",mode=3,path=":fg/mhlia/z1/",speed=5000,sync=0,x=-270,x2=-300},
 {"extrans",time=500},
 {"text"},
-crc ="fe20279c",
+crc ="ee52058f",
 lang="lang_00205",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=5000,sync=0,x=-120,x2=-80},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=5000,sync=0,x=-120,x2=-100},
 {"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=320},
-{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",speed=5000,sync=0,x=270,x2=330},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",speed=5000,sync=0,x=270,x2=300},
 {"extrans",time=500},
 {"text"},
-crc ="546efc24",
+crc ="916c5abf",
 lang="lang_00206",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=0},
 {"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0004",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="e06ef473",
+crc ="65d031eb",
 lang="lang_00207",
 },
 {
@@ -1434,28 +1472,27 @@ crc ="862e4c9",
 lang="lang_00214",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
 {"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0007",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="fd892b3c",
+crc ="15fb6c1c",
 lang="lang_00215",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=0},
 {"fg",ch="理人",eb="b0005",ey="b0005",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0006",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="1a2e857a",
+crc ="9f9040e2",
 lang="lang_00216",
 },
 {
+{"fg",ch="理人",eb="b0005",ey="b0005",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0005",mode=3,path=":fg/rihito/z1/",x=90},
 {"text"},
-crc ="799cd8ab",
+crc ="f9b78125",
 lang="lang_00217",
 },
 {
@@ -1463,10 +1500,9 @@ lang="lang_00217",
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=544,y2=720},
 {"extrans",time=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",id=1,lv=1,path=":bg/",speed=5000,sync=0,x=-320,x2=-220},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",id=1,lv=5,path=":bg/",speed=10000,time=750,x=-320,x2=-220},
 {"text"},
-crc ="de586814",
+crc ="553a85f0",
 lang="lang_00218",
 },
 {
@@ -1493,18 +1529,19 @@ lang="lang_00221",
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0006",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
-{"fg",ch="日向子",eb="c0004",ey="c0011",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
+{"fg",ch="日向子",eb="c0004",ey="c0011",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0003",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="f7eb9cb1",
+crc ="c6509974",
 lang="lang_00222",
 },
 {
+{"fg",ch="日向子",eb="c0004",ey="c0011",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0001",mode=3,path=":fg/hinako/z1/",x=-375},
 {"fg",ch="ミリャ",eb="c0001",ey="c0006",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0005",mode=3,path=":fg/mhlia/z1/",x=-65},
 {"fgact",ch="ミリャ",act="うんうん",lv=2,id=11},
 {"se",file="cloth13",id=1},
 {"text"},
-crc ="6fed5729",
+crc ="4b41a143",
 lang="lang_00223",
 },
 {
@@ -1513,10 +1550,10 @@ crc ="799cd8ab",
 lang="lang_00224",
 },
 {
-{"fg",ch="ミリャ",eb="c0001",ey="c0001",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,path=":fg/mhlia/z1/",x=-65},
-{"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=-375},
+{"fg",ch="ミリャ",eb="c0001",ey="c0001",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,path=":fg/mhlia/z1/",time=500,x=-65},
+{"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",time=500,x=-375},
 {"text"},
-crc ="908df521",
+crc ="8e4ffdfd",
 lang="lang_00225",
 },
 {
@@ -1543,28 +1580,29 @@ lang="lang_00228",
 },
 {
 {"fg",ch="理人",eb="b0001",ey="b0021",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0003",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="司",eb="b0004",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="7e00e890",
+crc ="3352e69a",
 lang="lang_00229",
 },
 {
+{"fg",ch="理人",eb="b0001",ey="b0021",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,path=":fg/rihito/z1/",x=90},
 {"fg",ch="司",eb="b0003",ey="b0012",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="8b8abab4",
+crc ="70ad6ad7",
 lang="lang_00230",
 },
 {
 {"fg",ch="司",eb="b0003",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=400},
-{"fg",ch="理人",eb="b0003",ey="b0011",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="理人",eb="b0003",ey="b0011",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0002",mode=3,path=":fg/rihito/z1/",x=90},
 {"text"},
-crc ="40c96845",
+crc ="a501f31",
 lang="lang_00231",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="bg_35_1c",path=":bg/"},
 {"text"},
-crc ="407395d0",
+crc ="283053c9",
 lang="lang_00232",
 },
 {
@@ -1588,8 +1626,9 @@ crc ="558ced05",
 lang="lang_00235",
 },
 {
+{"fg",ch="司",eb="b0001",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=13,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=0},
 {"text"},
-crc ="799cd8ab",
+crc ="8b5cefde",
 lang="lang_00236",
 },
 {
@@ -1605,13 +1644,12 @@ crc ="75687930",
 lang="lang_00238",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0006",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
 {"fg",ch="日向子",eb="c0004",ey="c0011",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="1f99db91",
+crc ="f7eb9cb1",
 lang="lang_00239",
 },
 {
@@ -1626,18 +1664,18 @@ crc ="22bbd138",
 lang="lang_00241",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=0},
 {"fg",ch="理人",eb="b0001",ey="b0005",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0002",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0004",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="48ee1e71",
+crc ="cd50dbe9",
 lang="lang_00242",
 },
 {
+{"fg",ch="理人",eb="b0001",ey="b0005",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,path=":fg/rihito/z1/",x=90},
 {"text"},
-crc ="799cd8ab",
+crc ="c73132db",
 lang="lang_00243",
 },
 {
@@ -1647,43 +1685,47 @@ crc ="f0698264",
 lang="lang_00244",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
+{"fg",ch="ミリャ",eb="c0001",ey="c0006",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0007",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
+{"fg",ch="日向子",eb="c0001",ey="c0009",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
+{"extrans",time=500},
+{"fg",ch="日向子",eb="c0004",ey="c0006",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",x=-375},
 {"text"},
-crc ="799cd8ab",
+crc ="1be213fe",
 lang="lang_00245",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
-{"fg",ch="ミリャ",eb="c0001",ey="c0006",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0007",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
-{"fg",ch="日向子",eb="c0002",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0008",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
-{"extrans",time=500},
+{"fg",ch="日向子",eb="c0002",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0008",mode=3,path=":fg/hinako/z1/",x=-375},
 {"se",file="prop_put4",id=1},
 {"text"},
-crc ="2e5a688",
+crc ="443a4f86",
 lang="lang_00246",
 },
 {
+{"fg",ch="日向子",eb="c0002",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",x=-375},
 {"text"},
-crc ="799cd8ab",
+crc ="28ec1105",
 lang="lang_00247",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=5000,sync=0,x=-80,x2=-60},
+{"fg",ch="司",eb="b0003",ey="b0012",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=320},
+{"fg",ch="司",eb="b0003",ey="b0012",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",speed=5000,sync=0,x=270,x2=300},
+{"extrans",time=500},
 {"text"},
-crc ="799cd8ab",
+crc ="184591a6",
 lang="lang_00248",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=-80},
-{"fg",ch="司",eb="b0003",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=270},
-{"extrans",time=500},
+{"fg",ch="司",eb="b0003",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",x=270},
 {"text"},
-crc ="4bfa5eee",
+crc ="abdd5155",
 lang="lang_00249",
 },
 {
+{"fg",ch="司",eb="b0003",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",time=500,x=270},
 {"text"},
-crc ="799cd8ab",
+crc ="3b4717c",
 lang="lang_00250",
 },
 {
@@ -1692,25 +1734,24 @@ crc ="799cd8ab",
 lang="lang_00251",
 },
 {
-{"fg",ch="司",eb="b0003",ey="b0008",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",x=270},
+{"fg",ch="司",eb="b0003",ey="b0008",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",x=270},
 {"text"},
-crc ="4b0467b8",
+crc ="ce36754c",
 lang="lang_00252",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0001",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0007",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
 {"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="17f14e38",
+crc ="ff830918",
 lang="lang_00253",
 },
 {
-{"fg",ch="ミリャ",eb="c0003",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0009",mode=3,path=":fg/mhlia/z1/",x=-65},
+{"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,path=":fg/mhlia/z1/",x=-65},
 {"text"},
-crc ="6ac16a56",
+crc ="e2608fbe",
 lang="lang_00254",
 },
 {
@@ -1720,22 +1761,20 @@ crc ="7f27cb01",
 lang="lang_00255",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=-80},
 {"fg",ch="司",eb="b0004",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0007",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=270},
 {"extrans",time=500},
 {"text"},
-crc ="f2c1dc97",
+crc ="418d1e6b",
 lang="lang_00256",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=320},
 {"fg",ch="ミリャ",eb="c0001",ey="c0010",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0007",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=-65},
 {"fg",ch="日向子",eb="c0005",ey="c0010",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0002",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-375},
 {"extrans",time=500},
 {"text"},
-crc ="3a05675b",
+crc ="4066c9e3",
 lang="lang_00257",
 delay={
 vl1={
@@ -1744,13 +1783,12 @@ vl1={
 },
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=0},
 {"fg",ch="理人",eb="b0001",ey="b0021",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0003",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="6eca048b",
+crc ="eb74c113",
 lang="lang_00258",
 },
 {
@@ -1778,25 +1816,16 @@ crc ="f0698264",
 lang="lang_00262",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="bg_35_1c",path=":bg/"},
-{"ex",time=1,func="wait"},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=2500,sync=0,x=-70,x2=-120},
-{"fg",ch="司",eb="b0004",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=320},
-{"fg",ch="司",eb="b0004",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=10,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",speed=2500,sync=0,x=320,x2=270},
-{"extrans",time=500},
-{"ex",time=250,func="wait"},
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=2500,sync=0,x=200,x2=150},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",speed=5000,sync=0,x=200,x2=180},
 {"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=9,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-320},
-{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=9,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",speed=2500,sync=0,x=-270,x2=-320},
+{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=9,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",speed=5000,sync=0,x=-270,x2=-300},
 {"extrans",time=500},
 {"text"},
-crc ="9517e6fa",
+crc ="5feabaf1",
 lang="lang_00263",
 delay={
 vl1={
-{"fg",ch="日向子",eb="c0003",ey="c0027",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=9,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",time=500,x=-270},
+{"fg",ch="日向子",eb="c0003",ey="c0012",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=9,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",time=500,x=-270},
 },
 },
 },
@@ -1811,46 +1840,41 @@ crc ="799cd8ab",
 lang="lang_00265",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0},
+{"fg",ch="理人",eb="b0001",ey="b0021",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
+{"fg",ch="司",eb="b0005",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
+{"extrans",time=500},
+{"se",file="cloth2",id=1},
 {"text"},
-crc ="799cd8ab",
+crc ="c411fa17",
 lang="lang_00266",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="bg_35_1c",path=":bg/"},
-{"se",file="cloth2",id=1},
+{"fg",ch="司",eb="b0005",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0007",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="8c73ec26",
+crc ="9b8e34b1",
 lang="lang_00267",
 },
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0},
-{"fg",ch="理人",eb="b0001",ey="b0010",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0003",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
-{"fg",ch="司",eb="b0005",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0007",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
-{"extrans",time=500},
+{"fg",ch="理人",eb="b0004",ey="b0007",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0007",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="司",eb="b0005",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="93d28463",
+crc ="9b2875a",
 lang="lang_00268",
 },
 {
-{"fg",ch="理人",eb="b0004",ey="b0007",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0007",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="理人",eb="b0004",ey="b0007",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0005",mode=3,path=":fg/rihito/z1/",x=90},
+{"se",file="chair9",id=1},
 {"text"},
-crc ="ee7c4964",
+crc ="b303555",
 lang="lang_00269",
 },
 {
-{"se",file="chair9",id=1},
-{"text"},
-crc ="8a531e64",
-lang="lang_00270",
-},
-{
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="bg_35_1c",path=":bg/"},
+{"bg",file="bg_35_1c",path=":bg/",time=500},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="c29e077f",
-lang="lang_00271",
+crc ="8d0de48b",
+lang="lang_00270",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=-120},
@@ -1858,7 +1882,7 @@ lang="lang_00271",
 {"extrans",time=500},
 {"text"},
 crc ="fe4c3823",
-lang="lang_00272",
+lang="lang_00271",
 delay={
 vl1={
 {"fg",ch="理人",eb="a0001",ey="a0011",face="a0001",file="trihito_z1a0100",head="trihito_z1a",id=13,lv=4,mo="a0001",mode=3,path=":fg/rihito/z1/",sync=0,time=250,x=0},
@@ -1869,15 +1893,13 @@ vl1={
 {"se",file="hit1",id=1},
 {"text"},
 crc ="f730aec0",
-lang="lang_00273",
+lang="lang_00272",
 },
 {
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"bg",file="bg_35_1c",path=":bg/",sync=0},
-{"extrans",time=250},
+{"bg",file="bg_35_1c",path=":bg/",time=250},
 {"text"},
-crc ="1dbc1f26",
-lang="lang_00274",
+crc ="d400010b",
+lang="lang_00273",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0},
@@ -1886,90 +1908,87 @@ lang="lang_00274",
 {"extrans",time=500},
 {"text"},
 crc ="61507bdd",
-lang="lang_00275",
+lang="lang_00274",
 },
 {
 {"fg",ch="理人",eb="b0004",ey="b0021",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0007",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="司",eb="b0005",ey="b0007",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="f0698264",
+crc ="8222dcaa",
+lang="lang_00275",
+},
+{
+{"fg",ch="司",eb="b0003",ey="b0027",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",time=500,x=400},
+{"text"},
+crc ="9027c62f",
 lang="lang_00276",
 },
 {
-{"fg",ch="司",eb="b0003",ey="b0027",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",x=400},
+{"fg",ch="理人",eb="b0003",ey="b0008",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0006",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="司",eb="b0003",ey="b0027",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="b89794a1",
+crc ="90a48859",
 lang="lang_00277",
 },
 {
-{"fg",ch="理人",eb="b0003",ey="b0012",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0006",mode=3,path=":fg/rihito/z1/",x=90},
-{"text"},
-crc ="24ebab00",
-lang="lang_00278",
-delay={
-vl1={
 {"fg",ch="理人",eb="b0003",ey="b0008",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0005",mode=3,path=":fg/rihito/z1/",x=90},
-},
-},
-},
-{
 {"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="e0ce3771",
-lang="lang_00279",
+crc ="f53633c7",
+lang="lang_00278",
 },
 {
 {"fg",ch="理人",eb="b0005",ey="b0012",face="b0001",file="trihito_z1b0100",head="trihito_z1b",id=12,lv=2,mo="b0002",mode=3,path=":fg/rihito/z1/",x=90},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="b2878de9",
+crc ="3670861",
+lang="lang_00279",
+},
+{
+{"text"},
+crc ="799cd8ab",
 lang="lang_00280",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="bg_35_1c",path=":bg/"},
+{"bg",file="bg_35_1c",path=":bg/",sync=0},
+{"fg",ch="日向子",eb="c0003",ey="c0009",face="c0001",file="thinako_noc0100",head="thinako_noc",id=9,lv=3,mo="c0005",mode=3,mx=0,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,x=-320},
+{"fg",ch="司",eb="b0005",ey="b0008",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",resize=1,size="no",sync=0,x=320},
+{"extrans",time=500},
 {"text"},
-crc ="407395d0",
+crc ="d7c2283a",
 lang="lang_00281",
 },
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=40},
-{"fg",ch="司",eb="b0005",ey="b0008",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=425},
-{"fg",ch="日向子",eb="c0003",ey="c0009",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0007",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-400},
-{"extrans",time=500},
+{"fg",ch="司",eb="b0001",ey="b0002",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/tsukasa/no/",x=320},
 {"text"},
-crc ="ce94557b",
+crc ="8529e779",
 lang="lang_00282",
 },
 {
-{"fg",ch="司",eb="b0001",ey="b0001",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0006",mode=3,path=":fg/tsukasa/z1/",x=425},
+{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-320},
+{"fg",ch="司",eb="b0001",ey="b0002",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/tsukasa/no/",x=320},
 {"text"},
-crc ="ad1a89f",
+crc ="45ce16df",
 lang="lang_00283",
-},
-{
-{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=-400},
-{"text"},
-crc ="1d8125e3",
-lang="lang_00284",
 delay={
 [750]={
-{"fg",ch="日向子",eb="c0005",ey="c0010",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0009",mode=3,path=":fg/hinako/z1/",time=500,x=-400},
+{"fg",ch="日向子",eb="c0005",ey="c0027",face="c0001",file="thinako_noc0100",head="thinako_noc",id=9,lv=3,mo="c0009",mode=3,path=":fg/hinako/no/",time=500,x=-320},
 },
 },
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="ecec2705",
-lang="lang_00285",
+crc ="a3564020",
+lang="lang_00284",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=200},
-{"fg",ch="日向子",eb="a0004",ey="a0002",face="a0001",file="thinako_z1a0100",head="thinako_z1a",id=13,lv=4,mo="a0004",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=0},
+{"fg",ch="日向子",eb="a0004",ey="a0002",face="a0001",file="thinako_z1a0100",head="thinako_z1a",id=13,lv=4,mo="a0004",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=0},
 {"extrans",time=500},
 {"text"},
-crc ="13f35f20",
-lang="lang_00286",
+crc ="852ae3c4",
+lang="lang_00285",
 delay={
 vl1={
 {"fg",ch="日向子",eb="a0003",ey="a0011",face="a0001",file="thinako_z1a0100",head="thinako_z1a",id=13,lv=4,mo="a0001",mode=3,path=":fg/hinako/z1/",sync=0,time=250,x=0},
@@ -1979,159 +1998,156 @@ vl1={
 {
 {"text"},
 crc ="799cd8ab",
+lang="lang_00286",
+},
+{
+{"bg",file="bg_35_1c",path=":bg/",sync=0},
+{"fg",ch="司",eb="b0003",ey="b0012",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",size="no",sync=0,x=320},
+{"fg",ch="司",eb="b0003",ey="b0012",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/tsukasa/no/",speed=1000,sync=0,x=320,x2=310},
+{"fg",ch="日向子",eb="c0003",ey="c0011",face="c0001",file="thinako_noc0100",head="thinako_noc",id=9,lv=3,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,x=-320},
+{"extrans",time=500},
+{"se",file="chair_creak1",id=1},
+{"text"},
+crc ="12806734",
 lang="lang_00287",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"se",file="chair_creak1",id=1},
+{"fg",ch="司",eb="b0003",ey="b0005",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/tsukasa/no/",x=320},
 {"text"},
-crc ="39c9c0f2",
+crc ="588f0519",
 lang="lang_00288",
 },
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",path=":bg/",sync=0,x=40},
-{"fg",ch="司",eb="b0003",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=425},
-{"fg",ch="日向子",eb="c0003",ey="c0011",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/z1/",size="z1",sync=0,x=-400},
-{"extrans",time=500},
+{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/hinako/no/",x=-320},
+{"fg",ch="司",eb="b0003",ey="b0005",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/tsukasa/no/",x=320},
 {"text"},
-crc ="11ec5d9f",
+crc ="8e71bd54",
 lang="lang_00289",
 },
 {
-{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0007",mode=3,path=":fg/hinako/z1/",x=-400},
+{"fg",ch="日向子",eb="c0004",ey="c0001",face="c0001",file="thinako_noc0100",head="thinako_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/hinako/no/",x=-320},
+{"fg",ch="司",eb="b0001",ey="b0002",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/tsukasa/no/",x=320},
 {"text"},
-crc ="a9767531",
+crc ="4ee6f697",
 lang="lang_00290",
 },
 {
-{"fg",ch="司",eb="b0005",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=425},
+{"fg",ch="司",eb="b0001",ey="b0012",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/tsukasa/no/",x=320},
 {"text"},
-crc ="66bec8e4",
+crc ="62ff5402",
 lang="lang_00291",
 },
 {
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"bg",file="bg_35_1c",path=":bg/",sync=0},
-{"extrans",time=500},
-{"text"},
-crc ="d3c259d8",
-lang="lang_00292",
-},
-{
+{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=544,y2=720},
 {"extrans",time=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",id=1,lv=1,path=":bg/",speed=5000,sync=0,x=320,x2=220},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_35_1c",id=1,lv=5,path=":bg/",speed=10000,x=320,x2=220},
 {"se",file="prop_put3",id=1},
 {"text"},
-crc ="8f5c48e5",
-lang="lang_00293",
+crc ="771bea6c",
+lang="lang_00292",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00294",
+lang="lang_00293",
 },
 {
-{"cgdel",id=-1},
-{"bg",file="bg_35_1c",path=":bg/"},
+{"bg",file="bg_35_1c",path=":bg/",time=750},
 {"text"},
-crc ="f3706418",
-lang="lang_00295",
+crc ="ae59dc1d",
+lang="lang_00294",
 },
 {
 {"bgm",stop=1},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_35_1c",path=":bg/",sync=0,x=-120},
-{"fg",ch="司",eb="b0005",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=9,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=-270},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=9,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",resize=1,size="z1",sync=0,x=-270},
 {"extrans",time=500},
 {"text"},
-crc ="53f98ffc",
+crc ="f201cb6d",
+lang="lang_00295",
+},
+{
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=9,lv=4,mo="b0005",mode=3,path=":fg/tsukasa/z1/",x=-270},
+{"text"},
+crc ="14fff577",
 lang="lang_00296",
 },
 {
+{"bg",file="black",path=":bg/"},
+{"bg",file="bg_16_1c",path=":bg/",sync=0},
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=7,lv=3,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/no/",size="no",sync=0,x=-470},
+{"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_noc0100",head="tmhlia_noc",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/no/",resize=1,size="no",sync=0,x=-220},
+{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_nob0110",head="trihito_nob",id=12,lv=2,mo="b0001",mode=3,mx=0,my=0,path=":fg/rihito/no/",resize=1,size="no",sync=0,x=230},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=8,lv=3,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",resize=1,size="no",sync=0,x=470},
+{"extrans",time=1000},
 {"text"},
-crc ="799cd8ab",
+crc ="92401516",
 lang="lang_00297",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="black",path=":bg/"},
-{"bg",file="bg_16_1c",path=":bg/",sync=0},
-{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=7,lv=3,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,x=-470},
-{"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_noc0100",head="tmhlia_noc",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/no/",resize=1,size="no",sync=0,x=-220},
-{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_nob0110",head="trihito_nob",id=12,lv=2,mo="b0002",mode=3,mx=0,my=0,path=":fg/rihito/no/",resize=1,size="no",sync=0,x=230},
-{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_nob0100",head="ttsukasa_nob",id=8,lv=3,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/no/",resize=1,size="no",sync=0,x=470},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=-320},
+{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,mx=0,my=0,path=":fg/rihito/z1/",resize=1,size="z1",sync=0,x=90},
+{"fg",ch="司",eb="b0001",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",resize=1,size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="a948c5b4",
+crc ="db7a590d",
 lang="lang_00298",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=-320},
-{"fg",ch="理人",eb="b0001",ey="b0002",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0001",mode=3,mx=0,my=0,path=":fg/rihito/z1/",resize=1,size="z1",sync=0,x=90},
-{"fg",ch="司",eb="b0004",ey="b0002",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0003",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",resize=1,size="z1",sync=0,x=400},
-{"extrans",time=500},
+{"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,path=":fg/tsukasa/z1/",x=400},
 {"text"},
-crc ="b3f14c85",
+crc ="afc2d616",
 lang="lang_00299",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=320},
+{"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",resize=1,size="z1",sync=0,x=-65},
+{"fg",ch="日向子",eb="c0001",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0003",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=-375},
+{"extrans",time=500},
 {"text"},
-crc ="799cd8ab",
+crc ="7da5eea4",
 lang="lang_00300",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=320},
-{"fg",ch="ミリャ",eb="c0001",ey="c0005",face="c0001",file="tmhlia_z1c0100",head="tmhlia_z1c",id=11,lv=2,mo="c0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",resize=1,size="z1",sync=0,x=-65},
-{"fg",ch="日向子",eb="c0001",ey="c0001",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=7,lv=4,mo="c0008",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=-375},
-{"extrans",time=500},
-{"text"},
-crc ="d38cfd82",
-lang="lang_00301",
-},
-{
-{"fg",mx=0,my=0,mode=-2},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=-320},
 {"fg",ch="理人",eb="b0004",ey="b0005",face="b0001",file="trihito_z1b0110",head="trihito_z1b",id=12,lv=2,mo="b0003",mode=3,mx=0,my=0,path=":fg/rihito/z1/",size="z1",sync=0,x=90},
 {"fg",ch="司",eb="b0001",ey="b0005",face="b0001",file="ttsukasa_z1b0100",head="ttsukasa_z1b",id=8,lv=4,mo="b0001",mode=3,mx=0,my=0,path=":fg/tsukasa/z1/",size="z1",sync=0,x=400},
 {"extrans",time=500},
 {"text"},
-crc ="a51a3366",
-lang="lang_00302",
+crc ="cc4e672b",
+lang="lang_00301",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_16_1c",path=":bg/",sync=0,x=160},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_16_1c",path=":bg/",sync=0,x=160},
 {"fg",ch="ミリャ",eb="a0001",ey="a0005",face="a0001",file="tmhlia_z1a0100",head="tmhlia_z1a",id=13,lv=4,mo="a0005",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",size="z1",sync=0,x=0},
 {"extrans",time=500},
 {"se",file="cloth1",id=1},
 {"text"},
-crc ="e96c49a",
+crc ="27053c8d",
+lang="lang_00302",
+},
+{
+{"bg",file="black",path=":bg/"},
+{"bg",file="bg_13_2c",path=":bg/",sync=0},
+{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=11,lv=3,mo="b0001",mode=3,mx=40,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,time=750,x=-240},
+{"extrans",time=1000},
+{"text"},
+crc ="c40264c2",
 lang="lang_00303",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",file="black",path=":bg/"},
-{"bg",file="bg_13_2c",path=":bg/"},
-{"fg",ch="日向子",eb="b0001",ey="b0005",face="b0001",file="thinako_nob0100",head="thinako_nob",id=11,lv=3,mo="b0001",mode=3,mx=40,my=0,path=":fg/hinako/no/",resize=1,size="no",time=500,x=-240},
+{"fg",ch="ミリャ",eb="b0001",ey="b0005",face="b0001",file="tmhlia_nob0100",head="tmhlia_nob",id=12,lv=3,mo="b0006",mode=3,mx=40,my=0,path=":fg/mhlia/no/",resize=1,size="no",time=750,x=240},
 {"text"},
-crc ="c912cde9",
+crc ="103062a7",
 lang="lang_00304",
-},
-{
-{"fg",ch="ミリャ",eb="b0001",ey="b0005",face="b0001",file="tmhlia_nob0100",head="tmhlia_nob",id=12,lv=3,mo="b0006",mode=3,mx=40,my=0,path=":fg/mhlia/no/",resize=1,size="no",time=500,x=240},
-{"text"},
-crc ="b3432c02",
-lang="lang_00305",
 },
 {
 {"fg",ch="日向子",eb="b0001",ey="b0009",face="b0001",file="thinako_nob0100",head="thinako_nob",id=11,lv=3,mo="b0006",mode=3,path=":fg/hinako/no/",x=-240},
 {"text"},
 crc ="956d1105",
-lang="lang_00306",
+lang="lang_00305",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",sync=0,x=150},
@@ -2140,178 +2156,188 @@ lang="lang_00306",
 {"extrans",time=500},
 {"text"},
 crc ="b493d3e6",
-lang="lang_00307",
+lang="lang_00306",
 },
 {
 {"se",file="prop_put2",id=1},
 {"text"},
 crc ="3b938e77",
-lang="lang_00308",
+lang="lang_00307",
 },
 {
-{"fg",ch="ミリャ",eb="b0004",ey="b0001",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=13,lv=4,mo="b0005",mode=3,path=":fg/mhlia/z1/",x=150},
+{"fg",ch="ミリャ",eb="b0001",ey="b0001",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=13,lv=4,mo="b0005",mode=3,path=":fg/mhlia/z1/",x=150},
 {"se",file="cloth6",id=1},
 {"text"},
-crc ="1c187a67",
-lang="lang_00309",
+crc ="52c41feb",
+lang="lang_00308",
 },
 {
 {"fg",ch="日向子",eb="b0004",ey="b0021",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=9,lv=4,mo="b0007",mode=3,path=":fg/hinako/z1/",time=500,x=-370},
 {"text"},
 crc ="3d88a1fb",
+lang="lang_00309",
+},
+{
+{"fg",ch="日向子",eb="b0001",ey="b0024",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=9,lv=4,mo="b0003",mode=3,path=":fg/hinako/z1/",x=-370},
+{"text"},
+crc ="f86799ed",
 lang="lang_00310",
 },
 {
-{"fg",ch="日向子",eb="b0001",ey="b0010",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=9,lv=4,mo="b0003",mode=3,path=":fg/hinako/z1/",x=-370},
+{"fg",ch="日向子",eb="b0001",ey="b0011",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=9,lv=4,mo="b0003",mode=3,path=":fg/hinako/z1/",x=-370},
 {"text"},
-crc ="e926d38e",
+crc ="15ce05e3",
 lang="lang_00311",
 },
 {
-{"fg",ch="日向子",eb="b0003",ey="b0011",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=9,lv=4,mo="b0001",mode=3,path=":fg/hinako/z1/",x=-370},
+{"fg",ch="日向子",eb="b0001",ey="b0011",face="b0001",file="thinako_z1b0100",head="thinako_z1b",id=9,lv=4,mo="b0001",mode=3,path=":fg/hinako/z1/",x=-370},
 {"text"},
-crc ="4179ef4b",
+crc ="5ac2e484",
 lang="lang_00312",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00313",
 },
 {
 {"fg",ch="ミリャ",eb="b0001",ey="b0001",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=13,lv=4,mo="b0006",mode=3,path=":fg/mhlia/z1/",x=150},
 {"fgact",ch="ミリャ",act="うなづく",lv=4,id=13},
 {"text"},
 crc ="88b96195",
-lang="lang_00314",
+lang="lang_00313",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00315",
+lang="lang_00314",
 },
 {
+{"se",file="freezer",id=1},
 {"bg",file="bg_13_2c",path=":bg/",sync=0},
 {"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,mx=0,my=0,path=":fg/hinako/no/",resize=1,size="no",sync=0,x=-240},
 {"fg",ch="ミリャ",eb="b0001",ey="b0001",face="b0001",file="tmhlia_nob0100",head="tmhlia_nob",id=12,lv=3,mo="b0006",mode=3,mx=0,my=0,path=":fg/mhlia/no/",resize=1,size="no",sync=0,x=240},
 {"extrans",time=500},
-{"se",file="freezer",id=1},
 {"text"},
-crc ="b5b2e0ea",
-lang="lang_00316",
+crc ="1eaf5db2",
+lang="lang_00315",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00317",
+lang="lang_00316",
 },
 {
 {"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-240},
 {"text"},
 crc ="a2d64f66",
-lang="lang_00318",
+lang="lang_00317",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0002",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-240},
 {"fgact",ch="ミリャ",act="うんうん",time=500,lv=3,id=12},
 {"text"},
-crc ="2f4dddb5",
-lang="lang_00319",
+crc ="1cf8800a",
+lang="lang_00318",
 },
 {
 {"text"},
 crc ="799cd8ab",
+lang="lang_00319",
+},
+{
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",time=500,x=-240},
+{"se",file="cloth2",id=1},
+{"text"},
+crc ="8d80089c",
 lang="lang_00320",
 },
 {
-{"se",file="cloth2",id=1},
+{"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0003",mode=3,path=":fg/hinako/no/",x=-240},
 {"text"},
-crc ="edbbab79",
+crc ="392984ff",
 lang="lang_00321",
 },
 {
 {"fg",ch="日向子",eb="c0001",ey="c0005",face="c0001",file="thinako_noc0100",head="thinako_noc",id=11,lv=3,mo="c0001",mode=3,path=":fg/hinako/no/",x=-240},
-{"text"},
-crc ="76256598",
-lang="lang_00322",
-},
-{
 {"fg",ch="ミリャ",eb="b0001",ey="b0005",face="b0001",file="tmhlia_nob0100",head="tmhlia_nob",id=12,lv=3,mo="b0005",mode=3,path=":fg/mhlia/no/",x=240},
 {"fgact",ch="ミリャ",act="うなづく",lv=3,id=12},
 {"text"},
-crc ="7f654e91",
-lang="lang_00323",
+crc ="e8f76d4f",
+lang="lang_00322",
 },
 {
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"extrans",time=500},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_2c",path=":bg/",speed=48000,time=750,x=0,x2=-320},
 {"se",file="ft_slip_fm1",id=1},
 {"text"},
-crc ="beae2833",
-lang="lang_00324",
+crc ="702020be",
+lang="lang_00323",
 },
 {
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_13_2c",path=":bg/",sync=0,x=320},
 {"fg",ch="日向子",eb="c0004",ey="c0002",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,mx=0,my=0,path=":fg/hinako/z1/",resize=1,size="z1",sync=0,x=-240},
-{"fg",ch="ミリャ",eb="b0004",ey="b0001",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=12,lv=4,mo="b0006",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",resize=1,size="z1",sync=0,x=340},
+{"fg",ch="ミリャ",eb="b0004",ey="b0001",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=12,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/mhlia/z1/",resize=1,size="z1",sync=0,x=340},
 {"extrans",time=500},
 {"text"},
-crc ="3df62645",
-lang="lang_00325",
+crc ="ac2ae2b4",
+lang="lang_00324",
 },
 {
 {"se",id=1,file="tbrush1"},
 {"text"},
 crc ="243f04d3",
-lang="lang_00326",
+lang="lang_00325",
 },
 {
 {"se",id=2,file="tbrush2"},
 {"text"},
 crc ="904a05c6",
-lang="lang_00327",
+lang="lang_00326",
 },
 {
 {"fg",ch="日向子",eb="c0001",ey="c0006",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=-240},
 {"se",file="tbrush3",id=1},
 {"text"},
 crc ="18b8f0d8",
+lang="lang_00327",
+},
+{
+{"fg",ch="ミリャ",eb="b0001",ey="b0005",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=12,lv=4,mo="b0006",mode=3,path=":fg/mhlia/z1/",x=340},
+{"se",id=1,file="cloth7"},
+{"text"},
+crc ="9329c5e3",
 lang="lang_00328",
 },
 {
-{"fg",ch="ミリャ",eb="b0001",ey="b0005",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=12,lv=4,mo="b0008",mode=3,path=":fg/mhlia/z1/",x=340},
-{"se",id=1,file="cloth7"},
-{"text"},
-crc ="784e7b82",
-lang="lang_00329",
-},
-{
-{"fg",ch="日向子",eb="c0004",ey="c0005",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0001",mode=3,path=":fg/hinako/z1/",x=-240},
+{"fg",ch="日向子",eb="c0001",ey="c0008",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0001",mode=3,path=":fg/hinako/z1/",x=-240},
 {"se",id=2,file="tbrush4"},
 {"text"},
-crc ="3fd6afd0",
-lang="lang_00330",
+crc ="6120eefb",
+lang="lang_00329",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00331",
+lang="lang_00330",
 },
 {
 {"fg",ch="ミリャ",eb="b0001",ey="b0005",face="b0001",file="tmhlia_z1b0100",head="tmhlia_z1b",id=12,lv=4,mo="b0007",mode=3,path=":fg/mhlia/z1/",x=340},
 {"se",file="tbrush6",id=1},
 {"text"},
 crc ="7b7dc130",
+lang="lang_00331",
+},
+{
+{"fg",ch="日向子",eb="c0001",ey="c0024",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",time=500,x=-240},
+{"text"},
+crc ="564553ad",
 lang="lang_00332",
 },
 {
-{"fg",ch="日向子",eb="c0001",ey="c0024",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0006",mode=3,path=":fg/hinako/z1/",x=-240},
+{"fg",ch="日向子",eb="c0001",ey="c0024",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",x=-240},
 {"text"},
-crc ="4024eed8",
+crc ="c516fc2c",
 lang="lang_00333",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0027",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",time=500,x=-240},
 {"text"},
-crc ="799cd8ab",
+crc ="d801ab22",
 lang="lang_00334",
 },
 {
@@ -2320,99 +2346,91 @@ crc ="799cd8ab",
 lang="lang_00335",
 },
 {
+{"fg",ch="日向子",eb="c0001",ey="c0012",face="c0001",file="thinako_z1c0100",head="thinako_z1c",id=11,lv=4,mo="c0005",mode=3,path=":fg/hinako/z1/",time=500,x=-240},
+{"se",file="tbrush7",id=1},
 {"text"},
-crc ="799cd8ab",
+crc ="e8cc13b8",
 lang="lang_00336",
 },
 {
-{"se",file="tbrush7",id=1},
-{"text"},
-crc ="305d9f51",
-lang="lang_00337",
-},
-{
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",path=":bg/"},
 {"bgm",file="bgm043"},
-{"bg",file="bg_13_4c",path=":bg/",sync=0},
-{"fg",ch="もも",eb="b0001",ey="b0009",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/momo/no/",size="no",sync=0,x=-320},
-{"fg",ch="流花",eb="c0001",ey="c0009",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0005",mode=3,mx=0,my=0,path=":fg/ruka/no/",size="no",sync=0,x=420},
-{"extrans",time=500},
-{"ex",time=500,func="wait"},
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",speed=5000,sync=0,x=320,x2=260,zoom=125},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",speed=5000,sync=0,x=320,x2=300},
 {"fg",ch="もも",eb="b0001",ey="b0009",face="b0001",file="tmomo_z1b0100",head="tmomo_z1b",id=11,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/momo/z1/",resize=1,size="z1",sync=0,x=-190},
-{"fg",ch="もも",eb="b0001",ey="b0009",face="b0001",file="tmomo_z1b0100",head="tmomo_z1b",id=11,lv=4,mo="b0005",mode=3,path=":fg/momo/z1/",speed=5000,sync=0,x=-240,x2=-320},
-{"extrans",time=500},
+{"fg",ch="もも",eb="b0001",ey="b0009",face="b0001",file="tmomo_z1b0100",head="tmomo_z1b",id=11,lv=4,mo="b0005",mode=3,path=":fg/momo/z1/",speed=5000,sync=0,x=-190,x2=-220},
+{"extrans",time=1000},
 {"text"},
-crc ="75a5c409",
-lang="lang_00338",
+crc ="da89ea7b",
+lang="lang_00337",
 delay={
-[750]={
-{"fg",ch="もも",eb="b0003",ey="b0012",face="b0001",file="tmomo_z1b0100",head="tmomo_z1b",id=11,lv=4,mo="b0007",mode=3,path=":fg/momo/z1/",sync=0,time=500,x=-240},
+[500]={
+{"fg",ch="もも",eb="b0003",ey="b0012",face="b0001",file="tmomo_z1b0100",head="tmomo_z1b",id=11,lv=4,mo="b0007",mode=3,path=":fg/momo/z1/",time=500,x=-190},
 },
 },
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="bg_13_4c",path=":bg/",sync=0},
 {"fg",ch="もも",eb="b0001",ey="b0009",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/momo/no/",resize=1,size="no",sync=0,x=-320},
-{"fg",ch="流花",eb="c0001",ey="c0009",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0005",mode=3,mx=0,my=0,path=":fg/ruka/no/",size="no",sync=0,x=420},
-{"extrans",time=500},
-{"fg",ch="流花",eb="b0001",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",size="no",sync=0,x=420},
-{"extrans",time=500},
+{"fg",ch="流花",eb="b0001",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,mx=0,my=0,path=":fg/ruka/no/",size="no",sync=0,x=420},
+{"extrans",time=750},
 {"se",file="chair_creak",id=1},
 {"text"},
-crc ="98780c2e",
+crc ="2d275e74",
+lang="lang_00338",
+},
+{
+{"fg",ch="流花",eb="b0001",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="669dd718",
 lang="lang_00339",
 },
 {
-{"fg",ch="流花",eb="b0004",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="もも",eb="b0005",ey="b0027",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0001",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="351c4309",
+crc ="c510c140",
 lang="lang_00340",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00341",
 },
 {
 {"fg",ch="もも",eb="b0005",ey="b0027",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0008",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="d43ccac7",
-lang="lang_00342",
+lang="lang_00341",
 },
 {
 {"fg",ch="もも",eb="b0005",ey="b0027",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
 {"se",file="tablet2",id=1},
 {"text"},
 crc ="893ca6d3",
-lang="lang_00343",
+lang="lang_00342",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00344",
+lang="lang_00343",
 },
 {
 {"fg",ch="もも",eb="b0003",ey="b0009",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0007",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="47a7f589",
+lang="lang_00344",
+},
+{
+{"fg",ch="もも",eb="b0003",ey="b0009",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0006",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="a25d018a",
 lang="lang_00345",
 },
 {
-{"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",speed=10000,x=-320,y=180,y2=130},
 {"text"},
-crc ="a921cf71",
+crc ="2a326ac",
 lang="lang_00346",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",speed=5000,sync=0,y=315,y2=265,zoom=125},
-{"extrans",time=1000},
 {"text"},
-crc ="f05bab07",
+crc ="799cd8ab",
 lang="lang_00347",
 },
 {
@@ -2421,122 +2439,131 @@ crc ="799cd8ab",
 lang="lang_00348",
 },
 {
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",sync=0,x=320,y=0},
+{"fg",ch="もも",eb="c0005",ey="c0007",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=11,lv=4,mo="c0007",mode=3,mx=0,my=0,path=":fg/momo/z1/",resize=1,size="z1",sync=0,x=-190},
+{"extrans",time=500},
 {"text"},
-crc ="799cd8ab",
+crc ="37411cc0",
 lang="lang_00349",
 },
 {
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",sync=0,x=320,y=-60,zoom=125},
-{"fg",ch="もも",eb="c0005",ey="c0007",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=11,lv=4,mo="c0007",mode=3,mx=0,my=0,path=":fg/momo/z1/",resize=1,size="z1",sync=0,x=-240},
-{"extrans",time=250},
+{"fg",ch="もも",eb="c0005",ey="c0007",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=11,lv=4,mo="c0005",mode=3,path=":fg/momo/z1/",x=-190},
 {"text"},
-crc ="450823cc",
+crc ="63ca3312",
 lang="lang_00350",
 },
 {
+{"fg",ch="もも",eb="c0002",ey="c0004",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=11,lv=4,mo="c0011",mode=3,path=":fg/momo/z1/",x=-190},
 {"text"},
-crc ="799cd8ab",
+crc ="82fa19f5",
 lang="lang_00351",
 },
 {
-{"fg",ch="もも",eb="c0002",ey="c0004",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=11,lv=4,mo="c0011",mode=3,path=":fg/momo/z1/",x=-240},
-{"text"},
-crc ="573cdf0b",
-lang="lang_00352",
-},
-{
-{"fg",mx=0,my=0,mode=-2},
 {"bg",file="bg_13_4c",path=":bg/",sync=0},
 {"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,mx=0,my=0,path=":fg/momo/no/",resize=1,size="no",sync=0,x=-320},
 {"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,mx=0,my=0,path=":fg/ruka/no/",size="no",sync=0,x=420},
 {"extrans",time=500},
 {"text"},
-crc ="4c96cd05",
-lang="lang_00353",
+crc ="c1cf5410",
+lang="lang_00352",
 },
 {
 {"fg",ch="流花",eb="b0003",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0008",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="1abcc58d",
-lang="lang_00354",
+lang="lang_00353",
 },
 {
 {"fg",ch="もも",eb="c0003",ey="c0006",face="c0001",file="tmomo_noc0110",head="tmomo_noc",id=9,lv=3,mo="c0007",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="983124ab",
-lang="lang_00355",
+crc ="84145f51",
+lang="lang_00354",
 },
 {
 {"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0110",head="tmomo_noc",id=9,lv=3,mo="c0008",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="b5960ee5",
+lang="lang_00355",
+},
+{
+{"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0110",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"se",file="table_hit2",id=1},
+{"text"},
+crc ="a5c42338",
 lang="lang_00356",
 },
 {
-{"se",file="table_hit2",id=1},
+{"fg",ch="流花",eb="b0002",ey="b0009",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0008",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="9cecd7d9",
+crc ="83ec43c0",
 lang="lang_00357",
 },
 {
-{"fg",ch="流花",eb="b0002",ey="b0009",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="もも",eb="c0002",ey="c0016",face="c0001",file="tmomo_noc0110",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0002",ey="b0009",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="507a575",
+crc ="245bf43f",
 lang="lang_00358",
 },
 {
-{"fg",ch="もも",eb="c0002",ey="c0016",face="c0001",file="tmomo_noc0110",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0012",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="b5c6bea2",
+crc ="65b9b708",
 lang="lang_00359",
+delay={
+[500]={
+{"fg",ch="流花",eb="b0003",ey="b0012",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",time=500,x=420},
+},
+},
 },
 {
+{"fg",ch="流花",eb="b0003",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="799cd8ab",
+crc ="81df6cf3",
 lang="lang_00360",
 },
 {
-{"fg",ch="流花",eb="b0004",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/ruka/no/",x=420},
-{"text"},
-crc ="28940cc2",
-lang="lang_00361",
-},
-{
 {"fg",ch="もも",eb="c0005",ey="c0008",face="c0001",file="tmomo_noc0110",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0001",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="843099da",
-lang="lang_00362",
+crc ="d2f728a0",
+lang="lang_00361",
 },
 {
 {"fg",ch="もも",eb="c0005",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0010",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="886f51ae",
-lang="lang_00363",
+lang="lang_00362",
 },
 {
+{"fg",ch="もも",eb="c0005",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
 {"fg",ch="流花",eb="b0003",ey="b0009",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
 {"se",file="cloth2",id=1},
 {"text"},
-crc ="2bd7e301",
-lang="lang_00364",
+crc ="82e2fce8",
+lang="lang_00363",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00365",
+lang="lang_00364",
 },
 {
 {"fg",ch="流花",eb="b0003",ey="b0012",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="9049b46",
+lang="lang_00365",
+},
+{
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",speed=10000,x=-320,y=180,y2=130},
+{"text"},
+crc ="2a326ac",
 lang="lang_00366",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",speed=1250,sync=0,y=315,y2=290,zoom=125},
-{"extrans",time=1000},
 {"text"},
-crc ="67ee8b00",
+crc ="799cd8ab",
 lang="lang_00367",
 },
 {
@@ -2545,100 +2572,104 @@ crc ="799cd8ab",
 lang="lang_00368",
 },
 {
-{"text"},
-crc ="799cd8ab",
-lang="lang_00369",
-},
-{
 {"bg",file="bg_13_4c",path=":bg/",sync=0},
 {"fg",ch="もも",eb="b0001",ey="b0005",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/momo/no/",size="no",sync=0,x=-320},
 {"fg",ch="流花",eb="b0004",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,mx=0,my=0,path=":fg/ruka/no/",size="no",sync=0,x=420},
 {"extrans",time=500},
 {"text"},
 crc ="621090ce",
-lang="lang_00370",
+lang="lang_00369",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00371",
+lang="lang_00370",
 },
 {
 {"fg",ch="流花",eb="b0001",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="669dd718",
-lang="lang_00372",
+lang="lang_00371",
 },
 {
-{"fg",ch="流花",eb="b0003",ey="b0009",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="流花",eb="b0003",ey="b0012",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="45d333b9",
-lang="lang_00373",
+crc ="34b5779a",
+lang="lang_00372",
 },
 {
 {"fg",ch="流花",eb="b0004",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0003",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="28940cc2",
-lang="lang_00374",
+lang="lang_00373",
 },
 {
 {"fg",ch="流花",eb="b0001",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"fg",ch="もも",eb="b0003",ey="b0008",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0007",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="dd54f0dd",
-lang="lang_00375",
+lang="lang_00374",
 },
 {
 {"fg",ch="もも",eb="b0005",ey="b0006",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="b754b430",
-lang="lang_00376",
+lang="lang_00375",
 },
 {
 {"fg",ch="流花",eb="b0003",ey="b0012",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="9049b46",
-lang="lang_00377",
+lang="lang_00376",
 },
 {
 {"fg",ch="流花",eb="c0003",ey="c0009",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0005",mode=3,path=":fg/ruka/no/",size="no",sync=0,x=420},
 {"extrans",time=500},
 {"text"},
 crc ="6c43f594",
-lang="lang_00378",
+lang="lang_00377",
 },
 {
 {"fg",ch="流花",eb="c0001",ey="c0005",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="f389fd2b",
+lang="lang_00378",
+},
+{
+{"fg",ch="流花",eb="c0001",ey="c0021",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0004",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="41a44150",
 lang="lang_00379",
 },
 {
-{"fg",ch="流花",eb="c0002",ey="c0021",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0004",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="もも",eb="b0005",ey="b0017",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0014",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="c0001",ey="c0021",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0001",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="c60bcf60",
+crc ="e1fb1e2b",
 lang="lang_00380",
 },
 {
-{"fg",ch="もも",eb="b0005",ey="b0017",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0014",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="もも",eb="b0005",ey="b0017",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
-crc ="c59cc664",
+crc ="cef5f086",
 lang="lang_00381",
 },
 {
+{"fg",ch="流花",eb="c0003",ey="c0024",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0001",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="799cd8ab",
+crc ="99c3e9b6",
 lang="lang_00382",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00383",
 },
 {
 {"fg",ch="もも",eb="b0002",ey="b0008",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0009",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="e2e5f0a7",
+lang="lang_00383",
+},
+{
+{"fg",ch="流花",eb="c0003",ey="c0027",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0002",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="3177dfcb",
 lang="lang_00384",
 },
 {
@@ -2648,33 +2679,29 @@ crc ="8b9d6325",
 lang="lang_00385",
 },
 {
-{"text"},
-crc ="799cd8ab",
-lang="lang_00386",
-},
-{
 {"fg",ch="流花",eb="c0001",ey="c0024",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0002",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="25db28f2",
-lang="lang_00387",
+lang="lang_00386",
 },
 {
 {"fg",ch="もも",eb="b0005",ey="b0008",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="c0001",ey="c0024",face="c0001",file="truka_noc0100",head="truka_noc",id=10,lv=3,mo="c0001",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="baba4b07",
-lang="lang_00388",
+crc ="ace798e2",
+lang="lang_00387",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00389",
+lang="lang_00388",
 },
 {
 {"fg",ch="もも",eb="b0003",ey="b0014",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0013",mode=3,path=":fg/momo/no/",x=-320},
 {"se",id=1,file="table_hit1"},
 {"text"},
 crc ="ed949018",
-lang="lang_00390",
+lang="lang_00389",
 },
 {
 {"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",size="no",sync=0,x=420},
@@ -2682,30 +2709,37 @@ lang="lang_00390",
 {"se",id=2,file="cloth2"},
 {"text"},
 crc ="59dab4da",
-lang="lang_00391",
+lang="lang_00390",
 },
 {
 {"fg",ch="もも",eb="b0003",ey="b0014",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
-{"fg",ch="流花",eb="b0005",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="流花",eb="b0003",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="7ba4a252",
-lang="lang_00392",
+crc ="af8ab873",
+lang="lang_00391",
 },
 {
 {"fg",ch="もも",eb="b0003",ey="b0024",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="9038277d",
-lang="lang_00393",
+crc ="b9d81917",
+lang="lang_00392",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00394",
+lang="lang_00393",
 },
 {
 {"fg",ch="もも",eb="b0003",ey="b0003",face="b0001",file="tmomo_nob0120",head="tmomo_nob",id=9,lv=3,mo="b0010",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="7eb1bd24",
+lang="lang_00394",
+},
+{
+{"fg",ch="もも",eb="b0003",ey="b0003",face="b0001",file="tmomo_nob0120",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",x=-320},
+{"text"},
+crc ="252b3d49",
 lang="lang_00395",
 },
 {
@@ -2714,132 +2748,132 @@ crc ="799cd8ab",
 lang="lang_00396",
 },
 {
-{"text"},
-crc ="799cd8ab",
-lang="lang_00397",
-},
-{
 {"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="a921cf71",
-lang="lang_00398",
+lang="lang_00397",
 },
 {
 {"fg",ch="もも",eb="c0005",ex01="c0080",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",size="no",sync=0,x=-320},
 {"extrans",time=250},
 {"text"},
 crc ="e7f0b517",
-lang="lang_00399",
+lang="lang_00398",
 },
 {
 {"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0004",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0008",mode=3,path=":fg/momo/no/",x=-320},
 {"se",file="cloth13",id=1},
 {"text"},
 crc ="976f086a",
+lang="lang_00399",
+},
+{
+{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0004",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0027",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="d3aa2745",
 lang="lang_00400",
 },
 {
-{"fg",ch="流花",eb="b0004",ey="b0027",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
-{"text"},
-crc ="2d1136de",
-lang="lang_00401",
-},
-{
-{"fg",mx=0,my=0,mode=-2,sync=0},
 {"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",path=":bg/",sync=0,x=320},
 {"fg",ch="もも",eb="c0005",ex01="c0080",ey="c0004",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=13,lv=4,mo="c0005",mode=3,mx=0,my=0,path=":fg/momo/z1/",resize=1,size="z1",sync=0,x=0},
+{"fg",ch="もも",eb="c0005",ex01="c0080",ey="c0004",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=13,lv=4,mo="c0005",mode=3,path=":fg/momo/z1/",speed=1000,sync=0,x=0,x2=-20,y=0,y2=30},
 {"extrans",time=500},
 {"se",file="chair10",id=1},
 {"text"},
-crc ="70326148",
-lang="lang_00402",
+crc ="3c2aff55",
+lang="lang_00401",
 },
 {
-{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=13,lv=4,mo="c0008",mode=3,path=":fg/momo/z1/",x=0},
+{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=13,lv=4,mo="c0008",mode=3,path=":fg/momo/z1/",x=0,y=0},
 {"fgact",ch="もも",act="いいえ",time=250,lv=4,id=13},
 {"se",file="twintale",id=1},
 {"text"},
-crc ="3ccedcb7",
+crc ="9751bad",
+lang="lang_00402",
+},
+{
+{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_z1c0100",head="tmomo_z1c",id=13,lv=4,mo="c0005",mode=3,path=":fg/momo/z1/",x=0,y=0},
+{"text"},
+crc ="1d3e732e",
 lang="lang_00403",
 },
 {
-{"text"},
-crc ="799cd8ab",
-lang="lang_00404",
-},
-{
-{"fg",mx=0,my=0,mode=-2,sync=0},
 {"bg",file="bg_13_4c",path=":bg/",sync=0},
-{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0008",mode=3,mx=0,my=0,path=":fg/momo/no/",resize=1,size="no",sync=0,x=-320},
-{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0008",mode=3,path=":fg/momo/no/",speed=1000,sync=0,x=-320,x2=-295},
+{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,mx=0,my=0,path=":fg/momo/no/",resize=1,size="no",sync=0,x=-320},
+{"fg",ch="もも",eb="c0002",ex01="c0080",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",speed=1000,sync=0,x=-320,x2=-295},
 {"fg",ch="流花",eb="b0002",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,mx=0,my=0,path=":fg/ruka/no/",size="no",sync=0,x=420},
 {"extrans",time=250},
 {"text"},
-crc ="a3414082",
-lang="lang_00405",
+crc ="8cc7899",
+lang="lang_00404",
 },
 {
 {"fg",ch="もも",eb="c0002",ex="reset",ey="c0004",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0010",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="411f3038",
+lang="lang_00405",
+},
+{
+{"fg",ch="もも",eb="c0002",ey="c0004",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="b0924da",
 lang="lang_00406",
 },
 {
-{"fg",ch="流花",eb="b0001",ey="b0004",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0005",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="6120d76b",
+crc ="15ffdd69",
 lang="lang_00407",
 },
 {
-{"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0008",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="92d5c96",
+crc ="c41036a6",
 lang="lang_00408",
 },
 {
-{"fg",ch="流花",eb="b0003",ey="b0007",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0008",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="f367c6e7",
+crc ="eff3fa15",
 lang="lang_00409",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00410",
 },
 {
 {"fg",ch="もも",eb="c0002",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0010",mode=3,path=":fg/momo/no/",x=-320},
 {"se",file="cloth6",id=1},
 {"text"},
 crc ="99e44ed1",
-lang="lang_00411",
+lang="lang_00410",
 },
 {
 {"fg",ch="もも",eb="c0002",ey="c0004",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0008",mode=3,path=":fg/momo/no/",x=-320},
 {"text"},
 crc ="b884596",
-lang="lang_00412",
+lang="lang_00411",
 },
 {
 {"fg",mx=0,my=0,mode=-2},
 {"bg",file="black",id=18,lv=18,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=-544,y2=-720},
 {"bg",file="black",id=19,lv=19,path=":ev/cg_kyo_00/",set="black",sync=0,time=1000,x=0,x2=0,y=544,y2=720},
 {"extrans",time=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",id=1,lv=1,path=":bg/",y=-180},
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="zbg_13_4c",id=1,lv=5,path=":bg/",y=-180},
 {"text"},
-crc ="1726af2b",
-lang="lang_00413",
+crc ="ccecece7",
+lang="lang_00412",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00414",
+lang="lang_00413",
 },
 {
 {"se",file="prop_lift2",id=1},
 {"text"},
 crc ="bd23c8",
-lang="lang_00415",
+lang="lang_00414",
 },
 {
 {"bg",file="black",id=18,lv=18,notrans=1,path=":ev/cg_kyo_00/",set="black",time=1000,x=0,x2=0,y=-720,y2=-544},
@@ -2852,95 +2886,99 @@ lang="lang_00415",
 {"se",file="cloth2",id=1},
 {"text"},
 crc ="d278fa43",
+lang="lang_00415",
+},
+{
+{"fg",ch="もも",eb="c0001",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/momo/no/",x=-320},
+{"text"},
+crc ="8e82d2a6",
 lang="lang_00416",
 },
 {
-{"fg",ch="もも",eb="c0002",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="もも",eb="c0001",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0004",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="92d5c96",
+crc ="4e27c07b",
 lang="lang_00417",
 },
 {
-{"fg",ch="流花",eb="b0004",ey="b0001",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
+{"fg",ch="流花",eb="b0004",ey="b0002",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="db7a4010",
+crc ="8adafd5",
 lang="lang_00418",
-},
-{
-{"text"},
-crc ="799cd8ab",
-lang="lang_00419",
 },
 {
 {"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0008",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="127bc518",
-lang="lang_00420",
+lang="lang_00419",
 },
 {
 {"fg",ch="もも",eb="c0003",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0008",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="4d42bc96",
+crc ="5ba7bd44",
+lang="lang_00420",
+},
+{
+{"fg",ch="もも",eb="c0003",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0003",ey="b0027",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
+{"text"},
+crc ="a5a741f8",
 lang="lang_00421",
 },
 {
-{"fg",ch="流花",eb="b0003",ey="b0010",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0006",mode=3,path=":fg/ruka/no/",x=420},
-{"text"},
-crc ="3621884b",
-lang="lang_00422",
-},
-{
-{"fg",ch="もも",eb="c0003",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0006",mode=3,path=":fg/momo/no/",speed=500,x=-320,x2="-320,-295"},
+{"fg",ch="もも",eb="c0003",ey="c0008",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0005",mode=3,path=":fg/momo/no/",speed=500,x=-320,x2="-320,-295"},
 {"se",file="cloth7",id=1},
 {"text"},
-crc ="7e2ab5ae",
-lang="lang_00423",
+crc ="e08afe09",
+lang="lang_00422",
 },
 {
 {"fg",ch="流花",eb="b0002",ey="b0007",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0007",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
 crc ="8e95a42",
-lang="lang_00424",
+lang="lang_00423",
 },
 {
-{"fg",ch="もも",eb="c0004",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0001",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="もも",eb="c0001",ey="c0001",face="c0001",file="tmomo_noc0100",head="tmomo_noc",id=9,lv=3,mo="c0003",mode=3,path=":fg/momo/no/",x=-320},
+{"fg",ch="流花",eb="b0002",ey="b0007",face="b0001",file="truka_nob0100",head="truka_nob",id=10,lv=3,mo="b0005",mode=3,path=":fg/ruka/no/",x=420},
 {"text"},
-crc ="18c21ed0",
-lang="lang_00425",
+crc ="c75e2864",
+lang="lang_00424",
 },
 {
 {"fg",ch="もも",eb="b0003",ey="b0005",face="b0001",file="tmomo_nob0100",head="tmomo_nob",id=9,lv=3,mo="b0005",mode=3,path=":fg/momo/no/",size="no",sync=0,x=-320},
 {"extrans",time=500},
 {"text"},
 crc ="de5f1460",
+lang="lang_00425",
+},
+{
+{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_13_4c",path=":bg/",speed=5000,sync=0,x=-320,x2=-300,y=0,y2=-10},
+{"fg",ch="流花",eb="b0005",ey="b0006",face="b0001",file="truka_z1b0100",head="truka_z1b",id=12,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/ruka/z1/",resize=1,size="z1",sync=0,x=190},
+{"fg",ch="流花",eb="b0005",ey="b0006",face="b0001",file="truka_z1b0100",head="truka_z1b",id=12,lv=4,mo="b0005",mode=3,path=":fg/ruka/z1/",speed=5000,sync=0,x=190,x2=220,y=0,y2=-20},
+{"extrans",time=500},
+{"text"},
+crc ="800eea42",
 lang="lang_00426",
 },
 {
-{"fg",mx=0,my=0,mode=-2,sync=0},
-{"bg",ax=960,ay=540,bx=-320,by=-180,file="lbg_13_4c",path=":bg/",sync=0,x=-320,y=-60,zoom=125},
-{"fg",ch="流花",eb="b0005",ey="b0006",face="b0001",file="truka_z1b0100",head="truka_z1b",id=10,lv=4,mo="b0005",mode=3,mx=0,my=0,path=":fg/ruka/z1/",resize=1,size="z1",sync=0,x=270},
-{"extrans",time=500},
-{"text"},
-crc ="a09bc43a",
-lang="lang_00427",
-},
-{
 {"bgm",stop=1},
-{"fg",ch="流花",eb="b0003",ey="b0009",face="b0001",file="truka_z1b0100",head="truka_z1b",id=10,lv=4,mo="b0006",mode=3,path=":fg/ruka/z1/",x=270},
+{"fg",ch="流花",eb="b0003",ey="b0009",face="b0001",file="truka_z1b0100",head="truka_z1b",id=12,lv=4,mo="b0006",mode=3,path=":fg/ruka/z1/",time=500,x=190,y=0},
 {"text"},
-crc ="1773fed9",
-lang="lang_00428",
+crc ="daa6f5e8",
+lang="lang_00427",
 },
 {
 {"text"},
 crc ="799cd8ab",
-lang="lang_00429",
+lang="lang_00428",
 },
 {
-{"fg",mx=0,my=0,mode=-2},
 {"excall",file="op1_2_4"},
-crc ="3e75ec9c",
-lang="lang_00430",
+crc ="6b63dd49",
+lang="lang_00429",
 },
 text={
 [1]={
@@ -7217,7 +7255,6 @@ cn={
 },
 },
 [222]={
-name={name="ピザ従業員女性"},
 vo={
 {"vo",file="wo1-1_0001",ch="mob" },
 },
@@ -7303,7 +7340,6 @@ cn={
 },
 },
 [226]={
-name={name="ピザ従業員女性"},
 vo={
 {"vo",file="wo1-1_0002",ch="mob" },
 },
@@ -7465,7 +7501,6 @@ cn={
 },
 },
 [234]={
-name={name="ピザ従業員女性"},
 vo={
 {"vo",file="wo1-1_0003",ch="mob" },
 },
@@ -8046,44 +8081,31 @@ cn={
 name={name="司・日向子"},
 vo={
 {"vo",file="tsukasa_0075",ch="tsukasa" },
-},
-ja={
-{
-"「…………」",
-},
-},
-tw={
-{
-"「…………」",
-},
-},
-cn={
-{
-"「…………」",
-},
-},
-},
-[265]={
-vo={
 {"vo",file="hinako_0135",ch="hinako" },
 },
 ja={
 {
 "「…………」",
+{"rt2"},
+"「…………」",
 },
 },
 tw={
 {
+"「…………」",
+{"rt2"},
 "「…………」",
 },
 },
 cn={
 {
 "「…………」",
+{"rt2"},
+"「…………」",
 },
 },
 },
-[266]={
+[265]={
 ja={
 {
 "司と日向子が黙ったまま、視線を合わせる。",
@@ -8100,7 +8122,7 @@ cn={
 },
 },
 },
-[267]={
+[266]={
 ja={
 {
 "日向子が司にだけ見えるように、小さく手を左右に振る。",
@@ -8121,7 +8143,7 @@ cn={
 },
 },
 },
-[268]={
+[267]={
 ja={
 {
 "司は理人に、上半身ごと向き直った。",
@@ -8138,7 +8160,7 @@ cn={
 },
 },
 },
-[269]={
+[268]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0076",ch="tsukasa" },
@@ -8159,7 +8181,7 @@ cn={
 },
 },
 },
-[270]={
+[269]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0029",ch="rihito" },
@@ -8180,7 +8202,7 @@ cn={
 },
 },
 },
-[271]={
+[270]={
 ja={
 {
 "理人は天井を見上げて唸った。",
@@ -8197,7 +8219,7 @@ cn={
 },
 },
 },
-[272]={
+[271]={
 ja={
 {
 "それから、中央の大皿に残った最後の一切れを取って、頬張った。",
@@ -8214,7 +8236,7 @@ cn={
 },
 },
 },
-[273]={
+[272]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0030",ch="rihito" },
@@ -8235,7 +8257,7 @@ cn={
 },
 },
 },
-[274]={
+[273]={
 ja={
 {
 "司が足元で理人のふくらはぎを蹴る。",
@@ -8252,7 +8274,7 @@ cn={
 },
 },
 },
-[275]={
+[274]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0031",ch="rihito" },
@@ -8273,7 +8295,7 @@ cn={
 },
 },
 },
-[276]={
+[275]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0077",ch="tsukasa" },
@@ -8294,7 +8316,7 @@ cn={
 },
 },
 },
-[277]={
+[276]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0032",ch="rihito" },
@@ -8315,7 +8337,7 @@ cn={
 },
 },
 },
-[278]={
+[277]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0078",ch="tsukasa" },
@@ -8338,7 +8360,7 @@ cn={
 },
 },
 },
-[279]={
+[278]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0033",ch="rihito" },
@@ -8361,7 +8383,7 @@ cn={
 },
 },
 },
-[280]={
+[279]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0079",ch="tsukasa" },
@@ -8382,7 +8404,7 @@ cn={
 },
 },
 },
-[281]={
+[280]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0034",ch="rihito" },
@@ -8403,7 +8425,7 @@ cn={
 },
 },
 },
-[282]={
+[281]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0136",ch="hinako" },
@@ -8424,7 +8446,7 @@ cn={
 },
 },
 },
-[283]={
+[282]={
 ja={
 {
 "司が日向子に向き直る。",
@@ -8441,7 +8463,7 @@ cn={
 },
 },
 },
-[284]={
+[283]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0080",ch="tsukasa" },
@@ -8462,7 +8484,7 @@ cn={
 },
 },
 },
-[285]={
+[284]={
 ja={
 {
 "日向子は口元をおさえて、司から目を逸らした。",
@@ -8479,7 +8501,7 @@ cn={
 },
 },
 },
-[286]={
+[285]={
 ja={
 {
 "おもむろに、自分の皿に残っていたピッツァを口に運ぶ。",
@@ -8496,7 +8518,7 @@ cn={
 },
 },
 },
-[287]={
+[286]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0137",ch="hinako" },
@@ -8517,7 +8539,7 @@ cn={
 },
 },
 },
-[288]={
+[287]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0081",ch="tsukasa" },
@@ -8538,7 +8560,7 @@ cn={
 },
 },
 },
-[289]={
+[288]={
 ja={
 {
 "司はため息をついて、背もたれに体を預けた。",
@@ -8555,7 +8577,7 @@ cn={
 },
 },
 },
-[290]={
+[289]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0082",ch="tsukasa" },
@@ -8576,7 +8598,7 @@ cn={
 },
 },
 },
-[291]={
+[290]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0138",ch="hinako" },
@@ -8597,7 +8619,7 @@ cn={
 },
 },
 },
-[292]={
+[291]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0083",ch="tsukasa" },
@@ -8618,7 +8640,7 @@ cn={
 },
 },
 },
-[293]={
+[292]={
 ja={
 {
 "司がグラスを手に取り、一口水を飲む。",
@@ -8635,7 +8657,7 @@ cn={
 },
 },
 },
-[294]={
+[293]={
 ja={
 {
 "グラスを机において、窓の外を眺める。",
@@ -8652,7 +8674,7 @@ cn={
 },
 },
 },
-[295]={
+[294]={
 ja={
 {
 "四人の姿が半透明に反射しているのを、司が見つめた。",
@@ -8669,7 +8691,7 @@ cn={
 },
 },
 },
-[296]={
+[295]={
 ja={
 {
 "理人と日向子が、司の言葉を待つ。",
@@ -8686,7 +8708,7 @@ cn={
 },
 },
 },
-[297]={
+[296]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0084",ch="tsukasa" },
@@ -8707,7 +8729,7 @@ cn={
 },
 },
 },
-[298]={
+[297]={
 ja={
 {
 "呟くように、司は言った。",
@@ -8724,7 +8746,7 @@ cn={
 },
 },
 },
-[299]={
+[298]={
 ja={
 {
 "四人はロビーで、輪になるように向かい合っていた。",
@@ -8741,7 +8763,7 @@ cn={
 },
 },
 },
-[300]={
+[299]={
 name={name="司"},
 vo={
 {"vo",file="tsukasa_0085",ch="tsukasa" },
@@ -8762,7 +8784,7 @@ cn={
 },
 },
 },
-[301]={
+[300]={
 ja={
 {
 "司が手を軽くあげて言った。",
@@ -8779,7 +8801,7 @@ cn={
 },
 },
 },
-[302]={
+[301]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0139",ch="hinako" },
@@ -8800,7 +8822,7 @@ cn={
 },
 },
 },
-[303]={
+[302]={
 name={name="理人"},
 vo={
 {"vo",file="rihito_0035",ch="rihito" },
@@ -8821,7 +8843,7 @@ cn={
 },
 },
 },
-[304]={
+[303]={
 ja={
 {
 "ミリャは手を突き出し、Ｖサインを作った。",
@@ -8838,7 +8860,7 @@ cn={
 },
 },
 },
-[305]={
+[304]={
 ja={
 {
 "部屋に戻った日向子が、台所に向かう。",
@@ -8855,7 +8877,7 @@ cn={
 },
 },
 },
-[306]={
+[305]={
 ja={
 {
 "ミリャがそのあとに続く。",
@@ -8872,7 +8894,7 @@ cn={
 },
 },
 },
-[307]={
+[306]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0140",ch="hinako" },
@@ -8893,7 +8915,7 @@ cn={
 },
 },
 },
-[308]={
+[307]={
 ja={
 {
 "日向子は鍋の蓋を開けて中を確かめた。",
@@ -8910,7 +8932,7 @@ cn={
 },
 },
 },
-[309]={
+[308]={
 ja={
 {
 "小さくうなずいて、引き出しからタッパーを取り出し、料理を詰め始めた。",
@@ -8927,7 +8949,7 @@ cn={
 },
 },
 },
-[310]={
+[309]={
 ja={
 {
 "横からサランラップが差し出される。",
@@ -8944,7 +8966,7 @@ cn={
 },
 },
 },
-[311]={
+[310]={
 ja={
 {
 "振り向くと、ミリャが日向子を見上げていた。",
@@ -8961,7 +8983,7 @@ cn={
 },
 },
 },
-[312]={
+[311]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0141",ch="hinako" },
@@ -8982,7 +9004,7 @@ cn={
 },
 },
 },
-[313]={
+[312]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0142",ch="hinako" },
@@ -9003,7 +9025,7 @@ cn={
 },
 },
 },
-[314]={
+[313]={
 ja={
 {
 "日向子は微笑んでいった。",
@@ -9020,7 +9042,7 @@ cn={
 },
 },
 },
-[315]={
+[314]={
 name={name="ミリャ"},
 vo={
 {"vo",file="mhlia_0006",ch="mhlia" },
@@ -9041,7 +9063,7 @@ cn={
 },
 },
 },
-[316]={
+[315]={
 ja={
 {
 "ミリャはうなずいて答える。",
@@ -9058,7 +9080,7 @@ cn={
 },
 },
 },
-[317]={
+[316]={
 ja={
 {
 "全ての料理を小分けにして冷蔵庫にしまってから日向子は振り返った。",
@@ -9075,7 +9097,7 @@ cn={
 },
 },
 },
-[318]={
+[317]={
 ja={
 {
 "ミリャは黙ったまま日向子の動きを目で追っている。",
@@ -9092,7 +9114,7 @@ cn={
 },
 },
 },
-[319]={
+[318]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0143",ch="hinako" },
@@ -9113,7 +9135,7 @@ cn={
 },
 },
 },
-[320]={
+[319]={
 name={name="ミリャ"},
 vo={
 {"vo",file="mhlia_0007",ch="mhlia" },
@@ -9134,7 +9156,7 @@ cn={
 },
 },
 },
-[321]={
+[320]={
 ja={
 {
 "ミリャが二度うなずく。",
@@ -9151,7 +9173,7 @@ cn={
 },
 },
 },
-[322]={
+[321]={
 ja={
 {
 "日向子はミリャの頭を撫でた。",
@@ -9168,7 +9190,7 @@ cn={
 },
 },
 },
-[323]={
+[322]={
 name={name="日向子"},
 vo={
 {"vo",file="hinako_0144",ch="hinako" },
@@ -9189,7 +9211,7 @@ cn={
 },
 },
 },
-[324]={
+[323]={
 name={name="ミリャ"},
 vo={
 {"vo",file="mhlia_0008",ch="mhlia" },
@@ -9210,7 +9232,7 @@ cn={
 },
 },
 },
-[325]={
+[324]={
 ja={
 {
 "ミリャが歩き出し、日向子もその後に続いた。",
@@ -9227,7 +9249,7 @@ cn={
 },
 },
 },
-[326]={
+[325]={
 ja={
 {
 "洗面所の奥に入り、ミリャが日向子を振り返った。",
@@ -9244,7 +9266,7 @@ cn={
 },
 },
 },
-[327]={
+[326]={
 ja={
 {
 "日向子も洗面所に立ち、歯ブラシを一本取った。",
@@ -9261,7 +9283,7 @@ cn={
 },
 },
 },
-[328]={
+[327]={
 ja={
 {
 "ミリャも同じように、自分の歯ブラシを手に取る。",
@@ -9278,7 +9300,7 @@ cn={
 },
 },
 },
-[329]={
+[328]={
 ja={
 {
 "日向子が歯磨き粉を自分の歯ブラシにつける。",
@@ -9295,7 +9317,7 @@ cn={
 },
 },
 },
-[330]={
+[329]={
 ja={
 {
 "ミリャは自分の歯ブラシを日向子に差し出した。",
@@ -9312,7 +9334,7 @@ cn={
 },
 },
 },
-[331]={
+[330]={
 ja={
 {
 "日向子は微笑んで、その歯ブラシに歯磨き粉をつける。",
@@ -9329,7 +9351,7 @@ cn={
 },
 },
 },
-[332]={
+[331]={
 ja={
 {
 "正面の鏡に、二人の姿が映っていた。",
@@ -9346,7 +9368,7 @@ cn={
 },
 },
 },
-[333]={
+[332]={
 ja={
 {
 "ミリャは黙々と歯ブラシを動かす。",
@@ -9363,7 +9385,7 @@ cn={
 },
 },
 },
-[334]={
+[333]={
 ja={
 {
 "日向子は鏡を見つめた。",
@@ -9380,7 +9402,7 @@ cn={
 },
 },
 },
-[335]={
+[334]={
 ja={
 {
 "日向子の手が止まる。",
@@ -9397,7 +9419,7 @@ cn={
 },
 },
 },
-[336]={
+[335]={
 ja={
 {
 "右手を口元で止めたまま、日向子はしばらく鏡を見つめた。",
@@ -9414,7 +9436,7 @@ cn={
 },
 },
 },
-[337]={
+[336]={
 ja={
 {
 "ミリャは歯を磨き続けていた。",
@@ -9431,7 +9453,7 @@ cn={
 },
 },
 },
-[338]={
+[337]={
 ja={
 {
 "しばらくそうしたあとで、日向子も歯ブラシを動かし始めた。",
@@ -9448,7 +9470,7 @@ cn={
 },
 },
 },
-[339]={
+[338]={
 ja={
 {
 "ももは両肘をつき、大きくため息をついた。",
@@ -9465,7 +9487,7 @@ cn={
 },
 },
 },
-[340]={
+[339]={
 ja={
 {
 "ももと背中合わせに机に向かっていた流花が振り返る。",
@@ -9482,7 +9504,7 @@ cn={
 },
 },
 },
-[341]={
+[340]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0058",ch="ruka" },
@@ -9503,7 +9525,7 @@ cn={
 },
 },
 },
-[342]={
+[341]={
 ja={
 {
 "ももがジトっとした目で、唇を尖らせる。",
@@ -9520,7 +9542,7 @@ cn={
 },
 },
 },
-[343]={
+[342]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0058",ch="momo" },
@@ -9541,7 +9563,7 @@ cn={
 },
 },
 },
-[344]={
+[343]={
 ja={
 {
 "頬杖をついたまま、もう片方の手でテーブルにおいた",
@@ -9560,7 +9582,7 @@ cn={
 },
 },
 },
-[345]={
+[344]={
 ja={
 {
 "画面は真っ暗だった。",
@@ -9577,7 +9599,7 @@ cn={
 },
 },
 },
-[346]={
+[345]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0059",ch="momo" },
@@ -9598,7 +9620,7 @@ cn={
 },
 },
 },
-[347]={
+[346]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0059",ch="ruka" },
@@ -9619,7 +9641,7 @@ cn={
 },
 },
 },
-[348]={
+[347]={
 ja={
 {
 "流花が天井をぼんやりと見上げる。",
@@ -9636,7 +9658,7 @@ cn={
 },
 },
 },
-[349]={
+[348]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0060",ch="ruka" },
@@ -9657,7 +9679,7 @@ cn={
 },
 },
 },
-[350]={
+[349]={
 ja={
 {
 "語感を確かめるように呟く。",
@@ -9674,7 +9696,7 @@ cn={
 },
 },
 },
-[351]={
+[350]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0060",ch="momo" },
@@ -9695,7 +9717,7 @@ cn={
 },
 },
 },
-[352]={
+[351]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0061",ch="ruka" },
@@ -9716,7 +9738,7 @@ cn={
 },
 },
 },
-[353]={
+[352]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0061",ch="momo" },
@@ -9741,7 +9763,7 @@ cn={
 },
 },
 },
-[354]={
+[353]={
 ja={
 {
 "流花はももに向き直り、目を細めてため息をついた。",
@@ -9758,7 +9780,7 @@ cn={
 },
 },
 },
-[355]={
+[354]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0062",ch="ruka" },
@@ -9779,7 +9801,7 @@ cn={
 },
 },
 },
-[356]={
+[355]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0062",ch="momo" },
@@ -9800,7 +9822,7 @@ cn={
 },
 },
 },
-[357]={
+[356]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0063",ch="momo" },
@@ -9821,7 +9843,7 @@ cn={
 },
 },
 },
-[358]={
+[357]={
 ja={
 {
 "ドンドンとテーブルを叩きながらももは言った。",
@@ -9838,7 +9860,7 @@ cn={
 },
 },
 },
-[359]={
+[358]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0063",ch="ruka" },
@@ -9859,7 +9881,7 @@ cn={
 },
 },
 },
-[360]={
+[359]={
 ja={
 {
 "ももが不満そうに唸る。",
@@ -9876,7 +9898,7 @@ cn={
 },
 },
 },
-[361]={
+[360]={
 ja={
 {
 "流花はもう一度ため息をついた。",
@@ -9893,7 +9915,7 @@ cn={
 },
 },
 },
-[362]={
+[361]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0064",ch="ruka" },
@@ -9914,7 +9936,7 @@ cn={
 },
 },
 },
-[363]={
+[362]={
 ja={
 {
 "ももはそれには答えず、目を細めて流花を見た。",
@@ -9931,7 +9953,7 @@ cn={
 },
 },
 },
-[364]={
+[363]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0064",ch="momo" },
@@ -9952,7 +9974,7 @@ cn={
 },
 },
 },
-[365]={
+[364]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0065",ch="ruka" },
@@ -9973,7 +9995,7 @@ cn={
 },
 },
 },
-[366]={
+[365]={
 ja={
 {
 "流花は頬をかいた。",
@@ -9990,7 +10012,7 @@ cn={
 },
 },
 },
-[367]={
+[366]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0066",ch="ruka" },
@@ -10011,7 +10033,7 @@ cn={
 },
 },
 },
-[368]={
+[367]={
 ja={
 {
 "流花が腕を組んで、もう一度天井を見上げる。",
@@ -10028,7 +10050,7 @@ cn={
 },
 },
 },
-[369]={
+[368]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0067",ch="ruka" },
@@ -10049,7 +10071,7 @@ cn={
 },
 },
 },
-[370]={
+[369]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0068",ch="ruka" },
@@ -10070,7 +10092,7 @@ cn={
 },
 },
 },
-[371]={
+[370]={
 ja={
 {
 "流花は顔をおろして、ももをちらりと盗み見る。",
@@ -10087,7 +10109,7 @@ cn={
 },
 },
 },
-[372]={
+[371]={
 ja={
 {
 "ももは流花に背中を向けていた。",
@@ -10104,7 +10126,7 @@ cn={
 },
 },
 },
-[373]={
+[372]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0069",ch="ruka" },
@@ -10125,7 +10147,7 @@ cn={
 },
 },
 },
-[374]={
+[373]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0070",ch="ruka" },
@@ -10146,7 +10168,7 @@ cn={
 },
 },
 },
-[375]={
+[374]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0071",ch="ruka" },
@@ -10167,7 +10189,7 @@ cn={
 },
 },
 },
-[376]={
+[375]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0065",ch="momo" },
@@ -10188,7 +10210,7 @@ cn={
 },
 },
 },
-[377]={
+[376]={
 ja={
 {
 "少し間を開けて、ももはこたえた。",
@@ -10205,7 +10227,7 @@ cn={
 },
 },
 },
-[378]={
+[377]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0072",ch="ruka" },
@@ -10226,7 +10248,7 @@ cn={
 },
 },
 },
-[379]={
+[378]={
 ja={
 {
 "流花はももに背中を向けて、腕を組んだ。",
@@ -10243,7 +10265,7 @@ cn={
 },
 },
 },
-[380]={
+[379]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0073",ch="ruka" },
@@ -10266,7 +10288,7 @@ cn={
 },
 },
 },
-[381]={
+[380]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0074",ch="ruka" },
@@ -10293,7 +10315,7 @@ cn={
 },
 },
 },
-[382]={
+[381]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0066",ch="momo" },
@@ -10314,7 +10336,7 @@ cn={
 },
 },
 },
-[383]={
+[382]={
 ja={
 {
 "ももが低い声でうなった。",
@@ -10331,7 +10353,7 @@ cn={
 },
 },
 },
-[384]={
+[383]={
 ja={
 {
 "流花は苦笑いを口元に浮かべた。",
@@ -10348,7 +10370,7 @@ cn={
 },
 },
 },
-[385]={
+[384]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0067",ch="momo" },
@@ -10369,7 +10391,7 @@ cn={
 },
 },
 },
-[386]={
+[385]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0075",ch="ruka" },
@@ -10390,7 +10412,7 @@ cn={
 },
 },
 },
-[387]={
+[386]={
 ja={
 {
 "そう言ったあと、流花が小さく鼻で笑う。",
@@ -10407,7 +10429,7 @@ cn={
 },
 },
 },
-[388]={
+[387]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0076",ch="ruka" },
@@ -10428,7 +10450,7 @@ cn={
 },
 },
 },
-[389]={
+[388]={
 ja={
 {
 "ももが顔を伏せて黙る。",
@@ -10445,7 +10467,7 @@ cn={
 },
 },
 },
-[390]={
+[389]={
 ja={
 {
 "それから頭をぐしゃぐしゃ掻きまわし始めた。",
@@ -10462,7 +10484,7 @@ cn={
 },
 },
 },
-[391]={
+[390]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0068",ch="momo" },
@@ -10489,7 +10511,7 @@ cn={
 },
 },
 },
-[392]={
+[391]={
 ja={
 {
 "流花が呆れながら、ふたたびももの方に向き直る。",
@@ -10506,7 +10528,7 @@ cn={
 },
 },
 },
-[393]={
+[392]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0077",ch="ruka" },
@@ -10527,7 +10549,7 @@ cn={
 },
 },
 },
-[394]={
+[393]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0069",ch="momo" },
@@ -10548,7 +10570,7 @@ cn={
 },
 },
 },
-[395]={
+[394]={
 ja={
 {
 "もごもごと口ごもりながら、ももが頬を赤くする。",
@@ -10565,7 +10587,7 @@ cn={
 },
 },
 },
-[396]={
+[395]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0070",ch="momo" },
@@ -10586,7 +10608,7 @@ cn={
 },
 },
 },
-[397]={
+[396]={
 ja={
 {
 "消え入りそうな声でももは言った。",
@@ -10603,7 +10625,7 @@ cn={
 },
 },
 },
-[398]={
+[397]={
 ja={
 {
 "流花の動きが止まる。",
@@ -10620,7 +10642,7 @@ cn={
 },
 },
 },
-[399]={
+[398]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0078",ch="ruka" },
@@ -10641,7 +10663,7 @@ cn={
 },
 },
 },
-[400]={
+[399]={
 ja={
 {
 "勢いよく流花を振り返ったももは真っ赤になっていた。",
@@ -10658,7 +10680,7 @@ cn={
 },
 },
 },
-[401]={
+[400]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0071",ch="momo" },
@@ -10679,7 +10701,7 @@ cn={
 },
 },
 },
-[402]={
+[401]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0079",ch="ruka" },
@@ -10700,7 +10722,7 @@ cn={
 },
 },
 },
-[403]={
+[402]={
 ja={
 {
 "流花が言い終えるのと同時に、ももが立ち上がった。",
@@ -10717,7 +10739,7 @@ cn={
 },
 },
 },
-[404]={
+[403]={
 ja={
 {
 "ぶんぶんと頭を振り、ツインテールを流花に叩きつける。",
@@ -10734,7 +10756,7 @@ cn={
 },
 },
 },
-[405]={
+[404]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0080",ch="ruka" },
@@ -10755,7 +10777,7 @@ cn={
 },
 },
 },
-[406]={
+[405]={
 ja={
 {
 "流花がももの髪を手で振り払う。",
@@ -10772,7 +10794,7 @@ cn={
 },
 },
 },
-[407]={
+[406]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0072",ch="momo" },
@@ -10793,7 +10815,7 @@ cn={
 },
 },
 },
-[408]={
+[407]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0081",ch="ruka" },
@@ -10814,7 +10836,7 @@ cn={
 },
 },
 },
-[409]={
+[408]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0073",ch="momo" },
@@ -10835,7 +10857,7 @@ cn={
 },
 },
 },
-[410]={
+[409]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0082",ch="ruka" },
@@ -10856,7 +10878,7 @@ cn={
 },
 },
 },
-[411]={
+[410]={
 ja={
 {
 "ももは両手に腰を当てて、流花を見下ろした。",
@@ -10873,7 +10895,7 @@ cn={
 },
 },
 },
-[412]={
+[411]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0074",ch="momo" },
@@ -10900,7 +10922,7 @@ cn={
 },
 },
 },
-[413]={
+[412]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0075",ch="momo" },
@@ -10921,7 +10943,7 @@ cn={
 },
 },
 },
-[414]={
+[413]={
 ja={
 {
 "流花がゆっくり顔をおろして、ももの机におかれた、",
@@ -10940,7 +10962,7 @@ cn={
 },
 },
 },
-[415]={
+[414]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0083",ch="ruka" },
@@ -10961,7 +10983,7 @@ cn={
 },
 },
 },
-[416]={
+[415]={
 ja={
 {
 "ももが振り返り、流花の視線の先のタブレットを手に取る。",
@@ -10978,7 +11000,7 @@ cn={
 },
 },
 },
-[417]={
+[416]={
 ja={
 {
 "そしてそのタブレットを、流花に差し出した。",
@@ -10995,7 +11017,7 @@ cn={
 },
 },
 },
-[418]={
+[417]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0076",ch="momo" },
@@ -11016,7 +11038,7 @@ cn={
 },
 },
 },
-[419]={
+[418]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0084",ch="ruka" },
@@ -11037,7 +11059,7 @@ cn={
 },
 },
 },
-[420]={
+[419]={
 ja={
 {
 "差し出されたタブレットを見てから、流花がももの顔を見上げる。",
@@ -11054,7 +11076,7 @@ cn={
 },
 },
 },
-[421]={
+[420]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0085",ch="ruka" },
@@ -11075,7 +11097,7 @@ cn={
 },
 },
 },
-[422]={
+[421]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0077",ch="momo" },
@@ -11102,7 +11124,7 @@ cn={
 },
 },
 },
-[423]={
+[422]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0086",ch="ruka" },
@@ -11123,7 +11145,7 @@ cn={
 },
 },
 },
-[424]={
+[423]={
 ja={
 {
 "ももはタブレットを流花の胸元に押しつけた。",
@@ -11140,7 +11162,7 @@ cn={
 },
 },
 },
-[425]={
+[424]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0087",ch="ruka" },
@@ -11161,7 +11183,7 @@ cn={
 },
 },
 },
-[426]={
+[425]={
 name={name="もも"},
 vo={
 {"vo",file="momo_0078",ch="momo" },
@@ -11182,7 +11204,7 @@ cn={
 },
 },
 },
-[427]={
+[426]={
 ja={
 {
 "それだけ言って、ももがまた流花に背を向ける。",
@@ -11199,7 +11221,7 @@ cn={
 },
 },
 },
-[428]={
+[427]={
 ja={
 {
 "流花は胸元に抱えたタブレットを見下ろした。",
@@ -11216,7 +11238,7 @@ cn={
 },
 },
 },
-[429]={
+[428]={
 name={name="流花"},
 vo={
 {"vo",file="ruka_0088",ch="ruka" },
@@ -11237,7 +11259,7 @@ cn={
 },
 },
 },
-[430]={
+[429]={
 ja={
 {
 "黒い画面に、流花の顔が反射していた。",
